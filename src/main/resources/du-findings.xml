@@ -1,0 +1,598 @@
+<?xml version="1.0"?>
+<!--suppress ALL -->
+<CodifiedFindings>
+    <ResponseHeader UserName="d336kjxs" FileType="CFF" UnderwritingResultsDateTime="20190402 08:31:36"
+                    UnderwritingSubmissionNumber="1" InstitutionIdentifier="548452" UnderwritingEngineName="10.3"
+                    FileVersionIdentifier="1.1"></ResponseHeader>
+    <Casefile LenderCaseIdentifier="222001000071380" FNMCaseIdentifier="1995374732"></Casefile>
+    <CasefileMessages>
+        <Message MessageIdentifier="8" MessageSeverityTypeCode="1" MessageCategoryTypeCode="1">
+            <LenderMessageText>
+                <Line MessageText="The risk profile of this loan casefile appears to meet Fannie Mae's guidelines."></Line>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="9" MessageSeverityTypeCode="1" MessageCategoryTypeCode="1">
+            <LenderMessageText>
+                <Line MessageText="This loan casefile appears to meet Fannie Mae's eligibility requirements."></Line>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="1437" MessageSeverityTypeCode="4" MessageCategoryTypeCode="1">
+            <LenderMessageText>
+                <Line MessageText="The following risk factors represent strengths in the borrower's loan application:"></Line>
+                <TableRow>
+                    <Column MessageText="Credit Profile"></Column>
+                </TableRow>
+                <TableRow>
+                    <Column MessageText="Debt-to-Income Ratio"></Column>
+                </TableRow>
+                <TableRow>
+                    <Column MessageText="Number of Borrowers"></Column>
+                </TableRow>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="NIL" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="11" MessageSeverityTypeCode="5" MessageCategoryTypeCode="3">
+            <LenderMessageText>
+                <Line MessageText="According to the Social Security Administration (SSA), the Social Security number (SSN) for John Homeowner either has not been issued, or was recently issued.   The SSN accuracy must be confirmed, and if incorrect, the SSN must be updated and the loan casefile resubmitted to DU.  If the SSN is determined to be correct, it must be validated directly with the SSA (direct validation by a third party is acceptable), and the loan must be delivered with SFC 162.  If the SSN cannot be validated with the SSA, the loan is not eligible for delivery to Fannie Mae."></Line>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="12" MessageSeverityTypeCode="5" MessageCategoryTypeCode="3">
+            <LenderMessageText>
+                <Line MessageText="According to the Social Security Administration (SSA), based on the approximate issuance date of the Social Security number (SSN) and the borrower age on the application, the SSN entered for Mary Homeowner appears to have been issued prior to the borrower's date of birth.  The SSN accuracy must be confirmed, and if incorrect, it must be updated and the loan casefile resubmitted to DU.  If the SSN is determined to be correct, it must be validated directly with the SSA (direct validation by a third party is acceptable), and the loan must be delivered with SFC 162.  If the SSN cannot be validated with the SSA, the loan is not eligible for delivery to Fannie Mae."></Line>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="278" MessageSeverityTypeCode="5" MessageCategoryTypeCode="3">
+            <LenderMessageText>
+                <Line MessageText="This loan is subject to all lender specified conditions and must comply with all applicable federal, state, and local laws and regulations."></Line>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="420" MessageSeverityTypeCode="5" MessageCategoryTypeCode="3">
+            <LenderMessageText>
+                <Line MessageText="Based on the credit report obtained through DU, this loan casefile must close on or before 08/01/2019.  All credit documents must be no more than four months old on the note date. Refer to the Selling Guide for guidelines on the age of the appraisal or property inspection report."></Line>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="1802" MessageSeverityTypeCode="5" MessageCategoryTypeCode="3">
+            <LenderMessageText>
+                <Line MessageText="If there is a home equity line of credit secured against the subject property the maximum allowable HCLTV is 97 percent, verify the terms of the home equity line of credit for compliance with the Selling Guide, and calculate the HCLTV using the maximum credit limit of the equity line."></Line>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="2343" MessageSeverityTypeCode="5" MessageCategoryTypeCode="3">
+            <LenderMessageText>
+                <Line MessageText="Loan Level Price Adjustments may be applied when this loan is delivered to Fannie Mae.  Refer to the Selling Guide and Loan-level Price Adjustment (LLPA) Matrix on fanniemae.com for specific details."></Line>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="2477" MessageSeverityTypeCode="5" MessageCategoryTypeCode="3">
+            <LenderMessageText>
+                <Line MessageText="Mortgage insurance is required.  The lender may either obtain mortgage insurance coverage of at least 16% with an MI loan-level price adjustment or obtain mortgage insurance coverage of 30%.  Refer to the Loan-level Price Adjustment Matrix on fanniemae.com.  Verify the mortgage insurance premium is accurately reflected in the loan application."></Line>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="2741" MessageSeverityTypeCode="5" MessageCategoryTypeCode="3">
+            <LenderMessageText>
+                <Line MessageText="According to the Social Security Administration (SSA), the Social Security Number (SSN) entered for Mary Homeowner may not be associated with him/her.  The SSN accuracy must be confirmed, and if incorrect, it must be updated and the loan casefile resubmitted to DU.  If the SSN is determined to be correct, it must be validated directly with the SSA (direct validation by a third party is acceptable), and the loan must be delivered with SFC 162.  If the SSN cannot be validated with the SSA, the loan is not eligible for delivery to Fannie Mae."></Line>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="162" MessageSeverityTypeCode="5" MessageCategoryTypeCode="5">
+            <LenderMessageText>
+                <Line MessageText="Document John Homeowner's income using a paystub and a W-2 from the prior year, or using a standard Verification of Employment (1005).  The paystub must be dated no earlier than 30 days prior to the initial loan application date, include all year-to-date earnings, and include sufficient information to appropriately calculate income.  Otherwise, additional documentation must be obtained.  If a W-2 is not available from the prior year, the lender must determine if the income would still be acceptable per the Selling Guide.  If a standard Verification of Employment (1005) will be obtained it must include all year-to-date earnings as well as prior year earnings if a W-2 is not being provided.  Direct verifications provided by a third party employment verification vendor are acceptable if completed in accordance with the Selling Guide."></Line>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="2469" MessageSeverityTypeCode="5" MessageCategoryTypeCode="5">
+            <LenderMessageText>
+                <Line MessageText="Perform and document a verbal verification of employment for each borrower. For all borrowers who are not Self-Employed no more than 10 business days prior to the note date, or Self-Employed within 120 calendar days prior to the note date.  Direct verification by a third party employment verification vendor is acceptable if completed within the same timeframes, and the information is not more than 35 days old (120 days old if self employed) as of the note date.  If the borrower is in the military, obtain either a Military Leave and Earnings Statement within 31 calendar days prior to the note date or a verification of employment through the Defense Manpower Data Center (https://mla.dmdc.osd.mil/mla/#/home). Lenders also have the option of obtaining the verbal verification of employment after the note date (and prior to delivery of the loan to Fannie Mae), but when using this option must ensure compliance with the Selling Guide."></Line>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="2471" MessageSeverityTypeCode="5" MessageCategoryTypeCode="5">
+            <LenderMessageText>
+                <Line MessageText="Obtain a completed and signed Form 4506-T for each borrower at or before closing. If all of a borrower's income has been validated through the DU validation service, a completed and signed Form 4506-T is not required for that borrower. Form 4506, Form 4506T-EZ, or Form 8821 may be used in lieu of Form 4506-T. Refer to the Selling Guide for additional information."></Line>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="2629" MessageSeverityTypeCode="5" MessageCategoryTypeCode="5">
+            <LenderMessageText>
+                <Line MessageText="Mary Homeowner's income, including commission income, must be supported by a paystub and W-2s covering the most recent two-year period, or by a standard Verification of Employment (1005).  The paystub must be dated no earlier than 30 days prior to the initial loan application date and it must include all year-to-date earnings. Additionally, the paystub must include sufficient information to appropriately calculate income; otherwise, additional documentation must be obtained. If a standard Verification of Employment (1005) will be obtained it must include all year-to-date earnings, as well as prior year earnings if a W-2 is not being provided.  For guidance on borrowers with less than a two-year history of receiving commission income, or for any additional information on the verification of commission income, refer to the Selling Guide. Direct verifications provided by a third party employment verification vendor are acceptable if completed in accordance with the Selling Guide."></Line>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL "></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="3303" MessageSeverityTypeCode="5" MessageCategoryTypeCode="5">
+            <LenderMessageText>
+                <Line MessageText="DU did not receive report data from the vendor(s) shown below."></Line>
+                <TableRow>
+                    <Column MessageText="Borrower "></Column>
+                    <Column MessageText=" Vendor and Rep Type "></Column>
+                    <Column MessageText=" Rep ID "></Column>
+                    <Column MessageText=" Reason"></Column>
+                </TableRow>
+                <TableRow>
+                    <Column MessageText="John Homeowner"></Column>
+                    <Column MessageText="The Work Number (VOI/VOE)"></Column>
+                    <Column MessageText="Missing"></Column>
+                    <Column MessageText="Report was not ordered, or vendor did not have report on the borrower, or report ID and borrower SSN do not match those provided to the vendor."></Column>
+                </TableRow>
+                <TableRow>
+                    <Column MessageText="Mary Homeowner"></Column>
+                    <Column MessageText="The Work Number (VOI/VOE)"></Column>
+                    <Column MessageText="Missing"></Column>
+                    <Column MessageText="Report was not ordered, or vendor did not have report on the borrower, or report ID and borrower SSN do not match those provided to the vendor."></Column>
+                </TableRow>
+                <TableRow>
+                    <Column MessageText="Mary Homeowner"></Column>
+                    <Column MessageText="Equifax (Tax Transcript)"></Column>
+                    <Column MessageText="Missing"></Column>
+                    <Column MessageText="Report was not ordered, or vendor did not have report on the borrower, or report ID and borrower SSN do not match those provided to the vendor."></Column>
+                </TableRow>
+                <TableRow>
+                    <Column MessageText="John Homeowner"></Column>
+                    <Column MessageText="Equifax (Tax Transcript)"></Column>
+                    <Column MessageText="Missing"></Column>
+                    <Column MessageText="Report was not ordered, or vendor did not have report on the borrower, or report ID and borrower SSN do not match those provided to the vendor."></Column>
+                </TableRow>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="3307" MessageSeverityTypeCode="5" MessageCategoryTypeCode="5">
+            <LenderMessageText>
+                <Line MessageText="DU could not validate borrower employment shown below for the reason provided."></Line>
+                <TableRow>
+                    <Column MessageText="Borrower "></Column>
+                    <Column MessageText=" DU Employer "></Column>
+                    <Column MessageText=" Vendor and Rep Type "></Column>
+                    <Column MessageText=" Rep ID "></Column>
+                    <Column MessageText=" Vendor Match "></Column>
+                    <Column MessageText=" Reason"></Column>
+                </TableRow>
+                <TableRow>
+                    <Column MessageText="John Homeowner"></Column>
+                    <Column MessageText="Awesome Computers"></Column>
+                    <Column MessageText="Missing"></Column>
+                    <Column MessageText="Missing"></Column>
+                    <Column MessageText="Missing"></Column>
+                    <Column MessageText="No VOI/VOE report"></Column>
+                </TableRow>
+                <TableRow>
+                    <Column MessageText="Mary Homeowner"></Column>
+                    <Column MessageText="Blue Yonder Airlines"></Column>
+                    <Column MessageText="Missing"></Column>
+                    <Column MessageText="Missing"></Column>
+                    <Column MessageText="Missing"></Column>
+                    <Column MessageText="No VOI/VOE report"></Column>
+                </TableRow>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="3313" MessageSeverityTypeCode="5" MessageCategoryTypeCode="5">
+            <LenderMessageText>
+                <Line MessageText="DU could not validate borrower income shown below for the reason provided."></Line>
+                <TableRow>
+                    <Column MessageText="Borrower "></Column>
+                    <Column MessageText=" DU Income Type "></Column>
+                    <Column MessageText=" Vendor and Rep Type "></Column>
+                    <Column MessageText=" Rep ID "></Column>
+                    <Column MessageText=" Vendor Match "></Column>
+                    <Column MessageText=" DU Reported Amount "></Column>
+                    <Column MessageText=" Reason"></Column>
+                </TableRow>
+                <TableRow>
+                    <Column MessageText="John Homeowner"></Column>
+                    <Column MessageText="Base Employment Income"></Column>
+                    <Column MessageText="Missing"></Column>
+                    <Column MessageText="Missing"></Column>
+                    <Column MessageText="Missing"></Column>
+                    <Column MessageText="$4,800.00"></Column>
+                    <Column MessageText="No report received by DU that validates this income type"></Column>
+                </TableRow>
+                <TableRow>
+                    <Column MessageText="Mary Homeowner"></Column>
+                    <Column MessageText="Base Employment Income"></Column>
+                    <Column MessageText="Missing"></Column>
+                    <Column MessageText="Missing"></Column>
+                    <Column MessageText="Missing"></Column>
+                    <Column MessageText="$5,100.00"></Column>
+                    <Column MessageText="No report received by DU that validates this income type"></Column>
+                </TableRow>
+                <TableRow>
+                    <Column MessageText="Mary Homeowner"></Column>
+                    <Column MessageText="Commissions"></Column>
+                    <Column MessageText="Missing"></Column>
+                    <Column MessageText="Missing"></Column>
+                    <Column MessageText="Missing"></Column>
+                    <Column MessageText="$3,000.00"></Column>
+                    <Column MessageText="No report received by DU that validates this income type"></Column>
+                </TableRow>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="63" MessageSeverityTypeCode="5" MessageCategoryTypeCode="6">
+            <LenderMessageText>
+                <Line MessageText="Verify assets totaling $151000 from the liquid assets listed on the 1003.  Refer to the Selling Guide for additional information."></Line>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="101" MessageSeverityTypeCode="5" MessageCategoryTypeCode="6">
+            <LenderMessageText>
+                <Line MessageText="The Real Estate section of the application lists real estate that has been sold. Document the sale of the property by providing a copy of the settlement statement. The net equity from the sale of the property should be included in a liquid asset account. "></Line>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="1880" MessageSeverityTypeCode="5" MessageCategoryTypeCode="6">
+            <LenderMessageText>
+                <Line MessageText="If depository assets are needed to support the amount of funds required and reserves, verify these assets with a verification of deposit or bank statements covering a two-month period, refer to the Selling Guide for guidance on evaluating un-sourced large deposits, and direct verifications provided by a third party asset verification vendor are acceptable if completed in accordance with the Selling Guide."></Line>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="1887" MessageSeverityTypeCode="5" MessageCategoryTypeCode="6">
+            <LenderMessageText>
+                <Line MessageText="Earnest money is listed as an other credit on the details of transaction.  If the deposit is used to make any part of the borrower's minimum contribution that must come from his or her own funds, the source of funds for the deposit must be verified."></Line>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="1824" MessageSeverityTypeCode="5" MessageCategoryTypeCode="7">
+            <LenderMessageText>
+                <Line MessageText="DU could not verify the submitted subject property address for this transaction.  An appraisal based on an interior and exterior property inspection reported on Form 1004 is required for one-unit properties. Form 1004C is required for manufactured homes.  Form 1025 is required for two-to-four unit properties. Form 1073 is required for units in condominium projects. Form 2090 is required for units in cooperative projects.  Alternatively, modify the subject address and resubmit to determine whether DU can offer a more streamlined property fieldwork recommendation."></Line>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="NIL" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="2643" MessageSeverityTypeCode="5" MessageCategoryTypeCode="7">
+            <LenderMessageText>
+                <Line MessageText="Based on the Actual vs. Estimated Appraised Value Indicator on the online loan application, the loan casefile was underwritten using an estimated value.  Update DU with the value from the appraisal (when obtained) and resubmit the loan casefile to DU."></Line>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="943" MessageSeverityTypeCode="7" MessageCategoryTypeCode="3">
+            <LenderMessageText>
+                <Line MessageText="This case was submitted to Desktop Underwriter version 10.3 by FANNIE MAE.  The following information is associated with this loan:  Casefile ID is 1995374732 and Submission number is 1.  If the loan is delivered to Fannie Mae, the Casefile ID must be provided at delivery."></Line>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="NIL" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="1387" MessageSeverityTypeCode="7" MessageCategoryTypeCode="3">
+            <LenderMessageText>
+                <Line MessageText="The following list of special feature codes is provided to assist you in determining which codes may be associated with this loan. Other codes may be required. Refer to the Special Feature Codes list on fanniemae.com for a comprehensive list."></Line>
+                <TableRow>
+                    <Column MessageText="Special Feature Code"></Column>
+                    <Column MessageText="Description"></Column>
+                </TableRow>
+                <TableRow>
+                    <Column MessageText="127"></Column>
+                    <Column MessageText="DU Loan"></Column>
+                </TableRow>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="2113" MessageSeverityTypeCode="7" MessageCategoryTypeCode="3">
+            <LenderMessageText>
+                <Line MessageText="The following Credit Report is associated with this submission:"></Line>
+                <TableRow>
+                    <Column MessageText="Borrower Name"></Column>
+                    <Column MessageText="Credit Agency"></Column>
+                    <Column MessageText="Credit Report ID"></Column>
+                    <Column MessageText=" Credit Report Date"></Column>
+                </TableRow>
+                <TableRow>
+                    <Column MessageText="Mary Homeowner"></Column>
+                    <Column MessageText="200-TEST CREDIT AGENCY"></Column>
+                    <Column MessageText="5004489"></Column>
+                    <Column MessageText="04/01/2019"></Column>
+                </TableRow>
+                <TableRow>
+                    <Column MessageText="John Homeowner"></Column>
+                    <Column MessageText="200-TEST CREDIT AGENCY"></Column>
+                    <Column MessageText="5004489"></Column>
+                    <Column MessageText="04/01/2019"></Column>
+                </TableRow>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="NIL" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="1132" MessageSeverityTypeCode="7" MessageCategoryTypeCode="4">
+            <LenderMessageText>
+                <Line MessageText="The following credit scores are included in the credit report:"></Line>
+                <TableRow>
+                    <Column MessageText="Borrower"></Column>
+                    <Column MessageText="Credit Scores"></Column>
+                </TableRow>
+                <TableRow>
+                    <Column MessageText="John Homeowner"></Column>
+                    <Column MessageText="760 779 785"></Column>
+                </TableRow>
+                <TableRow>
+                    <Column MessageText="Mary Homeowner"></Column>
+                    <Column MessageText="768 771 783"></Column>
+                </TableRow>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="NIL" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="153" MessageSeverityTypeCode="7" MessageCategoryTypeCode="5">
+            <LenderMessageText>
+                <Line MessageText="The following sources of income were used in the underwriting analysis:"></Line>
+                <TableRow>
+                    <Column MessageText="Borrower"></Column>
+                    <Column MessageText="Income Type"></Column>
+                    <Column MessageText="Amount"></Column>
+                </TableRow>
+                <TableRow>
+                    <Column MessageText="Mary Homeowner"></Column>
+                    <Column MessageText="Commissions"></Column>
+                    <Column MessageText="3000.00"></Column>
+                </TableRow>
+                <TableRow>
+                    <Column MessageText="Mary Homeowner"></Column>
+                    <Column MessageText="Base employment income"></Column>
+                    <Column MessageText="5100.00"></Column>
+                </TableRow>
+                <TableRow>
+                    <Column MessageText="John Homeowner"></Column>
+                    <Column MessageText="Base employment income"></Column>
+                    <Column MessageText="4800.00"></Column>
+                </TableRow>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="NIL" GuideLinkAddress=""></GuideReference>
+        </Message>
+        <Message MessageIdentifier="59" MessageSeverityTypeCode="7" MessageCategoryTypeCode="6">
+            <LenderMessageText>
+                <Line MessageText="The following assets were counted towards available funds.  With the exception of cash on hand, all available funds greater than the amount required to close have been added to cash reserves."></Line>
+                <TableRow>
+                    <Column MessageText="Borrower"></Column>
+                    <Column MessageText="Asset Type"></Column>
+                    <Column MessageText="Institution Name"></Column>
+                    <Column MessageText="Amount"></Column>
+                </TableRow>
+                <TableRow>
+                    <Column MessageText="Mary Homeowner"></Column>
+                    <Column MessageText="Checking Account"></Column>
+                    <Column MessageText="Coho Bank"></Column>
+                    <Column MessageText="2540.00"></Column>
+                </TableRow>
+                <TableRow>
+                    <Column MessageText="Mary Homeowner"></Column>
+                    <Column MessageText="Savings Account"></Column>
+                    <Column MessageText="Coho Bank"></Column>
+                    <Column MessageText="407125.00"></Column>
+                </TableRow>
+            </LenderMessageText>
+            <ConsumerMessageText>
+                <Line MessageText="NULL"></Line>
+            </ConsumerMessageText>
+            <GuideReference GuideType="01" GuideReferenceIdentifier="NIL" GuideLinkAddress=""></GuideReference>
+        </Message>
+    </CasefileMessages>
+    <DocumentationLevelCodes RequiredDocumentationTypeCode="01"
+                             RequiredDocumentationLevelCode="101"></DocumentationLevelCodes>
+    <DocumentationLevelCodes RequiredDocumentationTypeCode="03" _SSN="500222000" RequiredDocumentationLevelCode="329"
+                             BorrowerUnparsedName="Mary Homeowner"></DocumentationLevelCodes>
+    <DocumentationLevelCodes RequiredDocumentationTypeCode="03" _SSN="999405000" RequiredDocumentationLevelCode="329"
+                             BorrowerUnparsedName="John Homeowner"></DocumentationLevelCodes>
+    <DocumentationLevelCodes RequiredDocumentationTypeCode="03" _SSN="999405000" RequiredDocumentationLevelCode="303"
+                             BorrowerUnparsedName="John Homeowner"></DocumentationLevelCodes>
+    <DocumentationLevelCodes RequiredDocumentationTypeCode="03" _SSN="500222000" RequiredDocumentationLevelCode="330"
+                             BorrowerUnparsedName="Mary Homeowner"></DocumentationLevelCodes>
+    <DocumentationLevelCodes RequiredDocumentationTypeCode="03" _SSN="999405000" RequiredDocumentationLevelCode="301"
+                             BorrowerUnparsedName="John Homeowner"></DocumentationLevelCodes>
+    <DocumentationLevelCodes RequiredDocumentationTypeCode="03" _SSN="500222000" RequiredDocumentationLevelCode="301"
+                             BorrowerUnparsedName="Mary Homeowner"></DocumentationLevelCodes>
+    <DocumentationLevelCodes RequiredDocumentationTypeCode="02"
+                             RequiredDocumentationLevelCode="202"></DocumentationLevelCodes>
+    <MICoverage MIIdentifierCode="103">
+        <MICoveragePercent Value="16"></MICoveragePercent>
+        <MICoveragePercent Value="30"></MICoveragePercent>
+    </MICoverage>
+    <RecommendationCode UnderwritingRecommendationDescription="Approve/Eligible"
+                        UnderwritingRecommendationTypeCode="3"></RecommendationCode>
+    <LoanDetails LoanMaturityTermMonths="360" CurrentFirstMortgageHolderTypeCode=""
+                 FNMCommunityLendingProductName="UNKNOWN" RequestedInterestRatePercent="4.750"
+                 FNMProductPlanIdentifier="0" BaseLoanAmount="158000.00" GSERefinancePurposeTypeCode=" "
+                 MIAndFundingFeeFinancedAmount="0.00" InitialBuydownRatePercent="0.000" BalloonIndicator="N"
+                 CLTVPercent="93.000" FlexClassification="0" LoanPurposeTypeCode="16" LienPriorityTypeCode="1"
+                 BuydownIndicator="N" LTVWithoutFinancedMIPercent="93.000" FNMNeighborsMortgageEligibleIndicator="N"
+                 UnderwritingCalculatedLoanAmount="158000.00" SalesPriceAmount="310000.00" MortgageTypeCode="01"
+                 LoanAmortizationTypeCode="05" FNMCommunitySecondsIndicator="N" CLTVWithoutFinancedMIPercent="93.000"
+                 PurchasePriceAmount="310000.00" SubordinateLienAmount="0.00" LTVPercent="93.000"
+                 NonOccupantBorrowerCaseIndicator="N">
+        <CommunityLending MSAOrCountyName="" HUDIncomeLimitAdjustmentFactor="" HUDLendingIncomeLimitAmount=""
+                          HUDMedianIncomeAmount=""></CommunityLending>
+    </LoanDetails>
+    <IncomeAndExpense>
+        <Expense OtherFinancingPrincipalAndInterestAmount="0.00" RealEstateTaxAmount="80.00"
+                 HazardInsuranceAmount="120.00" HomeownersAssociationDuesAndCondominiumFeesAmount="0.00"
+                 TotalPresentHousingPaymentAmount="0.00" OtherHousingPaymentAmount="0.00"
+                 TotalOtherExpenseAmount="1432.00" MIMonthlyAmount="0.00">
+            <NoteRate TotalProposedHousingPaymentAmount="1024.20" InterestRatePercent="4.750"
+                      FirstMortgagePrincipalAndInterestAmount="824.20" TotalExpensePaymentAmount="2456.20"></NoteRate>
+            <QualifyingRate TotalProposedHousingPaymentAmount="1024.20" InterestRatePercent="4.750"
+                            FirstMortgagePrincipalAndInterestAmount="824.20"
+                            TotalExpensePaymentAmount="2456.20"></QualifyingRate>
+        </Expense>
+        <Income BaseIncomeAmount="9900.00" OtherIncomeAmount="0.00" CommissionIncomeAmount="3000.00"
+                TotalIncomeAmount="12900.00" OvertimeIncomeAmount="0.00" PositiveNetRentalIncomeAmount="0.00"
+                PositiveSubjectPropertyNetCashFlowAmount="0.00" BonusIncomeAmount="0.00"></Income>
+    </IncomeAndExpense>
+    <Borrowers>
+        <Borrower _SSN="999405000" BorrowerMiddleName="" BorrowerFirstName="John" BorrowerLastName="Homeowner"
+                  _NameSuffix="" BorrowerTypeCode="1" NonOccupantBorrowerIndicator="N"
+                  CitizenshipResidencyType="01"></Borrower>
+        <Borrower _SSN="500222000" BorrowerMiddleName="" BorrowerFirstName="Mary" BorrowerLastName="Homeowner"
+                  _NameSuffix="" BorrowerTypeCode="2" NonOccupantBorrowerIndicator="N"
+                  CitizenshipResidencyType="01"></Borrower>
+    </Borrowers>
+    <Property PropertyUsageTypeCode="1" GSEProjectClassificationTypeCode="16" PropertyEstimatedValueAmount="170000.00"
+              GSEPropertyTypeCode="01" PropertyFinancedNumberOfUnits="1">
+        <Location PropertyPostalCodeExtension="" PropertyStreetAddress="1095 London Ave" PropertyPostalCode="20013"
+                  PropertyCity="Washington" PropertyState="DC">
+            <GeoCodeOutput CountyCode="11001" CensusTract="11001006202" ScrubbedPropertyPostalCodeExtension="20013"
+                           StateFIPSCode="11" ScrubbedPropertyCity="WASHINGTON" ScrubbedPropertyState="DC"
+                           ScrubbedPropertyStreetAddress=""
+                           MSAIdentifier="WASHINGTON-ARLINGTON-ALEXANDRIA, DC-VA-MD-WV METROPOLITAN STATISTICAL AREA"
+                           ScrubbedPropertyPostalCode="20013" CountyName="DISTRICT OF COLUMBIA"></GeoCodeOutput>
+        </Location>
+    </Property>
+    <UnderwritingAnalysis CashBackAmount="0.00" NetCashBackAmount="0.00" BorrowerFundsAsPctSalesPrc="132.473"
+                          TotalExpenseRatioPercent="19.040" RequiredFundsAmount="151000.00"
+                          HousingExpenseRatioPercent="7.940" ReservesAmount="258665.00"
+                          EstBorrowerContributionAmount="152000.00" AssetsToVerifyAmount="151000.00"
+                          TotalExpenseRatioWithUndisclosedLiabilitiesPercent="19.040"
+                          TotalExpenseRatioWithLessThanOrEqualTo10MonthsPercent="19.040" PaymentFrequencyTypeCode="01"
+                          PercentSellerContribution="0.000" SellerContributionAmount="0.00"
+                          AvailableFundsAmount="409665.00" ReserveMonths="252" EstBorrowerContributionPercent="49.032"
+                          ShortageAmount="0.00"></UnderwritingAnalysis>
+    <SpecialFeatureCodes>
+        <SpecialFeatureCode SpecialFeatureCode="127" SpecialFeatureDescription="DU Loan"></SpecialFeatureCode>
+    </SpecialFeatureCodes>
+    <IncomeAssetEmploymentList>
+        <ListAsset _SSN="500222000" CashOrMarketValueAmount="407125.00" AssetInstitution="Coho Bank"
+                   BorrowerUnparsedName="Mary Homeowner" AssetTypeCode="SG"></ListAsset>
+        <ListAsset _SSN="500222000" CashOrMarketValueAmount="2540.00" AssetInstitution="Coho Bank"
+                   BorrowerUnparsedName="Mary Homeowner" AssetTypeCode="03"></ListAsset>
+
+        <ListIncome _SSN="999405000" IncomeAmount="4800.00" BorrowerUnparsedName="John Homeowner"
+                    IncomeTypeCode="20"></ListIncome>
+        <ListIncome _SSN="500222000" IncomeAmount="5100.00" BorrowerUnparsedName="Mary Homeowner"
+                    IncomeTypeCode="20"></ListIncome>
+        <ListIncome _SSN="500222000" IncomeAmount="3000.00" BorrowerUnparsedName="Mary Homeowner"
+                    IncomeTypeCode="10"></ListIncome>
+        <ListEmployment EmploymentPrimaryIndicator="Y" _SSN="999405000" EmploymentCurrentIndicator="Y"
+                        BorrowerUnparsedName="John Homeowner" EmployerName="Awesome Computers"
+                        MonthsOnThisJobNumber="132" SelfEmployedIndicator="N"></ListEmployment>
+        <ListEmployment EmploymentPrimaryIndicator="Y" _SSN="999405000" EmploymentCurrentIndicator="N"
+                        BorrowerUnparsedName="John Homeowner" EmployerName="Baldwin Museum" MonthsOnThisJobNumber="19"
+                        SelfEmployedIndicator="N"></ListEmployment>
+        <ListEmployment EmploymentPrimaryIndicator="Y" _SSN="500222000" EmploymentCurrentIndicator="Y"
+                        BorrowerUnparsedName="Mary Homeowner" EmployerName="Blue Yonder Airlines"
+                        MonthsOnThisJobNumber="72" SelfEmployedIndicator="N"></ListEmployment>
+        <ListEmployment EmploymentPrimaryIndicator="Y" _SSN="500222000" EmploymentCurrentIndicator="N"
+                        BorrowerUnparsedName="Mary Homeowner" EmployerName="Fusion Tomo" MonthsOnThisJobNumber="29"
+                        SelfEmployedIndicator="N"></ListEmployment>
+    </IncomeAssetEmploymentList>
+    <CreditReportSummary MostRecentCreditReportDate="20190401" NumberOfBorrowersWithCredit="0">
+        <CreditReport AgencyName="200-TEST CREDIT AGENCY" JointIndividualIndicator="J" _Date="20190401"
+                      AgencyIdentifier="200" AgencyReferenceNumber="5004489">
+            <CreditReportBorrowerInformation SubjectSpouseCode="1" _SSN="999405000">
+                <CreditRiskScore ScoringModelName="BEACON 5.0" ScoreValue="760" ScoringSource="1"></CreditRiskScore>
+                <CreditRiskScore ScoringModelName="FICO(R) Risk Score, Classic 04" ScoreValue="779"
+                                 ScoringSource="3"></CreditRiskScore>
+                <CreditRiskScore ScoringModelName="EXPERIAN/FAIR ISAAC II" ScoreValue="785"
+                                 ScoringSource="2"></CreditRiskScore>
+            </CreditReportBorrowerInformation>
+            <CreditReportBorrowerInformation SubjectSpouseCode="2" _SSN="500222000">
+                <CreditRiskScore ScoringModelName="BEACON 5.0" ScoreValue="783" ScoringSource="1"></CreditRiskScore>
+                <CreditRiskScore ScoringModelName="FICO(R) Risk Score, Classic 04" ScoreValue="768"
+                                 ScoringSource="3"></CreditRiskScore>
+                <CreditRiskScore ScoringModelName="EXPERIAN/FAIR ISAAC II" ScoreValue="771"
+                                 ScoringSource="2"></CreditRiskScore>
+            </CreditReportBorrowerInformation>
+        </CreditReport>
+        <TradelinesSummary RevolvingBalance="" RevolvingUtilizationRate="9.500" NumberOpenRevolving=""
+                           NumberOpenedPast6Months="0" RevolvingLimit="" NumberOpenedPast7to12Months="0" Count="5"
+                           NumberOfMortgages="0" NumberOpen="5" AverageAge="89"
+                           NumberOpenSixMoreMonthsOld=""></TradelinesSummary>
+        <DelinquentTradelinesSummary NumberCurrentPastDue="0" NumberEver60Plus="0" NumberMortgageEver60Plus="0"
+                                     NumberMortgageEver30Plus="0" NumberEver30Plus="0"
+                                     DelinquencyPercent="0.000"></DelinquentTradelinesSummary>
+        <DelinquenciesSummary NumberTradelineForeclosures="0" NumberTradelineBankruptcies="0"
+                              Number30PlusPast12Month=""></DelinquenciesSummary>
+        <MajorDerogatoryCredit>
+            <MajorDerogatoryCreditDetail Type="1" Count="0"></MajorDerogatoryCreditDetail>
+            <MajorDerogatoryCreditDetail Type="2" Count="0"></MajorDerogatoryCreditDetail>
+            <MajorDerogatoryCreditDetail Type="3" Count="0"></MajorDerogatoryCreditDetail>
+            <MajorDerogatoryCreditDetail Type="4" Count="0"></MajorDerogatoryCreditDetail>
+            <MajorDerogatoryCreditDetail Type="6" Count="0"></MajorDerogatoryCreditDetail>
+            <MajorDerogatoryCreditDetail Type="5" Count="0"></MajorDerogatoryCreditDetail>
+        </MajorDerogatoryCredit>
+    </CreditReportSummary>
+    <EndNote Text="Copyright(c) 1994-2019 Fannie Mae"></EndNote>
+</CodifiedFindings>

@@ -1,0 +1,82 @@
+EH 478471Fico Bank                20190225   ENV110000
+TH T100099-002TRAN12000
+TPI 1.0001222001000071380               N
+0001  3.20 W
+00ANN
+01A01                                                                                245-5689688                   222001000071380      158000.01  3.75036005 Balloon                                                                        5/1 Adjustable rate                                                             
+02A1095 London Ave                                   Washington                         DC20013    1  F1LOT2,AND THE SOUTH 1/2  OF LOT 19, WEST 7 FEET OF SOUTH 1/2 OF LOT 2, WEST 60F  1980
+02B  16                                                                                1Tenant in common                                            1        
+02CJohn and Mary  Homeowner                                    
+02D                                                                                                                                                                  
+02EF1162000.00      Savings and Checkings Account                                                   
+03ABW999405000John                                                                  Homeowner                              123456789    15M2 Y50022200019700412                                                                                
+03AQZ500222000Mary                                                                  Homeowner                              123456789    15M  Y99940500019720802                                                                                
+03B99940500004 
+03B99940500011 
+03C999405000ZG  175 13th Street                                 Washington                         DC20013    O8                                                     
+03C500222000ZG  175 13th Street                                 Washington                         DC20013    O8                                                     
+04A999405000Awesome Computers                  12367 E Street                     Washington,                        DC20013    N  5 5 Computer Technician      5555556666
+04A500222000Blue Yonder Airlines               1 Clove Rd,                        Washington,                        DC20013    N  5 5 Sales Executive          5555559991
+04B999405000Baldwin Museum                     11111 Fountain Street              Washington,                        DC20013    NN2016090120180315               Computer Technician      5555551234
+04B500222000Fusion Tomo                        78 Client DR,                      Washington,                        DC20013    NN2017061220180120               Sales Executive          5555551233
+04B500222000Fusion Tomo2                       78 Client DR,                      Washington,                        DC20013    NN2017011220170420               Sales Executive          5555551233
+05H999405000125           0.00
+05H999405000126           0.00
+05H999405000122           0.00
+05H999405000101           0.00
+05H999405000114           0.00
+05H999405000102           0.00
+05H999405000106           0.00
+05H999405000123           0.00
+05H999405000226        1740.00
+05H999405000222           0.00
+05H999405000201         120.00
+05H999405000214          80.00
+05H999405000202           0.00
+05H999405000206           0.00
+05H999405000223           0.00
+05I99940500008           0.00
+05I99940500009           0.00
+05I99940500010           0.00
+05I99940500017           0.00
+05I99940500020        4800.00
+05I50022200008           0.00
+05I50022200009           0.00
+05I50022200010        3000.00
+05I50022200017           0.00
+05I50022200020        5100.00
+06C500222000SG Coho Bank                          555 North Capitol ST               Washington                         DC20011    123456                              407125.00                                                                                          
+06C50022200003 Coho Bank                          555 North Capitol ST               Washington                         DC20011    123789                                2540.00                                                                                          
+06D500222000Ford Super Duty F-450 DRW     2017       80000.00
+06G999405000    175 13th Street                                 Washington                   S 14  DC20013 0.00           0.00           0.00           0.00           0.00           0.00YN1                
+06L999405000M GM Credit Union                    11 Square Street,                  Washington,                        DC20015    123456789                             1539.00234      150000.00N99NYNN
+06L999405000I GM Car Loans                       12367 E Street 12 NW,              Washington,                        DC20015    123451111                              889.00120       71300.00N99YNNN
+06L999405000R American Express Credit Card                                                                                        8844xxxxx                              129.00            129.00N99YNNN
+07A      310000.00           0.00           0.00           0.00           0.00        8000.00           0.00           0.00           0.00           0.00               
+07B01        1000.00
+08A999405000NNNNNNNNN01YY125
+08A500222000NNNNNNNNN01YY125
+09A99940500020190225
+09A50022200020190225
+10A999405000Y1                              M
+10A500222000N2                              F
+10BFJames Smith                                                 201902252125551212Fico Bank                          412 Housing Street                 Express Tower                      Washington                         DC200121234
+10R9994050001 
+10R5002220003 
+00070 3.20 
+99BN02170000.00      4.875    116  Edward F. Miller                                            Rural Appraisals Ltd               45000020129   NY
+ADSLoanOriginatorID                   621895                                      
+ADSLoanOriginationCompanyID           135776                                      
+SCA00180020180603      
+00011 3.20 
+LNC1F01        04       N    10.000                      Y2018090120181015          1.000YY
+PID                                                  
+PCH360N01NNN 
+ARM 4.500 114.000  4.875  
+PAJ1   36 48 112.50  5690.50        2.369  6589.63        1
+RAJ31  12 48 2 2.320    2.7556  
+BUA06 05 2.00   Y11
+00030 3.20 
+LMDOrange                                  0401                                    YY12.03          25.12          563563.23     
+TT TRAN12000
+ET ENV110000

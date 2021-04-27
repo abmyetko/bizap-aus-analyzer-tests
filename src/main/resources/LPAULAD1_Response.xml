@@ -1,0 +1,2614 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lparspns:LPALoanAssessmentServiceResponse xmlns="http://www.mismo.org/residential/2009/schemas"
+										   xmlns:lpa="http://www.datamodelextension.org/Schema/LPA"
+										   xmlns:lparspns="http://www.freddiemac.com/lpa/LPALoanAssessmentServiceResponse/schemas"
+										   xmlns:ulad="http://www.datamodelextension.org/Schema/ULAD"
+										   xmlns:xlink="http://www.w3.org/1999/xlink">
+	<MESSAGE MISMOReferenceModelIdentifier="3.4.032420160128">
+		<ABOUT_VERSIONS>
+			<ABOUT_VERSION>
+				<AboutVersionIdentifier>S5.0.06</AboutVersionIdentifier>
+				<CreatedDatetime>2021-01-08T16:51:13Z</CreatedDatetime>
+				<DataVersionIdentifier>5.0.06</DataVersionIdentifier>
+			</ABOUT_VERSION>
+		</ABOUT_VERSIONS>
+		<DEAL_SETS>
+			<DEAL_SET>
+				<DEALS>
+					<DEAL MISMOReferenceModelIdentifier="3.4.032420160128">
+						<ABOUT_VERSIONS>
+							<ABOUT_VERSION>
+								<DataVersionName>LPA_REQUEST</DataVersionName>
+							</ABOUT_VERSION>
+						</ABOUT_VERSIONS>
+						<ASSETS>
+							<ASSET SequenceNumber="1" xlink:label="ASSET_1">
+								<ASSET_DETAIL>
+									<AssetAccountIdentifier>9492</AssetAccountIdentifier>
+									<AssetCashOrMarketValueAmount>6000.00</AssetCashOrMarketValueAmount>
+									<AssetType>CheckingAccount</AssetType>
+								</ASSET_DETAIL>
+								<ASSET_HOLDER>
+									<NAME>
+										<FullName>Dag Site</FullName>
+									</NAME>
+								</ASSET_HOLDER>
+							</ASSET>
+							<ASSET SequenceNumber="2" xlink:label="ASSET_2">
+								<ASSET_DETAIL>
+									<AssetAccountIdentifier>9223</AssetAccountIdentifier>
+									<AssetCashOrMarketValueAmount>2700.00</AssetCashOrMarketValueAmount>
+									<AssetType>CheckingAccount</AssetType>
+								</ASSET_DETAIL>
+								<ASSET_HOLDER>
+									<NAME>
+										<FullName>FinBank Profiles-A</FullName>
+									</NAME>
+								</ASSET_HOLDER>
+							</ASSET>
+							<ASSET SequenceNumber="3" xlink:label="ASSET_3">
+								<ASSET_DETAIL>
+									<AssetAccountIdentifier>1564351465</AssetAccountIdentifier>
+									<AssetCashOrMarketValueAmount>45000.00</AssetCashOrMarketValueAmount>
+									<AssetType>CheckingAccount</AssetType>
+								</ASSET_DETAIL>
+								<ASSET_HOLDER>
+									<NAME>
+										<FullName>BankA</FullName>
+									</NAME>
+								</ASSET_HOLDER>
+							</ASSET>
+						</ASSETS>
+						<COLLATERALS>
+							<COLLATERAL>
+								<SUBJECT_PROPERTY>
+									<ADDRESS>
+										<AddressLineText>2422 Knapps Way</AddressLineText>
+										<CityName>Dawson</CityName>
+										<CountyName>Dallas</CountyName>
+										<PostalCode>50066</PostalCode>
+										<StateCode>IA</StateCode>
+									</ADDRESS>
+									<LOCATION_IDENTIFIER>
+										<FIPS_INFORMATION>
+											<FIPSStateNumericCode>19</FIPSStateNumericCode>
+										</FIPS_INFORMATION>
+									</LOCATION_IDENTIFIER>
+									<PROPERTY_DETAIL>
+										<AttachmentType>Attached</AttachmentType>
+										<CommunityPropertyStateIndicator>false</CommunityPropertyStateIndicator>
+										<ConstructionMethodType>SiteBuilt</ConstructionMethodType>
+										<FHASecondaryResidenceIndicator>false</FHASecondaryResidenceIndicator>
+										<FinancedUnitCount>2</FinancedUnitCount>
+										<PropertyEstateType>FeeSimple</PropertyEstateType>
+										<PropertyExistingCleanEnergyLienIndicator>false
+										</PropertyExistingCleanEnergyLienIndicator>
+										<PropertyInProjectIndicator>false</PropertyInProjectIndicator>
+										<PropertyMixedUsageIndicator>false</PropertyMixedUsageIndicator>
+										<PropertyUsageType>PrimaryResidence</PropertyUsageType>
+										<PUDIndicator>true</PUDIndicator>
+										<RentalEstimatedGrossMonthlyRentAmount>650.00
+										</RentalEstimatedGrossMonthlyRentAmount>
+										<RentalEstimatedNetMonthlyRentAmount>650.00
+										</RentalEstimatedNetMonthlyRentAmount>
+									</PROPERTY_DETAIL>
+									<PROPERTY_VALUATIONS>
+										<PROPERTY_VALUATION>
+											<PROPERTY_VALUATION_DETAIL>
+												<PropertyValuationAmount>175000.00</PropertyValuationAmount>
+											</PROPERTY_VALUATION_DETAIL>
+										</PROPERTY_VALUATION>
+									</PROPERTY_VALUATIONS>
+									<SALES_CONTRACTS>
+										<SALES_CONTRACT>
+											<SALES_CONTRACT_DETAIL>
+												<SalesContractAmount>175000.00</SalesContractAmount>
+												<TotalSalesConcessionAmount>500.00</TotalSalesConcessionAmount>
+											</SALES_CONTRACT_DETAIL>
+										</SALES_CONTRACT>
+									</SALES_CONTRACTS>
+								</SUBJECT_PROPERTY>
+							</COLLATERAL>
+						</COLLATERALS>
+						<LIABILITIES>
+							<LIABILITY SequenceNumber="1" xlink:label="LIABILITY_1">
+								<LIABILITY_DETAIL>
+									<LiabilityAccountIdentifier>46163168</LiabilityAccountIdentifier>
+									<LiabilityExclusionIndicator>false</LiabilityExclusionIndicator>
+									<LiabilityMonthlyPaymentAmount>123.00</LiabilityMonthlyPaymentAmount>
+									<LiabilityPaymentIncludesTaxesInsuranceIndicator>false
+									</LiabilityPaymentIncludesTaxesInsuranceIndicator>
+									<LiabilityPayoffStatusIndicator>false</LiabilityPayoffStatusIndicator>
+									<LiabilityType>Installment</LiabilityType>
+									<LiabilityUnpaidBalanceAmount>2600.00</LiabilityUnpaidBalanceAmount>
+									<SubjectLoanResubordinationIndicator>false</SubjectLoanResubordinationIndicator>
+								</LIABILITY_DETAIL>
+								<LIABILITY_HOLDER>
+									<NAME>
+										<FullName>Mountain Bank</FullName>
+									</NAME>
+								</LIABILITY_HOLDER>
+							</LIABILITY>
+							<LIABILITY SequenceNumber="2" xlink:label="LIABILITY_2">
+								<LIABILITY_DETAIL>
+									<LiabilityAccountIdentifier>8641157</LiabilityAccountIdentifier>
+									<LiabilityExclusionIndicator>false</LiabilityExclusionIndicator>
+									<LiabilityMonthlyPaymentAmount>44.00</LiabilityMonthlyPaymentAmount>
+									<LiabilityPaymentIncludesTaxesInsuranceIndicator>false
+									</LiabilityPaymentIncludesTaxesInsuranceIndicator>
+									<LiabilityPayoffStatusIndicator>false</LiabilityPayoffStatusIndicator>
+									<LiabilityType>Revolving</LiabilityType>
+									<LiabilityUnpaidBalanceAmount>437.00</LiabilityUnpaidBalanceAmount>
+									<SubjectLoanResubordinationIndicator>false</SubjectLoanResubordinationIndicator>
+								</LIABILITY_DETAIL>
+								<LIABILITY_HOLDER>
+									<NAME>
+										<FullName>Hemlocks</FullName>
+									</NAME>
+								</LIABILITY_HOLDER>
+							</LIABILITY>
+						</LIABILITIES>
+						<LOANS>
+							<LOAN SequenceNumber="1" LoanRoleType="SubjectLoan">
+								<AMORTIZATION>
+									<AMORTIZATION_RULE>
+										<AmortizationType>Fixed</AmortizationType>
+										<LoanAmortizationPeriodCount>360</LoanAmortizationPeriodCount>
+										<LoanAmortizationPeriodType>Month</LoanAmortizationPeriodType>
+									</AMORTIZATION_RULE>
+								</AMORTIZATION>
+								<BUYDOWN>
+									<BUYDOWN_RULE>
+										<BuydownDurationMonthsCount>0</BuydownDurationMonthsCount>
+										<BuydownIncreaseRatePercent>0.0000</BuydownIncreaseRatePercent>
+									</BUYDOWN_RULE>
+								</BUYDOWN>
+								<CLOSING_INFORMATION>
+									<CLOSING_ADJUSTMENT_ITEMS>
+										<CLOSING_ADJUSTMENT_ITEM SequenceNumber="1">
+											<CLOSING_ADJUSTMENT_ITEM_DETAIL>
+												<ClosingAdjustmentItemAmount>635.00</ClosingAdjustmentItemAmount>
+											</CLOSING_ADJUSTMENT_ITEM_DETAIL>
+										</CLOSING_ADJUSTMENT_ITEM>
+									</CLOSING_ADJUSTMENT_ITEMS>
+									<CLOSING_INFORMATION_DETAIL>
+										<CashFromBorrowerAtClosingAmount>48869.00</CashFromBorrowerAtClosingAmount>
+									</CLOSING_INFORMATION_DETAIL>
+								</CLOSING_INFORMATION>
+								<DOCUMENT_SPECIFIC_DATA_SETS>
+									<DOCUMENT_SPECIFIC_DATA_SET>
+										<URLA>
+											<URLA_DETAIL>
+												<AlterationsImprovementsAndRepairsAmount>0.00
+												</AlterationsImprovementsAndRepairsAmount>
+												<EstimatedClosingCostsAmount>50.00</EstimatedClosingCostsAmount>
+												<MIAndFundingFeeFinancedAmount>0.00</MIAndFundingFeeFinancedAmount>
+												<PrepaidItemsEstimatedAmount>2354.00</PrepaidItemsEstimatedAmount>
+											</URLA_DETAIL>
+										</URLA>
+									</DOCUMENT_SPECIFIC_DATA_SET>
+								</DOCUMENT_SPECIFIC_DATA_SETS>
+								<HMDA_LOAN>
+									<HMDA_LOAN_DETAIL>
+										<HMDA_HOEPALoanStatusIndicator>false</HMDA_HOEPALoanStatusIndicator>
+									</HMDA_LOAN_DETAIL>
+								</HMDA_LOAN>
+								<HOUSING_EXPENSES>
+									<HOUSING_EXPENSE SequenceNumber="1">
+										<HousingExpensePaymentAmount>697.87</HousingExpensePaymentAmount>
+										<HousingExpenseTimingType>Proposed</HousingExpenseTimingType>
+										<HousingExpenseType>FirstMortgagePrincipalAndInterest</HousingExpenseType>
+									</HOUSING_EXPENSE>
+									<HOUSING_EXPENSE SequenceNumber="2">
+										<HousingExpensePaymentAmount>51.00</HousingExpensePaymentAmount>
+										<HousingExpenseTimingType>Proposed</HousingExpenseTimingType>
+										<HousingExpenseType>HomeownersInsurance</HousingExpenseType>
+									</HOUSING_EXPENSE>
+									<HOUSING_EXPENSE SequenceNumber="3">
+										<HousingExpensePaymentAmount>23.00</HousingExpensePaymentAmount>
+										<HousingExpenseTimingType>Proposed</HousingExpenseTimingType>
+										<HousingExpenseType>SupplementalPropertyInsurance</HousingExpenseType>
+									</HOUSING_EXPENSE>
+									<HOUSING_EXPENSE SequenceNumber="4">
+										<HousingExpensePaymentAmount>182.00</HousingExpensePaymentAmount>
+										<HousingExpenseTimingType>Proposed</HousingExpenseTimingType>
+										<HousingExpenseType>RealEstateTax</HousingExpenseType>
+									</HOUSING_EXPENSE>
+									<HOUSING_EXPENSE_SUMMARY>
+										<HousingExpenseProposedTotalMonthlyPaymentAmount>953.87
+										</HousingExpenseProposedTotalMonthlyPaymentAmount>
+									</HOUSING_EXPENSE_SUMMARY>
+								</HOUSING_EXPENSES>
+								<LOAN_DETAIL>
+									<ApplicationReceivedDate>2020-03-13</ApplicationReceivedDate>
+									<BalloonIndicator>false</BalloonIndicator>
+									<BelowMarketSubordinateFinancingIndicator>false
+									</BelowMarketSubordinateFinancingIndicator>
+									<BuydownTemporarySubsidyFundingIndicator>false
+									</BuydownTemporarySubsidyFundingIndicator>
+									<ConstructionLoanIndicator>false</ConstructionLoanIndicator>
+									<ConversionOfContractForDeedIndicator>false</ConversionOfContractForDeedIndicator>
+									<EnergyRelatedImprovementsIndicator>false</EnergyRelatedImprovementsIndicator>
+									<HELOCIndicator>false</HELOCIndicator>
+									<InterestOnlyIndicator>false</InterestOnlyIndicator>
+									<NegativeAmortizationIndicator>false</NegativeAmortizationIndicator>
+									<PrepaymentPenaltyIndicator>false</PrepaymentPenaltyIndicator>
+									<RenovationLoanIndicator>false</RenovationLoanIndicator>
+								</LOAN_DETAIL>
+								<LOAN_IDENTIFIERS>
+									<LOAN_IDENTIFIER>
+										<LoanIdentifier>LPA_Demo</LoanIdentifier>
+										<LoanIdentifierType>LenderLoan</LoanIdentifierType>
+									</LOAN_IDENTIFIER>
+									<LOAN_IDENTIFIER>
+										<LoanIdentifier>111111112245715317</LoanIdentifier>
+										<LoanIdentifierType>MERS_MIN</LoanIdentifierType>
+									</LOAN_IDENTIFIER>
+								</LOAN_IDENTIFIERS>
+								<LOAN_PRODUCT>
+									<LOAN_PRODUCT_DETAIL>
+										<DiscountPointsTotalAmount>2100.00</DiscountPointsTotalAmount>
+									</LOAN_PRODUCT_DETAIL>
+								</LOAN_PRODUCT>
+								<LOAN_STATUSES>
+									<LOAN_STATUS>
+										<LoanStatusIdentifier>Application</LoanStatusIdentifier>
+									</LOAN_STATUS>
+								</LOAN_STATUSES>
+								<ORIGINATION_SYSTEMS>
+									<ORIGINATION_SYSTEM>
+										<LoanOriginationSystemVendorIdentifier>000165
+										</LoanOriginationSystemVendorIdentifier>
+										<LoanOriginationSystemVersionIdentifier>20.1
+										</LoanOriginationSystemVersionIdentifier>
+									</ORIGINATION_SYSTEM>
+								</ORIGINATION_SYSTEMS>
+								<PURCHASE_CREDITS>
+									<PURCHASE_CREDIT>
+										<PurchaseCreditAmount>635.00</PurchaseCreditAmount>
+										<PurchaseCreditSourceType>BorrowerPaidOutsideClosing</PurchaseCreditSourceType>
+										<PurchaseCreditType>EarnestMoney</PurchaseCreditType>
+									</PURCHASE_CREDIT>
+								</PURCHASE_CREDITS>
+								<QUALIFICATION>
+									<ProjectedReservesAmount>5466.00</ProjectedReservesAmount>
+								</QUALIFICATION>
+								<REFINANCE>
+									<RefinanceCashOutAmount>0.00</RefinanceCashOutAmount>
+								</REFINANCE>
+								<TERMS_OF_LOAN>
+									<BaseLoanAmount>130000.00</BaseLoanAmount>
+									<LienPriorityType>FirstLien</LienPriorityType>
+									<LoanPurposeType>Purchase</LoanPurposeType>
+									<MortgageType>Conventional</MortgageType>
+									<NoteAmount>130000.00</NoteAmount>
+									<NoteRatePercent>5.0000</NoteRatePercent>
+								</TERMS_OF_LOAN>
+							</LOAN>
+						</LOANS>
+						<PARTIES>
+							<PARTY>
+								<INDIVIDUAL>
+									<CONTACT_POINTS>
+										<CONTACT_POINT>
+											<CONTACT_POINT_EMAIL>
+												<ContactPointEmailValue>alicefreddie@freddiemac.com
+												</ContactPointEmailValue>
+											</CONTACT_POINT_EMAIL>
+										</CONTACT_POINT>
+										<CONTACT_POINT>
+											<CONTACT_POINT_TELEPHONE>
+												<ContactPointTelephoneValue>9999999999</ContactPointTelephoneValue>
+											</CONTACT_POINT_TELEPHONE>
+											<CONTACT_POINT_DETAIL>
+												<ContactPointRoleType>Home</ContactPointRoleType>
+											</CONTACT_POINT_DETAIL>
+										</CONTACT_POINT>
+										<CONTACT_POINT>
+											<CONTACT_POINT_TELEPHONE>
+												<ContactPointTelephoneValue>7777777777</ContactPointTelephoneValue>
+											</CONTACT_POINT_TELEPHONE>
+											<CONTACT_POINT_DETAIL>
+												<ContactPointRoleType>Mobile</ContactPointRoleType>
+											</CONTACT_POINT_DETAIL>
+										</CONTACT_POINT>
+										<CONTACT_POINT>
+											<CONTACT_POINT_TELEPHONE>
+												<ContactPointTelephoneValue>5555555555</ContactPointTelephoneValue>
+											</CONTACT_POINT_TELEPHONE>
+											<CONTACT_POINT_DETAIL>
+												<ContactPointRoleType>Work</ContactPointRoleType>
+											</CONTACT_POINT_DETAIL>
+										</CONTACT_POINT>
+									</CONTACT_POINTS>
+									<NAME>
+										<FirstName>Alice</FirstName>
+										<FullName>Alice,Freddie</FullName>
+										<LastName>Freddie</LastName>
+									</NAME>
+								</INDIVIDUAL>
+								<ADDRESSES>
+									<ADDRESS SequenceNumber="1">
+										<AddressLineText>9991 Waterford Street</AddressLineText>
+										<AddressType>Mailing</AddressType>
+										<CityName>Dawson</CityName>
+										<CountryCode>US</CountryCode>
+										<PostalCode>50066</PostalCode>
+										<StateCode>IA</StateCode>
+									</ADDRESS>
+								</ADDRESSES>
+								<LANGUAGES>
+									<LANGUAGE SequenceNumber="1">
+										<LanguageCode>eng</LanguageCode>
+										<EXTENSION>
+											<OTHER>
+												<ulad:LANGUAGE_EXTENSION>
+													<ulad:LanguageRefusalIndicator>false</ulad:LanguageRefusalIndicator>
+												</ulad:LANGUAGE_EXTENSION>
+											</OTHER>
+										</EXTENSION>
+									</LANGUAGE>
+								</LANGUAGES>
+								<ROLES>
+									<ROLE SequenceNumber="1" xlink:label="BORROWER_1">
+										<BORROWER>
+											<BORROWER_DETAIL>
+												<BorrowerBirthDate>1994-02-22</BorrowerBirthDate>
+												<DependentCount>0</DependentCount>
+												<JointAssetLiabilityReportingType>NotJointly
+												</JointAssetLiabilityReportingType>
+												<MaritalStatusType>Unmarried</MaritalStatusType>
+												<SelfDeclaredMilitaryServiceIndicator>false
+												</SelfDeclaredMilitaryServiceIndicator>
+												<SpousalVABenefitsEligibilityIndicator>false
+												</SpousalVABenefitsEligibilityIndicator>
+											</BORROWER_DETAIL>
+											<CURRENT_INCOME>
+												<CURRENT_INCOME_ITEMS>
+													<CURRENT_INCOME_ITEM SequenceNumber="1"
+																		 xlink:label="CURRENT_INCOME_ITEM_1">
+														<CURRENT_INCOME_ITEM_DETAIL>
+															<CurrentIncomeMonthlyTotalAmount>6266.14
+															</CurrentIncomeMonthlyTotalAmount>
+															<EmploymentIncomeIndicator>true</EmploymentIncomeIndicator>
+															<IncomeType>Base</IncomeType>
+														</CURRENT_INCOME_ITEM_DETAIL>
+													</CURRENT_INCOME_ITEM>
+													<CURRENT_INCOME_ITEM SequenceNumber="2">
+														<CURRENT_INCOME_ITEM_DETAIL>
+															<CurrentIncomeMonthlyTotalAmount>100.00
+															</CurrentIncomeMonthlyTotalAmount>
+															<EmploymentIncomeIndicator>false</EmploymentIncomeIndicator>
+															<IncomeType>DividendsInterest</IncomeType>
+														</CURRENT_INCOME_ITEM_DETAIL>
+													</CURRENT_INCOME_ITEM>
+													<CURRENT_INCOME_ITEM SequenceNumber="3">
+														<CURRENT_INCOME_ITEM_DETAIL>
+															<CurrentIncomeMonthlyTotalAmount>650.00
+															</CurrentIncomeMonthlyTotalAmount>
+															<EmploymentIncomeIndicator>false</EmploymentIncomeIndicator>
+															<IncomeType>SubjectPropertyNetCashFlow</IncomeType>
+														</CURRENT_INCOME_ITEM_DETAIL>
+													</CURRENT_INCOME_ITEM>
+												</CURRENT_INCOME_ITEMS>
+											</CURRENT_INCOME>
+											<DECLARATION>
+												<DECLARATION_DETAIL>
+													<BankruptcyIndicator>false</BankruptcyIndicator>
+													<CitizenshipResidencyType>USCitizen</CitizenshipResidencyType>
+													<FHASecondaryResidenceIndicator>false
+													</FHASecondaryResidenceIndicator>
+													<HomeownerPastThreeYearsType>No</HomeownerPastThreeYearsType>
+													<IntentToOccupyType>Yes</IntentToOccupyType>
+													<OutstandingJudgmentsIndicator>false</OutstandingJudgmentsIndicator>
+													<PartyToLawsuitIndicator>false</PartyToLawsuitIndicator>
+													<PresentlyDelinquentIndicator>false</PresentlyDelinquentIndicator>
+													<PriorPropertyDeedInLieuConveyedIndicator>false
+													</PriorPropertyDeedInLieuConveyedIndicator>
+													<PriorPropertyForeclosureCompletedIndicator>false
+													</PriorPropertyForeclosureCompletedIndicator>
+													<PriorPropertyShortSaleCompletedIndicator>false
+													</PriorPropertyShortSaleCompletedIndicator>
+													<PropertyProposedCleanEnergyLienIndicator>false
+													</PropertyProposedCleanEnergyLienIndicator>
+													<UndisclosedBorrowedFundsIndicator>false
+													</UndisclosedBorrowedFundsIndicator>
+													<UndisclosedComakerOfNoteIndicator>false
+													</UndisclosedComakerOfNoteIndicator>
+													<UndisclosedCreditApplicationIndicator>false
+													</UndisclosedCreditApplicationIndicator>
+													<UndisclosedMortgageApplicationIndicator>false
+													</UndisclosedMortgageApplicationIndicator>
+													<EXTENSION>
+														<OTHER>
+															<ulad:DECLARATION_DETAIL_EXTENSION>
+																<ulad:SpecialBorrowerSellerRelationshipIndicator>false
+																</ulad:SpecialBorrowerSellerRelationshipIndicator>
+															</ulad:DECLARATION_DETAIL_EXTENSION>
+														</OTHER>
+													</EXTENSION>
+												</DECLARATION_DETAIL>
+											</DECLARATION>
+											<EMPLOYERS>
+												<EMPLOYER SequenceNumber="1" xlink:label="EMPLOYER_1">
+													<LEGAL_ENTITY>
+														<CONTACTS>
+															<CONTACT>
+																<CONTACT_POINTS>
+																	<CONTACT_POINT>
+																		<CONTACT_POINT_TELEPHONE>
+																			<ContactPointTelephoneValue>4444444444
+																			</ContactPointTelephoneValue>
+																		</CONTACT_POINT_TELEPHONE>
+																	</CONTACT_POINT>
+																</CONTACT_POINTS>
+															</CONTACT>
+														</CONTACTS>
+														<LEGAL_ENTITY_DETAIL>
+															<FullName>Enterprise USA</FullName>
+														</LEGAL_ENTITY_DETAIL>
+													</LEGAL_ENTITY>
+													<ADDRESS>
+														<AddressLineText>9988 Main St</AddressLineText>
+														<CityName>Dawson</CityName>
+														<PostalCode>50066</PostalCode>
+														<StateCode>IA</StateCode>
+													</ADDRESS>
+													<EMPLOYMENT>
+														<EmploymentBorrowerSelfEmployedIndicator>false
+														</EmploymentBorrowerSelfEmployedIndicator>
+														<EmploymentClassificationType>Primary
+														</EmploymentClassificationType>
+														<EmploymentPositionDescription>Administrator
+														</EmploymentPositionDescription>
+														<EmploymentStartDate>2018-01-01</EmploymentStartDate>
+														<EmploymentStatusType>Current</EmploymentStatusType>
+														<EmploymentTimeInLineOfWorkMonthsCount>42
+														</EmploymentTimeInLineOfWorkMonthsCount>
+														<SpecialBorrowerEmployerRelationshipIndicator>false
+														</SpecialBorrowerEmployerRelationshipIndicator>
+													</EMPLOYMENT>
+												</EMPLOYER>
+											</EMPLOYERS>
+											<GOVERNMENT_MONITORING>
+												<GOVERNMENT_MONITORING_DETAIL>
+													<HMDAEthnicityCollectedBasedOnVisualObservationOrSurnameIndicator>
+														true
+													</HMDAEthnicityCollectedBasedOnVisualObservationOrSurnameIndicator>
+													<HMDAEthnicityRefusalIndicator>true</HMDAEthnicityRefusalIndicator>
+													<HMDAGenderCollectedBasedOnVisualObservationOrNameIndicator>true
+													</HMDAGenderCollectedBasedOnVisualObservationOrNameIndicator>
+													<HMDAGenderRefusalIndicator>true</HMDAGenderRefusalIndicator>
+													<HMDARaceCollectedBasedOnVisualObservationOrSurnameIndicator>true
+													</HMDARaceCollectedBasedOnVisualObservationOrSurnameIndicator>
+													<HMDARaceRefusalIndicator>true</HMDARaceRefusalIndicator>
+													<EXTENSION>
+														<OTHER>
+															<ulad:GOVERNMENT_MONITORING_DETAIL_EXTENSION>
+																<ulad:ApplicationTakenMethodType>Internet
+																</ulad:ApplicationTakenMethodType>
+																<ulad:HMDAGenderType>Female</ulad:HMDAGenderType>
+															</ulad:GOVERNMENT_MONITORING_DETAIL_EXTENSION>
+														</OTHER>
+													</EXTENSION>
+												</GOVERNMENT_MONITORING_DETAIL>
+												<EXTENSION>
+													<OTHER>
+														<ulad:GOVERNMENT_MONITORING_EXTENSION>
+															<ulad:HMDA_ETHNICITIES>
+																<ulad:HMDA_ETHNICITY>
+																	<ulad:HMDAEthnicityType>NotHispanicOrLatino
+																	</ulad:HMDAEthnicityType>
+																</ulad:HMDA_ETHNICITY>
+															</ulad:HMDA_ETHNICITIES>
+														</ulad:GOVERNMENT_MONITORING_EXTENSION>
+													</OTHER>
+												</EXTENSION>
+											</GOVERNMENT_MONITORING>
+											<HOUSING_EXPENSES>
+												<HOUSING_EXPENSE SequenceNumber="1">
+													<HousingExpensePaymentAmount>1500.00</HousingExpensePaymentAmount>
+													<HousingExpenseTimingType>Present</HousingExpenseTimingType>
+													<HousingExpenseType>Rent</HousingExpenseType>
+												</HOUSING_EXPENSE>
+											</HOUSING_EXPENSES>
+											<RESIDENCES>
+												<RESIDENCE SequenceNumber="1">
+													<ADDRESS>
+														<AddressLineText>9991 Warford Street</AddressLineText>
+														<AddressType>Current</AddressType>
+														<CityName>Dawson</CityName>
+														<CountryCode>US</CountryCode>
+														<CountyCode>Dallas</CountyCode>
+														<PostalCode>50066</PostalCode>
+														<StateCode>IA</StateCode>
+													</ADDRESS>
+													<RESIDENCE_DETAIL>
+														<BorrowerResidencyBasisType>Rent</BorrowerResidencyBasisType>
+														<BorrowerResidencyDurationMonthsCount>12
+														</BorrowerResidencyDurationMonthsCount>
+														<BorrowerResidencyType>Current</BorrowerResidencyType>
+													</RESIDENCE_DETAIL>
+												</RESIDENCE>
+												<RESIDENCE SequenceNumber="2">
+													<ADDRESS>
+														<AddressLineText>158 21st Street</AddressLineText>
+														<AddressType>Prior</AddressType>
+														<CityName>Dawson</CityName>
+														<CountryCode>US</CountryCode>
+														<PostalCode>50066</PostalCode>
+														<StateCode>IA</StateCode>
+													</ADDRESS>
+													<RESIDENCE_DETAIL>
+														<BorrowerResidencyBasisType>LivingRentFree
+														</BorrowerResidencyBasisType>
+														<BorrowerResidencyDurationMonthsCount>12
+														</BorrowerResidencyDurationMonthsCount>
+														<BorrowerResidencyType>Prior</BorrowerResidencyType>
+													</RESIDENCE_DETAIL>
+												</RESIDENCE>
+											</RESIDENCES>
+										</BORROWER>
+										<ROLE_DETAIL>
+											<PartyRoleType>Borrower</PartyRoleType>
+										</ROLE_DETAIL>
+									</ROLE>
+								</ROLES>
+								<TAXPAYER_IDENTIFIERS>
+									<TAXPAYER_IDENTIFIER>
+										<TaxpayerIdentifierType>IndividualTaxpayerIdentificationNumber
+										</TaxpayerIdentifierType>
+										<TaxpayerIdentifierValue>990800008</TaxpayerIdentifierValue>
+									</TAXPAYER_IDENTIFIER>
+								</TAXPAYER_IDENTIFIERS>
+							</PARTY>
+							<PARTY>
+								<ROLES>
+									<ROLE SequenceNumber="3">
+										<LICENSES>
+											<LICENSE>
+												<LICENSE_DETAIL>
+													<LicenseAuthorityLevelType>Private</LicenseAuthorityLevelType>
+													<LicenseIdentifier>9988776655</LicenseIdentifier>
+												</LICENSE_DETAIL>
+											</LICENSE>
+										</LICENSES>
+										<ROLE_DETAIL>
+											<PartyRoleType>LoanOriginationCompany</PartyRoleType>
+										</ROLE_DETAIL>
+									</ROLE>
+								</ROLES>
+								<TAXPAYER_IDENTIFIERS>
+									<TAXPAYER_IDENTIFIER>
+										<TaxpayerIdentifierType>EmployerIdentificationNumber</TaxpayerIdentifierType>
+										<TaxpayerIdentifierValue>731634997</TaxpayerIdentifierValue>
+									</TAXPAYER_IDENTIFIER>
+								</TAXPAYER_IDENTIFIERS>
+							</PARTY>
+							<PARTY>
+								<ROLES>
+									<ROLE SequenceNumber="7">
+										<ROLE_DETAIL>
+											<PartyRoleType>LenderBranch</PartyRoleType>
+										</ROLE_DETAIL>
+									</ROLE>
+								</ROLES>
+							</PARTY>
+						</PARTIES>
+						<RELATIONSHIPS>
+							<RELATIONSHIP SequenceNumber="1"
+										  xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE"
+										  xlink:from="ASSET_1" xlink:to="BORROWER_1"/>
+							<RELATIONSHIP SequenceNumber="2"
+										  xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE"
+										  xlink:from="ASSET_2" xlink:to="BORROWER_1"/>
+							<RELATIONSHIP SequenceNumber="3"
+										  xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE"
+										  xlink:from="ASSET_3" xlink:to="BORROWER_1"/>
+							<RELATIONSHIP SequenceNumber="4"
+										  xlink:arcrole="urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE"
+										  xlink:from="LIABILITY_1" xlink:to="BORROWER_1"/>
+							<RELATIONSHIP SequenceNumber="5"
+										  xlink:arcrole="urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE"
+										  xlink:from="LIABILITY_2" xlink:to="BORROWER_1"/>
+							<RELATIONSHIP SequenceNumber="6"
+										  xlink:arcrole="urn:fdc:mismo.org:2009:residential/CURRENT_INCOME_ITEM_IsAssociatedWith_EMPLOYER"
+										  xlink:from="CURRENT_INCOME_ITEM_1" xlink:to="EMPLOYER_1"/>
+							<RELATIONSHIP SequenceNumber="7"
+										  xlink:arcrole="urn:fdc:mismo.org:2009:residential/ROLE_IsAssociatedWith_SERVICE"
+										  xlink:from="BORROWER_1" xlink:to="SERVICE_2"/>
+							<RELATIONSHIP SequenceNumber="8"
+										  xlink:arcrole="urn:fdc:mismo.org:2009:residential/ROLE_IsAssociatedWith_SERVICE"
+										  xlink:from="BORROWER_1" xlink:to="SERVICE_3"/>
+							<RELATIONSHIP SequenceNumber="9"
+										  xlink:arcrole="urn:fdc:mismo.org:2009:residential/ROLE_IsAssociatedWith_SERVICE"
+										  xlink:from="BORROWER_1" xlink:to="SERVICE_4"/>
+						</RELATIONSHIPS>
+						<SERVICES>
+							<SERVICE SequenceNumber="1">
+								<EXTENSION>
+									<OTHER>
+										<lpa:SERVICE_EXTENSION>
+											<lpa:SERVICE_DETAIL>
+												<lpa:ServiceType>AutomatedUnderwritingSystem</lpa:ServiceType>
+											</lpa:SERVICE_DETAIL>
+										</lpa:SERVICE_EXTENSION>
+									</OTHER>
+								</EXTENSION>
+							</SERVICE>
+							<SERVICE SequenceNumber="2" xlink:label="SERVICE_2">
+								<CREDIT>
+									<CREDIT_REQUEST>
+										<CREDIT_REQUEST_DATAS>
+											<CREDIT_REQUEST_DATA>
+												<CREDIT_REQUEST_DATA_DETAIL>
+													<CreditReportIdentifier>VS7JS0</CreditReportIdentifier>
+													<CreditReportRequestActionType>Reissue
+													</CreditReportRequestActionType>
+													<CreditReportType>Merge</CreditReportType>
+													<CreditRequestType>Individual</CreditRequestType>
+													<EXTENSION>
+														<OTHER>
+															<lpa:CREDIT_REQUEST_DATA_DETAIL_EXTENSION>
+																<lpa:CreditReportVendorIdentifier>5
+																</lpa:CreditReportVendorIdentifier>
+															</lpa:CREDIT_REQUEST_DATA_DETAIL_EXTENSION>
+														</OTHER>
+													</EXTENSION>
+												</CREDIT_REQUEST_DATA_DETAIL>
+											</CREDIT_REQUEST_DATA>
+										</CREDIT_REQUEST_DATAS>
+									</CREDIT_REQUEST>
+								</CREDIT>
+								<EXTENSION>
+									<OTHER>
+										<lpa:SERVICE_EXTENSION>
+											<lpa:SERVICE_DETAIL>
+												<lpa:ServiceType>Credit</lpa:ServiceType>
+											</lpa:SERVICE_DETAIL>
+										</lpa:SERVICE_EXTENSION>
+									</OTHER>
+								</EXTENSION>
+							</SERVICE>
+							<SERVICE SequenceNumber="3" xlink:label="SERVICE_3">
+								<EXTENSION>
+									<OTHER>
+										<lpa:SERVICE_EXTENSION>
+											<lpa:DOCUMENT_PREPARATION>
+												<lpa:DOCUMENT_PREPARATION_REQUESTS>
+													<lpa:DOCUMENT_PREPARATION_REQUEST>
+														<lpa:RequestedDocumentIdentifier>KH49B6MA
+														</lpa:RequestedDocumentIdentifier>
+														<lpa:RequestedDocumentVendorIdentifier>FF
+														</lpa:RequestedDocumentVendorIdentifier>
+													</lpa:DOCUMENT_PREPARATION_REQUEST>
+												</lpa:DOCUMENT_PREPARATION_REQUESTS>
+											</lpa:DOCUMENT_PREPARATION>
+											<lpa:SERVICE_DETAIL>
+												<lpa:ServiceType>Verification</lpa:ServiceType>
+											</lpa:SERVICE_DETAIL>
+										</lpa:SERVICE_EXTENSION>
+									</OTHER>
+								</EXTENSION>
+							</SERVICE>
+							<SERVICE SequenceNumber="4" xlink:label="SERVICE_4">
+								<EXTENSION>
+									<OTHER>
+										<lpa:SERVICE_EXTENSION>
+											<lpa:DOCUMENT_PREPARATION>
+												<lpa:DOCUMENT_PREPARATION_REQUESTS>
+													<lpa:DOCUMENT_PREPARATION_REQUEST>
+														<lpa:RequestedDocumentIdentifier>LPA002JUL20
+														</lpa:RequestedDocumentIdentifier>
+														<lpa:RequestedDocumentVendorIdentifier>EFX
+														</lpa:RequestedDocumentVendorIdentifier>
+													</lpa:DOCUMENT_PREPARATION_REQUEST>
+												</lpa:DOCUMENT_PREPARATION_REQUESTS>
+											</lpa:DOCUMENT_PREPARATION>
+											<lpa:SERVICE_DETAIL>
+												<lpa:ServiceType>Verification</lpa:ServiceType>
+											</lpa:SERVICE_DETAIL>
+										</lpa:SERVICE_EXTENSION>
+									</OTHER>
+								</EXTENSION>
+							</SERVICE>
+							<SERVICE SequenceNumber="5">
+								<EXTENSION>
+									<OTHER>
+										<lpa:SERVICE_EXTENSION>
+											<lpa:DOCUMENT_PREPARATION>
+												<lpa:DOCUMENT_PREPARATION_RESPONSES>
+													<lpa:DOCUMENT_PREPARATION_RESPONSE>
+														<lpa:RequestedDocumentType>DocCheckList
+														</lpa:RequestedDocumentType>
+														<lpa:RequestedPDFIndicator>false</lpa:RequestedPDFIndicator>
+														<lpa:RequestedXMLIndicator>true</lpa:RequestedXMLIndicator>
+													</lpa:DOCUMENT_PREPARATION_RESPONSE>
+													<lpa:DOCUMENT_PREPARATION_RESPONSE>
+														<lpa:RequestedDocumentType>FullFeedback
+														</lpa:RequestedDocumentType>
+														<lpa:RequestedPDFIndicator>false</lpa:RequestedPDFIndicator>
+														<lpa:RequestedXMLIndicator>true</lpa:RequestedXMLIndicator>
+													</lpa:DOCUMENT_PREPARATION_RESPONSE>
+													<lpa:DOCUMENT_PREPARATION_RESPONSE>
+														<lpa:RequestedDocumentType>HVE</lpa:RequestedDocumentType>
+														<lpa:RequestedPDFIndicator>false</lpa:RequestedPDFIndicator>
+														<lpa:RequestedXMLIndicator>true</lpa:RequestedXMLIndicator>
+													</lpa:DOCUMENT_PREPARATION_RESPONSE>
+													<lpa:DOCUMENT_PREPARATION_RESPONSE>
+														<lpa:RequestedDocumentType>CreditInfile
+														</lpa:RequestedDocumentType>
+														<lpa:RequestedPDFIndicator>false</lpa:RequestedPDFIndicator>
+														<lpa:RequestedXMLIndicator>true</lpa:RequestedXMLIndicator>
+													</lpa:DOCUMENT_PREPARATION_RESPONSE>
+													<lpa:DOCUMENT_PREPARATION_RESPONSE>
+														<lpa:RequestedDocumentType>Errors</lpa:RequestedDocumentType>
+														<lpa:RequestedPDFIndicator>false</lpa:RequestedPDFIndicator>
+														<lpa:RequestedXMLIndicator>true</lpa:RequestedXMLIndicator>
+													</lpa:DOCUMENT_PREPARATION_RESPONSE>
+													<lpa:DOCUMENT_PREPARATION_RESPONSE>
+														<lpa:RequestedDocumentType>MergedCredit
+														</lpa:RequestedDocumentType>
+														<lpa:RequestedPDFIndicator>false</lpa:RequestedPDFIndicator>
+														<lpa:RequestedXMLIndicator>true</lpa:RequestedXMLIndicator>
+													</lpa:DOCUMENT_PREPARATION_RESPONSE>
+													<lpa:DOCUMENT_PREPARATION_RESPONSE>
+														<lpa:RequestedDocumentType>MergedCreditCertificate
+														</lpa:RequestedDocumentType>
+														<lpa:RequestedPDFIndicator>false</lpa:RequestedPDFIndicator>
+														<lpa:RequestedXMLIndicator>true</lpa:RequestedXMLIndicator>
+													</lpa:DOCUMENT_PREPARATION_RESPONSE>
+												</lpa:DOCUMENT_PREPARATION_RESPONSES>
+											</lpa:DOCUMENT_PREPARATION>
+											<lpa:SERVICE_DETAIL>
+												<lpa:ServiceType>DocumentPreparation</lpa:ServiceType>
+											</lpa:SERVICE_DETAIL>
+										</lpa:SERVICE_EXTENSION>
+									</OTHER>
+								</EXTENSION>
+							</SERVICE>
+						</SERVICES>
+					</DEAL>
+					<DEAL>
+						<ABOUT_VERSIONS>
+							<ABOUT_VERSION>
+								<DataVersionName>LPA_RESPONSE</DataVersionName>
+							</ABOUT_VERSION>
+						</ABOUT_VERSIONS>
+						<ASSETS>
+							<ASSET>
+								<ASSET_DETAIL>
+									<AssetAccountIdentifier>1564351245</AssetAccountIdentifier>
+									<AssetAccountInNameOfDescription>Alice Freddie</AssetAccountInNameOfDescription>
+									<AssetCashOrMarketValueAmount>45000.00</AssetCashOrMarketValueAmount>
+									<AssetType>CheckingAccount</AssetType>
+								</ASSET_DETAIL>
+								<ASSET_DOCUMENTATIONS>
+									<ASSET_DOCUMENTATION>
+										<EXTENSION>
+											<OTHER>
+												<lpa:ASSET_DOCUMENTATION_EXTENSION>
+													<lpa:AssetDocumentDate>2020-11-03</lpa:AssetDocumentDate>
+												</lpa:ASSET_DOCUMENTATION_EXTENSION>
+											</OTHER>
+										</EXTENSION>
+									</ASSET_DOCUMENTATION>
+								</ASSET_DOCUMENTATIONS>
+								<ASSET_HOLDER>
+									<NAME>
+										<FullName>BankA</FullName>
+									</NAME>
+								</ASSET_HOLDER>
+								<VERIFICATION>
+									<EXTENSION>
+										<OTHER>
+											<lpa:VERIFICATION_EXTENSION>
+												<lpa:DuplicateIndicator>false</lpa:DuplicateIndicator>
+												<lpa:VerificationReportExpirationDate>2021-03-03
+												</lpa:VerificationReportExpirationDate>
+												<lpa:VerificationReportIdentifier>KH49B6MA
+												</lpa:VerificationReportIdentifier>
+												<lpa:VerificationVendorName>FormFree</lpa:VerificationVendorName>
+											</lpa:VERIFICATION_EXTENSION>
+										</OTHER>
+									</EXTENSION>
+								</VERIFICATION>
+							</ASSET>
+							<ASSET_SUMMARY>
+								<GiftGrantTotalCashOrMarketValueAmount>0.00</GiftGrantTotalCashOrMarketValueAmount>
+								<EXTENSION>
+									<OTHER>
+										<lpa:ASSET_SUMMARY_EXTENSION>
+											<lpa:TotalAssetDeficitAmount>3869.00</lpa:TotalAssetDeficitAmount>
+											<lpa:TotalEligibleAssetsAmount>53700.00</lpa:TotalEligibleAssetsAmount>
+											<lpa:TotalFundsToBeVerifiedAmount>48869.00
+											</lpa:TotalFundsToBeVerifiedAmount>
+											<lpa:TotalThirdPartyAssetValidationAmount>45000.00
+											</lpa:TotalThirdPartyAssetValidationAmount>
+										</lpa:ASSET_SUMMARY_EXTENSION>
+									</OTHER>
+								</EXTENSION>
+							</ASSET_SUMMARY>
+						</ASSETS>
+						<COLLATERALS>
+							<COLLATERAL>
+								<SUBJECT_PROPERTY>
+									<ADDRESS>
+										<AddressLineText>2422 KNAPPS WAY</AddressLineText>
+										<CityName>DAWSON</CityName>
+										<PostalCode>50066</PostalCode>
+										<StateCode>IA</StateCode>
+									</ADDRESS>
+									<PROPERTY_DETAIL>
+										<AttachmentType>Attached</AttachmentType>
+										<ConstructionMethodType>SiteBuilt</ConstructionMethodType>
+										<FinancedUnitCount>2</FinancedUnitCount>
+										<PropertyUsageType>PrimaryResidence</PropertyUsageType>
+										<PUDIndicator>true</PUDIndicator>
+									</PROPERTY_DETAIL>
+									<SALES_CONTRACTS>
+										<SALES_CONTRACT>
+											<SALES_CONTRACT_DETAIL>
+												<SalesContractAmount>175000.0</SalesContractAmount>
+												<TotalSalesConcessionAmount>500.00</TotalSalesConcessionAmount>
+											</SALES_CONTRACT_DETAIL>
+										</SALES_CONTRACT>
+									</SALES_CONTRACTS>
+								</SUBJECT_PROPERTY>
+							</COLLATERAL>
+						</COLLATERALS>
+						<LIABILITIES>
+							<LIABILITY_SUMMARY>
+								<TotalNonSubjectPropertyDebtsToBePaidOffAmount>0.00
+								</TotalNonSubjectPropertyDebtsToBePaidOffAmount>
+								<EXTENSION>
+									<OTHER>
+										<lpa:LIABILITY_SUMMARY_EXTENSION>
+											<lpa:TotalLiabilitiesPartiallyPaidOffAmount>0.00
+											</lpa:TotalLiabilitiesPartiallyPaidOffAmount>
+										</lpa:LIABILITY_SUMMARY_EXTENSION>
+									</OTHER>
+								</EXTENSION>
+							</LIABILITY_SUMMARY>
+						</LIABILITIES>
+						<LOANS>
+							<COMBINED_LTVS>
+								<COMBINED_LTV>
+									<CombinedLTVRatioPercent>74.49</CombinedLTVRatioPercent>
+								</COMBINED_LTV>
+								<COMBINED_LTV>
+									<HomeEquityCombinedLTVRatioPercent>74.49</HomeEquityCombinedLTVRatioPercent>
+								</COMBINED_LTV>
+							</COMBINED_LTVS>
+							<LOAN>
+								<AMORTIZATION>
+									<AMORTIZATION_RULE>
+										<AmortizationType>Fixed</AmortizationType>
+										<LoanAmortizationPeriodCount>360</LoanAmortizationPeriodCount>
+										<LoanAmortizationPeriodType>Month</LoanAmortizationPeriodType>
+									</AMORTIZATION_RULE>
+								</AMORTIZATION>
+								<DOCUMENT_SPECIFIC_DATA_SETS>
+									<DOCUMENT_SPECIFIC_DATA_SET>
+										<URLA>
+											<URLA_DETAIL>
+												<PurchasePriceNetAmount>175000.0</PurchasePriceNetAmount>
+											</URLA_DETAIL>
+										</URLA>
+									</DOCUMENT_SPECIFIC_DATA_SET>
+								</DOCUMENT_SPECIFIC_DATA_SETS>
+								<DOWN_PAYMENTS>
+									<EXTENSION>
+										<OTHER>
+											<lpa:DOWN_PAYMENTS_EXTENSION>
+												<lpa:DOWN_PAYMENT_SUMMARY>
+													<lpa:TotalDownPaymentAmount>45000.0</lpa:TotalDownPaymentAmount>
+												</lpa:DOWN_PAYMENT_SUMMARY>
+											</lpa:DOWN_PAYMENTS_EXTENSION>
+										</OTHER>
+									</EXTENSION>
+								</DOWN_PAYMENTS>
+								<GOVERNMENT_LOAN>
+									<VAHouseholdSizeCount>0</VAHouseholdSizeCount>
+								</GOVERNMENT_LOAN>
+								<HOUSING_EXPENSES>
+									<HOUSING_EXPENSE_SUMMARY>
+										<HousingExpensePresentTotalMonthlyPaymentAmount>1500.0
+										</HousingExpensePresentTotalMonthlyPaymentAmount>
+										<HousingExpenseProposedTotalMonthlyPaymentAmount>953.87
+										</HousingExpenseProposedTotalMonthlyPaymentAmount>
+										<EXTENSION>
+											<OTHER>
+												<lpa:HOUSING_EXPENSE_SUMMARY_EXTENSION>
+													<lpa:NonOccupantBorrowerHousingExpensePresentTotalMonthlyPaymentAmount>
+														0.0
+													</lpa:NonOccupantBorrowerHousingExpensePresentTotalMonthlyPaymentAmount>
+												</lpa:HOUSING_EXPENSE_SUMMARY_EXTENSION>
+											</OTHER>
+										</EXTENSION>
+									</HOUSING_EXPENSE_SUMMARY>
+								</HOUSING_EXPENSES>
+								<LOAN_DETAIL>
+									<BalloonIndicator>false</BalloonIndicator>
+									<BuydownTemporarySubsidyFundingIndicator>false
+									</BuydownTemporarySubsidyFundingIndicator>
+									<NegativeAmortizationIndicator>false</NegativeAmortizationIndicator>
+									<TotalSubordinateFinancingAmount>0.0</TotalSubordinateFinancingAmount>
+									<EXTENSION>
+										<OTHER>
+											<lpa:LOAN_DETAIL_EXTENSION>
+												<lpa:TotalSubordinateFinancingProceedsAppliedAmount>0.00
+												</lpa:TotalSubordinateFinancingProceedsAppliedAmount>
+											</lpa:LOAN_DETAIL_EXTENSION>
+										</OTHER>
+									</EXTENSION>
+								</LOAN_DETAIL>
+								<LOAN_IDENTIFIERS>
+									<LOAN_IDENTIFIER>
+										<LoanIdentifier>640125</LoanIdentifier>
+										<LoanIdentifierType>Other</LoanIdentifierType>
+										<LoanIdentifierTypeOtherDescription>LoanProductAdvisor
+										</LoanIdentifierTypeOtherDescription>
+									</LOAN_IDENTIFIER>
+									<LOAN_IDENTIFIER>
+										<LoanIdentifier>LPA_Demo</LoanIdentifier>
+										<LoanIdentifierType>LenderLoan</LoanIdentifierType>
+									</LOAN_IDENTIFIER>
+								</LOAN_IDENTIFIERS>
+								<LOAN_LEVEL_CREDIT>
+									<LOAN_LEVEL_CREDIT_DETAIL>
+										<LoanLevelCreditScoreValue>710</LoanLevelCreditScoreValue>
+										<EXTENSION>
+											<OTHER>
+												<lpa:LOAN_LEVEL_CREDIT_DETAIL_EXTENSION>
+													<lpa:BorrowerCreditScoresFirstExpirationDate>2021-04-11
+													</lpa:BorrowerCreditScoresFirstExpirationDate>
+													<lpa:CreditRepositorySourceType>TransUnion
+													</lpa:CreditRepositorySourceType>
+													<lpa:DecisionBorrowerName>ALICE FREDDIE</lpa:DecisionBorrowerName>
+												</lpa:LOAN_LEVEL_CREDIT_DETAIL_EXTENSION>
+											</OTHER>
+										</EXTENSION>
+									</LOAN_LEVEL_CREDIT_DETAIL>
+								</LOAN_LEVEL_CREDIT>
+								<LOAN_PRODUCT>
+									<LOAN_PRODUCT_DETAIL>
+										<ProductIdentifier>F30</ProductIdentifier>
+									</LOAN_PRODUCT_DETAIL>
+								</LOAN_PRODUCT>
+								<LOAN_STATUSES>
+									<LOAN_STATUS>
+										<LoanStatusIdentifier>Application</LoanStatusIdentifier>
+									</LOAN_STATUS>
+								</LOAN_STATUSES>
+								<LTV>
+									<LTVRatioPercent>74.49</LTVRatioPercent>
+								</LTV>
+								<QUALIFICATION>
+									<HousingExpenseRatioPercent>14.0</HousingExpenseRatioPercent>
+									<ProjectedReservesAmount>5466.0</ProjectedReservesAmount>
+									<TotalDebtExpenseRatioPercent>16.0</TotalDebtExpenseRatioPercent>
+									<TotalLiabilitiesMonthlyPaymentAmount>1120.87</TotalLiabilitiesMonthlyPaymentAmount>
+									<TotalMonthlyIncomeAmount>7016.14</TotalMonthlyIncomeAmount>
+									<TotalVerifiedReservesAmount>5466.0</TotalVerifiedReservesAmount>
+									<VerifiedAssetsTotalAmount>53700.00</VerifiedAssetsTotalAmount>
+									<EXTENSION>
+										<OTHER>
+											<lpa:QUALIFICATION_EXTENSION>
+												<lpa:OccupantBorrowersHousingExpenseRatioPercent>14.0
+												</lpa:OccupantBorrowersHousingExpenseRatioPercent>
+												<lpa:OccupantBorrowersTotalDebtExpenseRatioPercent>16.0
+												</lpa:OccupantBorrowersTotalDebtExpenseRatioPercent>
+												<lpa:NonOccupantBorrowersTotalNonHousingLiablitiesMonthlyPaymentAmount>
+													0.00
+												</lpa:NonOccupantBorrowersTotalNonHousingLiablitiesMonthlyPaymentAmount>
+												<lpa:TotalRequiredFundsAmount>48869.00</lpa:TotalRequiredFundsAmount>
+												<lpa:TotalRequiredReservesAmount>0.00</lpa:TotalRequiredReservesAmount>
+											</lpa:QUALIFICATION_EXTENSION>
+										</OTHER>
+									</EXTENSION>
+								</QUALIFICATION>
+								<TERMS_OF_LOAN>
+									<LoanPurposeType>Purchase</LoanPurposeType>
+									<MortgageType>Conventional</MortgageType>
+									<NoteAmount>130000.0</NoteAmount>
+									<NoteRatePercent>5.0000</NoteRatePercent>
+									<EXTENSION>
+										<OTHER>
+											<lpa:TERMS_OF_LOAN_EXTENSION>
+												<lpa:ResubordinatingLiabilitiesIndicator>false
+												</lpa:ResubordinatingLiabilitiesIndicator>
+											</lpa:TERMS_OF_LOAN_EXTENSION>
+										</OTHER>
+									</EXTENSION>
+								</TERMS_OF_LOAN>
+								<UNDERWRITING>
+									<AUTOMATED_UNDERWRITINGS>
+										<AUTOMATED_UNDERWRITING>
+											<AutomatedUnderwritingCaseIdentifier>A1836574
+											</AutomatedUnderwritingCaseIdentifier>
+											<AutomatedUnderwritingDecisionDatetime>2021-01-08T16:51:21Z
+											</AutomatedUnderwritingDecisionDatetime>
+											<AutomatedUnderwritingEvaluationStatusDescription>Complete
+											</AutomatedUnderwritingEvaluationStatusDescription>
+											<AutomatedUnderwritingProcessDescription>Credit
+											</AutomatedUnderwritingProcessDescription>
+											<AutomatedUnderwritingRecommendationDescription>Accept
+											</AutomatedUnderwritingRecommendationDescription>
+											<FREPurchaseEligibilityType>FreddieMacEligible</FREPurchaseEligibilityType>
+											<LoanProspectorDocumentationClassificationDescription>StreamlinedAccept
+											</LoanProspectorDocumentationClassificationDescription>
+											<EXTENSION>
+												<OTHER>
+													<lpa:AUTOMATED_UNDERWRITING_EXTENSION>
+														<lpa:AssetRepresentationAndWarrantyReliefEligibilityType>
+															NotEligible
+														</lpa:AssetRepresentationAndWarrantyReliefEligibilityType>
+														<lpa:AutomatedUnderwritingSubmissionCount>1
+														</lpa:AutomatedUnderwritingSubmissionCount>
+														<lpa:CollateralRepresentationAndWarrantyReliefEligibilityType>
+															NotEligible
+														</lpa:CollateralRepresentationAndWarrantyReliefEligibilityType>
+														<lpa:FHA_TOTALMortgageScorecardIndicator>false
+														</lpa:FHA_TOTALMortgageScorecardIndicator>
+														<lpa:IncomeRepresentationAndWarrantyReliefEligibilityType>
+															Eligible
+														</lpa:IncomeRepresentationAndWarrantyReliefEligibilityType>
+														<lpa:LPAServiceEngineTransactionIdentifier>3819601
+														</lpa:LPAServiceEngineTransactionIdentifier>
+														<lpa:LPATransactionIdentifier>1441144
+														</lpa:LPATransactionIdentifier>
+													</lpa:AUTOMATED_UNDERWRITING_EXTENSION>
+												</OTHER>
+											</EXTENSION>
+										</AUTOMATED_UNDERWRITING>
+									</AUTOMATED_UNDERWRITINGS>
+								</UNDERWRITING>
+							</LOAN>
+						</LOANS>
+						<PARTIES>
+							<PARTY>
+								<INDIVIDUAL>
+									<NAME>
+										<FirstName>Alice</FirstName>
+										<LastName>Freddie</LastName>
+									</NAME>
+								</INDIVIDUAL>
+								<ROLES>
+									<ROLE xlink:label="Borrower_1">
+										<BORROWER>
+											<BORROWER_DETAIL>
+												<CreditReportIdentifier>VS7JS0</CreditReportIdentifier>
+												<JointAssetLiabilityReportingType>NotJointly
+												</JointAssetLiabilityReportingType>
+											</BORROWER_DETAIL>
+											<CREDIT_SCORES>
+												<CREDIT_SCORE>
+													<CREDIT_SCORE_DETAIL>
+														<CreditRepositorySourceType>Equifax</CreditRepositorySourceType>
+														<CreditScoreValue>715</CreditScoreValue>
+													</CREDIT_SCORE_DETAIL>
+												</CREDIT_SCORE>
+												<CREDIT_SCORE>
+													<CREDIT_SCORE_DETAIL>
+														<CreditRepositorySourceType>TransUnion
+														</CreditRepositorySourceType>
+														<CreditScoreValue>710</CreditScoreValue>
+													</CREDIT_SCORE_DETAIL>
+												</CREDIT_SCORE>
+												<CREDIT_SCORE>
+													<CREDIT_SCORE_DETAIL>
+														<CreditRepositorySourceType>Experian
+														</CreditRepositorySourceType>
+														<CreditScoreValue>703</CreditScoreValue>
+													</CREDIT_SCORE_DETAIL>
+												</CREDIT_SCORE>
+											</CREDIT_SCORES>
+											<CURRENT_INCOME>
+												<CURRENT_INCOME_DETAIL>
+													<URLABorrowerTotalMonthlyIncomeAmount>7016.14
+													</URLABorrowerTotalMonthlyIncomeAmount>
+												</CURRENT_INCOME_DETAIL>
+											</CURRENT_INCOME>
+											<RESIDENCES>
+												<RESIDENCE>
+													<ADDRESS>
+														<AddressLineText>9991 WARFORD STREET</AddressLineText>
+														<CityName>DAWSON</CityName>
+														<PostalCode>50066</PostalCode>
+														<StateCode>IA</StateCode>
+													</ADDRESS>
+													<RESIDENCE_DETAIL>
+														<BorrowerResidencyType>Current</BorrowerResidencyType>
+													</RESIDENCE_DETAIL>
+												</RESIDENCE>
+											</RESIDENCES>
+										</BORROWER>
+										<ROLE_DETAIL>
+											<PartyRoleType>Borrower</PartyRoleType>
+										</ROLE_DETAIL>
+									</ROLE>
+								</ROLES>
+								<TAXPAYER_IDENTIFIERS>
+									<TAXPAYER_IDENTIFIER>
+										<TaxpayerIdentifierType>IndividualTaxpayerIdentificationNumber
+										</TaxpayerIdentifierType>
+										<TaxpayerIdentifierValue>990800008</TaxpayerIdentifierValue>
+									</TAXPAYER_IDENTIFIER>
+								</TAXPAYER_IDENTIFIERS>
+							</PARTY>
+							<PARTY>
+								<LEGAL_ENTITY>
+									<LEGAL_ENTITY_DETAIL>
+										<FullName>Ellie Mae</FullName>
+									</LEGAL_ENTITY_DETAIL>
+								</LEGAL_ENTITY>
+								<ROLES>
+									<ROLE>
+										<ROLE_DETAIL>
+											<PartyRoleType>LoanOriginationCompany</PartyRoleType>
+										</ROLE_DETAIL>
+									</ROLE>
+								</ROLES>
+							</PARTY>
+						</PARTIES>
+						<SERVICES>
+							<FOREIGN_OBJECTS>
+								<FOREIGN_OBJECT>
+									<EmbeddedContentXML>
+										CjxSRVNQT05TRV9HUk9VUCBNSVNNT1ZlcnNpb25JRD0iMi4xIj4KICA8UkVTUE9ORElOR19QQVJUWSBfTmFtZT0iRVFVSUZBWCBNT1JUR0FHRSBTT0xVVElPTlMiIF9TdHJlZXRBZGRyZXNzPSI4MTUgRUFTVCBHQVRFIERSLFNVSVRFIDEwMiIgX0NpdHk9Ik1PVU5UIExBVVJFTCIgX1N0YXRlPSJOSiIgX1Bvc3RhbENvZGU9IjA4MDU0Ij4KICAgIDxDT05UQUNUX0RFVEFJTD4KICAgICAgPENPTlRBQ1RfUE9JTlQgX1R5cGU9IlBob25lIiBfVmFsdWU9Iig4MDApMzMzLTAwMzciLz4KICAgIDwvQ09OVEFDVF9ERVRBSUw+CiAgICA8Q09OVEFDVF9ERVRBSUw+CiAgICAgIDxDT05UQUNUX1BPSU5UIF9UeXBlPSJGYXgiIF9WYWx1ZT0iKDgwMCk2NzgtNzA3OSIvPgogICAgPC9DT05UQUNUX0RFVEFJTD4KICA8L1JFU1BPTkRJTkdfUEFSVFk+CiAgPFJFU1BPTkRfVE9fUEFSVFkgX05hbWU9IkVMTElFIE1BRSBGTUFDIFVBVCBURVNUIiBfU3RyZWV0QWRkcmVzcz0iNDQyMCBST1NFV09PRCBEUiBTVEUgNTAwIiBfQ2l0eT0iUExFQVNBTlRPTiIgX1N0YXRlPSJDQSIgX1Bvc3RhbENvZGU9Ijk0NTg4Ij4KICAgIDxDT05UQUNUX0RFVEFJTCBfTmFtZT0iQWRtaW4gVXNlciIvPgogIDwvUkVTUE9ORF9UT19QQVJUWT4KICA8UkVTUE9OU0UgSW50ZXJuYWxBY2NvdW50SWRlbnRpZmllcj0iOTk5Rk03MzExMyI+CiAgICA8S0VZIF9OYW1lPSJDcmVkaXRTY29yZVJhbmtQZXJjZW50X0NSVlM3SlMwX0NSU2NyMDAwMCIgX1ZhbHVlPSI0NiIvPgogICAgPEtFWSBfTmFtZT0iRXF1aWZheEJlYWNvbl9NaW5pbXVtVmFsdWUiIF9WYWx1ZT0iMzM0Ii8+CiAgICA8S0VZIF9OYW1lPSJFcXVpZmF4QmVhY29uX01heGltdW1WYWx1ZSIgX1ZhbHVlPSI4MTgiLz4KICAgIDxLRVkgX05hbWU9IkNyZWRpdFNjb3JlUmFua1BlcmNlbnRfQ1JWUzdKUzBfQ1JTY3IwMDAxIiBfVmFsdWU9IjQxIi8+CiAgICA8S0VZIF9OYW1lPSJFeHBlcmlhbkZhaXJJc2FhY19NaW5pbXVtVmFsdWUiIF9WYWx1ZT0iMzIwIi8+CiAgICA8S0VZIF9OYW1lPSJFeHBlcmlhbkZhaXJJc2FhY19NYXhpbXVtVmFsdWUiIF9WYWx1ZT0iODQ0Ii8+CiAgICA8S0VZIF9OYW1lPSJDcmVkaXRTY29yZVJhbmtQZXJjZW50X0NSVlM3SlMwX0NSU2NyMDAwMiIgX1ZhbHVlPSI0NCIvPgogICAgPEtFWSBfTmFtZT0iT3RoZXJfTWluaW11bVZhbHVlIiBfVmFsdWU9IjMwOSIvPgogICAgPEtFWSBfTmFtZT0iT3RoZXJfTWF4aW11bVZhbHVlIiBfVmFsdWU9IjgzOSIvPgogICAgPEtFWSBfTmFtZT0iQlJBTkNISUQiIF9WYWx1ZT0iRk0yMDM4MTk2MDExTTEgQTE4MzY1NzQ0MjA0MTczMDA0MjQ0MDMxNjkwMTA4MjAyMTExNTExNiAgICAgICAgICAgICAgICAgIFZTN0pTMCIvPgogICAgPFJFU1BPTlNFX0RBVEE+CiAgICAgIDxDUkVESVRfUkVTUE9OU0UgQ3JlZGl0UmVwb3J0TGFzdFVwZGF0ZWREYXRlPSIyMDIxLTAxLTA4IiBDcmVkaXRSZXBvcnRJZGVudGlmaWVyPSJWUzdKUzAiIENyZWRpdFJlcG9ydEZpcnN0SXNzdWVkRGF0ZT0iMjAyMC0xMi0xMSIgTUlTTU9WZXJzaW9uSUQ9IjIuMSIgQ3JlZGl0UmVzcG9uc2VJRD0iQ1JWUzdKUzAiIENyZWRpdFJlcG9ydE1lcmdlVHlwZT0iQmxlbmQiIENyZWRpdFJlcG9ydFR5cGU9Ik1lcmdlIj4KICAgICAgICA8Q1JFRElUX0JVUkVBVSBfTmFtZT0iRVFVSUZBWCBNT1JUR0FHRSBTT0xVVElPTlMiIF9TdHJlZXRBZGRyZXNzPSI4MTUgRUFTVCBHQVRFIERSLFNVSVRFIDEwMiIgX0NpdHk9Ik1PVU5UIExBVVJFTCIgX1N0YXRlPSJOSiIgX1Bvc3RhbENvZGU9IjA4MDU0Ij4KICAgICAgICAgIDxDT05UQUNUX0RFVEFJTD4KICAgICAgICAgICAgPENPTlRBQ1RfUE9JTlQgX1R5cGU9IlBob25lIiBfVmFsdWU9Iig4MDApMzMzLTAwMzciLz4KICAgICAgICAgIDwvQ09OVEFDVF9ERVRBSUw+CiAgICAgICAgICA8Q09OVEFDVF9ERVRBSUw+CiAgICAgICAgICAgIDxDT05UQUNUX1BPSU5UIF9UeXBlPSJGYXgiIF9WYWx1ZT0iKDgwMCk2NzgtNzA3OSIvPgogICAgICAgICAgPC9DT05UQUNUX0RFVEFJTD4KICAgICAgICA8L0NSRURJVF9CVVJFQVU+CiAgICAgICAgPENSRURJVF9SRVBPUlRfUFJJQ0UgX0Ftb3VudD0iMC4wMSIgX1R5cGU9IlRvdGFsIi8+CiAgICAgICAgPENSRURJVF9SRVBPU0lUT1JZX0lOQ0xVREVEIF9FcXVpZmF4SW5kaWNhdG9yPSJZIiBfRXhwZXJpYW5JbmRpY2F0b3I9IlkiIF9UcmFuc1VuaW9uSW5kaWNhdG9yPSJZIi8+CiAgICAgICAgPFJFUVVFU1RJTkdfUEFSVFkgTGVuZGVyQ2FzZUlkZW50aWZpZXI9IkxQQV9ERU1PIiBJbnRlcm5hbEFjY291bnRJZGVudGlmaWVyPSI5OTlGTTczMTEzIiBfTmFtZT0iRUxMSUUgTUFFIEZNQUMgVUFUIFRFU1QiIF9TdHJlZXRBZGRyZXNzPSI0NDIwIFJPU0VXT09EIERSIFNURSA1MDAiIF9DaXR5PSJQTEVBU0FOVE9OIiBfU3RhdGU9IkNBIiBfUG9zdGFsQ29kZT0iOTQ1ODgiIF9SZXF1ZXN0ZWRCeU5hbWU9IkFkbWluIFVzZXIiPgogICAgICAgICAgPENPTlRBQ1RfREVUQUlMIF9OYW1lPSJBZG1pbiBVc2VyIi8+CiAgICAgICAgPC9SRVFVRVNUSU5HX1BBUlRZPgogICAgICAgIDxDUkVESVRfUkVRVUVTVF9EQVRBIENyZWRpdFJlcXVlc3RJRD0iQ1RWUzdKUzAiIEJvcnJvd2VySUQ9IkJvcnJvd2VyIiBDcmVkaXRSZXBvcnRJZGVudGlmaWVyPSJWUzdKUzAiIENyZWRpdFJlcG9ydFR5cGU9Ik1lcmdlIiBDcmVkaXRSZXBvcnRSZXF1ZXN0QWN0aW9uVHlwZT0iU3VibWl0IiBDcmVkaXRSZXBvc2l0b3JpZXNTZWxlY3RlZENvdW50PSIzIiBDcmVkaXRSZXF1ZXN0VHlwZT0iSW5kaXZpZHVhbCI+CiAgICAgICAgICA8Q1JFRElUX1JFUE9TSVRPUllfSU5DTFVERUQgX0VxdWlmYXhJbmRpY2F0b3I9IlkiIF9FeHBlcmlhbkluZGljYXRvcj0iWSIgX1RyYW5zVW5pb25JbmRpY2F0b3I9IlkiLz4KICAgICAgICA8L0NSRURJVF9SRVFVRVNUX0RBVEE+CiAgICAgICAgPEJPUlJPV0VSIF9GaXJzdE5hbWU9IkFMSUNFIiBfTGFzdE5hbWU9IkZSRURESUUiIF9CaXJ0aERhdGU9IjI2IiBCb3Jyb3dlcklEPSJCT1JXMDEiIF9TU049Ijk5MC04MC0wMDA4IiBfUHJpbnRQb3NpdGlvblR5cGU9IkJvcnJvd2VyIiBNYXJpdGFsU3RhdHVzVHlwZT0iVW5tYXJyaWVkIj4KICAgICAgICAgIDxfUkVTSURFTkNFIF9TdHJlZXRBZGRyZXNzPSI5OTkxIFdBUkZPUkQgU1RSRUVUIiBfQ2l0eT0iREFXU09OIiBfU3RhdGU9IklBIiBfUG9zdGFsQ29kZT0iNTAwNjYiIEJvcnJvd2VyUmVzaWRlbmN5VHlwZT0iQ3VycmVudCIvPgogICAgICAgICAgPF9SRVNJREVOQ0UgX1N0cmVldEFkZHJlc3M9IjE1OCAyMVNUIFNUUkVFVCIgX0NpdHk9IkRBV1NPTiIgX1N0YXRlPSJJQSIgX1Bvc3RhbENvZGU9IjUwMDY2IiBCb3Jyb3dlclJlc2lkZW5jeVR5cGU9IlByaW9yIi8+CiAgICAgICAgICA8RU1QTE9ZRVIgX05hbWU9IkVudGVycHJpc2UgVVNBIiBfQ2l0eT0iRGF3c29uIiBfU3RyZWV0QWRkcmVzcz0iOTk4OCBNYWluIFN0IiBfU3RhdGU9IklBIiBFbXBsb3ltZW50UG9zaXRpb25EZXNjcmlwdGlvbj0iTk8gVElUTEUgRlJPTSBSRVBPU0lUT1JZIiBfUG9zdGFsQ29kZT0iNTAwNjYiLz4KICAgICAgICA8L0JPUlJPV0VSPgogICAgICAgIDxDUkVESVRfTElBQklMSVRZIENyZWRpdExpYWJpbGl0eUlEPSJUUkQwMDAwIiBfQWNjb3VudElkZW50aWZpZXI9IjM1NjNBMDE5NzMyIiBfQWNjb3VudE9wZW5lZERhdGU9IjIwMTMtMDUiIF9BY2NvdW50UmVwb3J0ZWREYXRlPSIyMDE2LTAyIiBfQWNjb3VudFN0YXR1c0RhdGU9IjIwMTYtMDIiIF9IaWdoQmFsYW5jZUFtb3VudD0iNDQwMCIgX0hpZ2hDcmVkaXRBbW91bnQ9IjQ0MDAiIF9Nb250aHNSZXZpZXdlZENvdW50PSIzMSIgX1Rlcm1zRGVzY3JpcHRpb249Ik1PTlRITFkiIF9VbnBhaWRCYWxhbmNlQW1vdW50PSIyNjAwIiBfT3JpZ2luYWxDcmVkaXRvck5hbWU9IlJlbnRhbC9MZWFzaW5nIiBCb3Jyb3dlcklEPSJCb3Jyb3dlciIgQ3JlZGl0RmlsZUlEPSJSQjAxIiBDcmVkaXRUcmFkZVJlZmVyZW5jZUlEPSJDVFIwMDAwIiBfQWNjb3VudE93bmVyc2hpcFR5cGU9IkluZGl2aWR1YWwiIF9BY2NvdW50U3RhdHVzVHlwZT0iT3BlbiIgX0FjY291bnRUeXBlPSJJbnN0YWxsbWVudCIgX0Rlcm9nYXRvcnlEYXRhSW5kaWNhdG9yPSJOIiBfTW9udGhseVBheW1lbnRBbW91bnQ9IjEyMyIgX1Rlcm1zU291cmNlVHlwZT0iUHJvdmlkZWQiIF9UZXJtc01vbnRoc0NvdW50PSIzNiIgQ3JlZGl0TG9hblR5cGU9IkxlYXNlIj4KICAgICAgICAgIDxfQ1JFRElUT1IgX05hbWU9Ik1PVU5UQUlOIEJBTksiLz4KICAgICAgICAgIDxfQ1VSUkVOVF9SQVRJTkcgX0NvZGU9IjEiIF9UeXBlPSJBc0FncmVlZCIvPgogICAgICAgICAgPF9MQVRFX0NPVU5UIF8zMERheXM9IjAiIF82MERheXM9IjAiIF85MERheXM9IjAiLz4KICAgICAgICAgIDxfUEFZTUVOVF9QQVRURVJOIF9EYXRhPSJDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0MiIF9TdGFydERhdGU9IjIwMTYtMDIiLz4KICAgICAgICAgIDxDUkVESVRfQ09NTUVOVD4KICAgICAgICAgICAgPF9UZXh0Pk9QRU4gQUNDT1VOVDwvX1RleHQ+CiAgICAgICAgICA8L0NSRURJVF9DT01NRU5UPgogICAgICAgICAgPENSRURJVF9DT01NRU5UPgogICAgICAgICAgICA8X1RleHQ+VEhJUyBJUyBBTiBBQ0NPVU5UIElOIEdPT0QgU1RBTkRJTkc8L19UZXh0PgogICAgICAgICAgPC9DUkVESVRfQ09NTUVOVD4KICAgICAgICAgIDxDUkVESVRfQ09NTUVOVD4KICAgICAgICAgICAgPF9UZXh0Pk9SSUdJTkFMIENSRURJVE9SIENMQVNTSUZJQ0FUSU9OOiBSZW50YWwvTGVhc2luZzwvX1RleHQ+CiAgICAgICAgICA8L0NSRURJVF9DT01NRU5UPgogICAgICAgICAgPENSRURJVF9DT01NRU5UIF9UeXBlPSJCdXJlYXVSZW1hcmtzIiBfU291cmNlVHlwZT0iQ3JlZGl0QnVyZWF1Ij4KICAgICAgICAgICAgPF9UZXh0PkxBU1QgUEFJRDo8L19UZXh0PgogICAgICAgICAgPC9DUkVESVRfQ09NTUVOVD4KICAgICAgICAgIDxDUkVESVRfUkVQT1NJVE9SWSBfU291cmNlVHlwZT0iTWVyZ2VkRGF0YSIvPgogICAgICAgIDwvQ1JFRElUX0xJQUJJTElUWT4KICAgICAgICA8Q1JFRElUX0xJQUJJTElUWSBDcmVkaXRMaWFiaWxpdHlJRD0iVFJEMDAwMSIgX0FjY291bnRJZGVudGlmaWVyPSIzNTYzQTAxOTczMiIgX0FjY291bnRPcGVuZWREYXRlPSIyMDEzLTA3IiBfQWNjb3VudFJlcG9ydGVkRGF0ZT0iMjAxNi0wMiIgX0FjY291bnRTdGF0dXNEYXRlPSIyMDE2LTAyIiBfQ3JlZGl0TGltaXRBbW91bnQ9IjQ0MDAiIF9IaWdoQmFsYW5jZUFtb3VudD0iNDQwMCIgX0hpZ2hDcmVkaXRBbW91bnQ9IjQ0MDAiIF9MYXN0QWN0aXZpdHlEYXRlPSIyMDE2LTAyIiBfTW9udGhzUmV2aWV3ZWRDb3VudD0iMzEiIF9QYXN0RHVlQW1vdW50PSIwIiBfVGVybXNEZXNjcmlwdGlvbj0iTU9OVEhMWSIgX1VucGFpZEJhbGFuY2VBbW91bnQ9IjI2MDAiIEJvcnJvd2VySUQ9IkJvcnJvd2VyIiBDcmVkaXRGaWxlSUQ9IlRCMDEgQ0IwMSIgQ3JlZGl0VHJhZGVSZWZlcmVuY2VJRD0iQ1RSMDAwMSIgX0FjY291bnRPd25lcnNoaXBUeXBlPSJJbmRpdmlkdWFsIiBfQWNjb3VudFN0YXR1c1R5cGU9Ik9wZW4iIF9BY2NvdW50VHlwZT0iSW5zdGFsbG1lbnQiIF9EZXJvZ2F0b3J5RGF0YUluZGljYXRvcj0iTiIgX01vbnRobHlQYXltZW50QW1vdW50PSIxMjMiIF9UZXJtc1NvdXJjZVR5cGU9IlByb3ZpZGVkIiBfVGVybXNNb250aHNDb3VudD0iMzYiIENyZWRpdExvYW5UeXBlPSJMZWFzZSI+CiAgICAgICAgICA8X0NSRURJVE9SIF9OYW1lPSJNT1VOVEFJTiBCQU5LIi8+CiAgICAgICAgICA8X0NVUlJFTlRfUkFUSU5HIF9Db2RlPSIxIiBfVHlwZT0iQXNBZ3JlZWQiLz4KICAgICAgICAgIDxfTEFURV9DT1VOVCBfMzBEYXlzPSIwIiBfNjBEYXlzPSIwIiBfOTBEYXlzPSIwIi8+CiAgICAgICAgICA8X1BBWU1FTlRfUEFUVEVSTiBfRGF0YT0iQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQyIgX1N0YXJ0RGF0ZT0iMjAxNi0wMSIvPgogICAgICAgICAgPENSRURJVF9DT01NRU5UPgogICAgICAgICAgICA8X1RleHQ+TUFLSU5HIFBBWU1FTlRTIChQQVlNRU5UIFNUT1BQRUQsIFNJTkNFIFJFU1VNRUQpPC9fVGV4dD4KICAgICAgICAgIDwvQ1JFRElUX0NPTU1FTlQ+CiAgICAgICAgICA8Q1JFRElUX1JFUE9TSVRPUlkgX1NvdXJjZVR5cGU9Ik1lcmdlZERhdGEiLz4KICAgICAgICA8L0NSRURJVF9MSUFCSUxJVFk+CiAgICAgICAgPENSRURJVF9MSUFCSUxJVFkgQ3JlZGl0TGlhYmlsaXR5SUQ9IlRSRDAwMDIiIF9BY2NvdW50SWRlbnRpZmllcj0iOThFNTQzMTg0IiBfQWNjb3VudE9wZW5lZERhdGU9IjIwMDgtMDIiIF9BY2NvdW50UmVwb3J0ZWREYXRlPSIyMDE2LTAyIiBfQWNjb3VudFN0YXR1c0RhdGU9IjIwMTYtMDIiIF9IaWdoQ3JlZGl0QW1vdW50PSIxMDAwIiBfTW9udGhzUmV2aWV3ZWRDb3VudD0iMjQiIF9UZXJtc0Rlc2NyaXB0aW9uPSJSRVYiIF9VbnBhaWRCYWxhbmNlQW1vdW50PSI0MzciIF9PcmlnaW5hbENyZWRpdG9yTmFtZT0iQmFua2luZyIgQm9ycm93ZXJJRD0iQm9ycm93ZXIiIENyZWRpdEZpbGVJRD0iUkIwMSIgQ3JlZGl0VHJhZGVSZWZlcmVuY2VJRD0iQ1RSMDAwMiIgX0FjY291bnRPd25lcnNoaXBUeXBlPSJJbmRpdmlkdWFsIiBfQWNjb3VudFN0YXR1c1R5cGU9Ik9wZW4iIF9BY2NvdW50VHlwZT0iUmV2b2x2aW5nIiBfRGVyb2dhdG9yeURhdGFJbmRpY2F0b3I9Ik4iIF9Nb250aGx5UGF5bWVudEFtb3VudD0iNDQiIF9UZXJtc1NvdXJjZVR5cGU9IlByb3ZpZGVkIiBDcmVkaXRMb2FuVHlwZT0iQ3JlZGl0Q2FyZCI+CiAgICAgICAgICA8X0NSRURJVE9SIF9OYW1lPSJIRU1MT0NLUyIvPgogICAgICAgICAgPF9DVVJSRU5UX1JBVElORyBfQ29kZT0iMSIgX1R5cGU9IkFzQWdyZWVkIi8+CiAgICAgICAgICA8X0xBVEVfQ09VTlQgXzMwRGF5cz0iMCIgXzYwRGF5cz0iMCIgXzkwRGF5cz0iMCIvPgogICAgICAgICAgPF9QQVlNRU5UX1BBVFRFUk4gX0RhdGE9IkNDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0MiIF9TdGFydERhdGU9IjIwMTYtMDIiLz4KICAgICAgICAgIDxDUkVESVRfQ09NTUVOVD4KICAgICAgICAgICAgPF9UZXh0Pk9QRU4gQUNDT1VOVDwvX1RleHQ+CiAgICAgICAgICA8L0NSRURJVF9DT01NRU5UPgogICAgICAgICAgPENSRURJVF9DT01NRU5UPgogICAgICAgICAgICA8X1RleHQ+VEhJUyBJUyBBTiBBQ0NPVU5UIElOIEdPT0QgU1RBTkRJTkc8L19UZXh0PgogICAgICAgICAgPC9DUkVESVRfQ09NTUVOVD4KICAgICAgICAgIDxDUkVESVRfQ09NTUVOVD4KICAgICAgICAgICAgPF9UZXh0Pk9SSUdJTkFMIENSRURJVE9SIENMQVNTSUZJQ0FUSU9OOiBCYW5raW5nPC9fVGV4dD4KICAgICAgICAgIDwvQ1JFRElUX0NPTU1FTlQ+CiAgICAgICAgICA8Q1JFRElUX0NPTU1FTlQgX1R5cGU9IkJ1cmVhdVJlbWFya3MiIF9Tb3VyY2VUeXBlPSJDcmVkaXRCdXJlYXUiPgogICAgICAgICAgICA8X1RleHQ+TEFTVCBQQUlEOjwvX1RleHQ+CiAgICAgICAgICA8L0NSRURJVF9DT01NRU5UPgogICAgICAgICAgPENSRURJVF9SRVBPU0lUT1JZIF9Tb3VyY2VUeXBlPSJNZXJnZWREYXRhIi8+CiAgICAgICAgPC9DUkVESVRfTElBQklMSVRZPgogICAgICAgIDxDUkVESVRfTElBQklMSVRZIENyZWRpdExpYWJpbGl0eUlEPSJUUkQwMDAzIiBfQWNjb3VudElkZW50aWZpZXI9Ijk4RTU0MzE4NCIgX0FjY291bnRPcGVuZWREYXRlPSIyMDA4LTA0IiBfQWNjb3VudFJlcG9ydGVkRGF0ZT0iMjAxNi0wMiIgX0FjY291bnRTdGF0dXNEYXRlPSIyMDE2LTAyIiBfQ3JlZGl0TGltaXRBbW91bnQ9IjEwMDAiIF9IaWdoQmFsYW5jZUFtb3VudD0iMTAwMCIgX0hpZ2hDcmVkaXRBbW91bnQ9IjEwMDAiIF9MYXN0QWN0aXZpdHlEYXRlPSIyMDE2LTAyIiBfTW9udGhzUmV2aWV3ZWRDb3VudD0iMjQiIF9QYXN0RHVlQW1vdW50PSIwIiBfVGVybXNEZXNjcmlwdGlvbj0iTUlOIiBfVW5wYWlkQmFsYW5jZUFtb3VudD0iNDM3IiBCb3Jyb3dlcklEPSJCb3Jyb3dlciIgQ3JlZGl0RmlsZUlEPSJUQjAxIiBDcmVkaXRUcmFkZVJlZmVyZW5jZUlEPSJDVFIwMDAzIiBfQWNjb3VudE93bmVyc2hpcFR5cGU9IkluZGl2aWR1YWwiIF9BY2NvdW50U3RhdHVzVHlwZT0iT3BlbiIgX0FjY291bnRUeXBlPSJSZXZvbHZpbmciIF9EZXJvZ2F0b3J5RGF0YUluZGljYXRvcj0iTiIgX01vbnRobHlQYXltZW50QW1vdW50PSI0NCIgX1Rlcm1zU291cmNlVHlwZT0iUHJvdmlkZWQiIENyZWRpdExvYW5UeXBlPSJDcmVkaXRDYXJkIj4KICAgICAgICAgIDxfQ1JFRElUT1IgX05hbWU9IkhFTUxPQ0tTIi8+CiAgICAgICAgICA8X0NVUlJFTlRfUkFUSU5HIF9Db2RlPSIxIiBfVHlwZT0iQXNBZ3JlZWQiLz4KICAgICAgICAgIDxfTEFURV9DT1VOVCBfMzBEYXlzPSIwIiBfNjBEYXlzPSIwIiBfOTBEYXlzPSIwIi8+CiAgICAgICAgICA8X1BBWU1FTlRfUEFUVEVSTiBfRGF0YT0iQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDIiBfU3RhcnREYXRlPSIyMDE2LTAxIi8+CiAgICAgICAgICA8Q1JFRElUX0NPTU1FTlQ+CiAgICAgICAgICAgIDxfVGV4dD5NQUtJTkcgUEFZTUVOVFMgKFBBWU1FTlQgU1RPUFBFRCwgU0lOQ0UgUkVTVU1FRCk8L19UZXh0PgogICAgICAgICAgPC9DUkVESVRfQ09NTUVOVD4KICAgICAgICAgIDxDUkVESVRfUkVQT1NJVE9SWSBfU291cmNlVHlwZT0iTWVyZ2VkRGF0YSIvPgogICAgICAgIDwvQ1JFRElUX0xJQUJJTElUWT4KICAgICAgICA8Q1JFRElUX0xJQUJJTElUWSBDcmVkaXRMaWFiaWxpdHlJRD0iVFJEMDAwNCIgX0FjY291bnRJZGVudGlmaWVyPSI0NjgxMTIzUjEiIF9BY2NvdW50T3BlbmVkRGF0ZT0iMjAwNy0wNiIgX0FjY291bnRSZXBvcnRlZERhdGU9IjIwMTYtMDIiIF9BY2NvdW50U3RhdHVzRGF0ZT0iMjAxNi0wMiIgX0NyZWRpdExpbWl0QW1vdW50PSIxNjAwIiBfSGlnaEJhbGFuY2VBbW91bnQ9IjE2MDAiIF9IaWdoQ3JlZGl0QW1vdW50PSIxNjAwIiBfTGFzdEFjdGl2aXR5RGF0ZT0iMjAxNi0wMiIgX01vbnRoc1Jldmlld2VkQ291bnQ9IjYwIiBfUGFzdER1ZUFtb3VudD0iMCIgX1VucGFpZEJhbGFuY2VBbW91bnQ9IjAiIEJvcnJvd2VySUQ9IkJvcnJvd2VyIiBDcmVkaXRGaWxlSUQ9IlRCMDEiIENyZWRpdFRyYWRlUmVmZXJlbmNlSUQ9IkNUUjAwMDQiIF9BY2NvdW50T3duZXJzaGlwVHlwZT0iSW5kaXZpZHVhbCIgX0FjY291bnRTdGF0dXNUeXBlPSJPcGVuIiBfQWNjb3VudFR5cGU9IlJldm9sdmluZyIgX0Rlcm9nYXRvcnlEYXRhSW5kaWNhdG9yPSJZIiBfVGVybXNEZXNjcmlwdGlvbj0iTU9OVEhMWSIgQ3JlZGl0TG9hblR5cGU9IkNyZWRpdENhcmQiPgogICAgICAgICAgPF9DUkVESVRPUiBfTmFtZT0iQkFZIENPTVBBTlkiLz4KICAgICAgICAgIDxfQ1VSUkVOVF9SQVRJTkcgX0NvZGU9IjEiIF9UeXBlPSJBc0FncmVlZCIvPgogICAgICAgICAgPF9ISUdIRVNUX0FEVkVSU0VfUkFUSU5HIF9Db2RlPSIyIiBfRGF0ZT0iMjAxMy0wNiIgX1R5cGU9IkxhdGU2MERheXMiLz4KICAgICAgICAgIDxfTEFURV9DT1VOVCBfMzBEYXlzPSIyIiBfNjBEYXlzPSIxIiBfOTBEYXlzPSIxIi8+CiAgICAgICAgICA8X01PU1RfUkVDRU5UX0FEVkVSU0VfUkFUSU5HIF9Db2RlPSIyIiBfRGF0ZT0iMjAxMy0wNiIgX1R5cGU9IkxhdGU2MERheXMiLz4KICAgICAgICAgIDxfUEFZTUVOVF9QQVRURVJOIF9EYXRhPSJDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDMjFDMSIgX1N0YXJ0RGF0ZT0iMjAxNi0wMSIvPgogICAgICAgICAgPF9QUklPUl9BRFZFUlNFX1JBVElORyBfQ29kZT0iMyIgX1R5cGU9IkxhdGU2MERheXMiIF9EYXRlPSIyMDEzLTA2Ii8+CiAgICAgICAgICA8X1BSSU9SX0FEVkVSU0VfUkFUSU5HIF9Db2RlPSIyIiBfVHlwZT0iTGF0ZTMwRGF5cyIgX0RhdGU9IjIwMTMtMDUiLz4KICAgICAgICAgIDxfUFJJT1JfQURWRVJTRV9SQVRJTkcgX0NvZGU9IjIiIF9UeXBlPSJMYXRlMzBEYXlzIiBfRGF0ZT0iMjAxMy0wMyIvPgogICAgICAgICAgPENSRURJVF9DT01NRU5UPgogICAgICAgICAgICA8X1RleHQ+TEFTVCBSRVBPUlRFRCBERUxJTlFVRU5DSUVTOiAwNi8yMDEzPVIzLDA1LzIwMTM9UjIsMDMvMjAxMz1SMjwvX1RleHQ+CiAgICAgICAgICA8L0NSRURJVF9DT01NRU5UPgogICAgICAgICAgPENSRURJVF9DT01NRU5UPgogICAgICAgICAgICA8X1RleHQ+TUFLSU5HIFBBWU1FTlRTIChQQVlNRU5UIFNUT1BQRUQsIFNJTkNFIFJFU1VNRUQpPC9fVGV4dD4KICAgICAgICAgIDwvQ1JFRElUX0NPTU1FTlQ+CiAgICAgICAgICA8Q1JFRElUX1JFUE9TSVRPUlkgX1NvdXJjZVR5cGU9Ik1lcmdlZERhdGEiLz4KICAgICAgICA8L0NSRURJVF9MSUFCSUxJVFk+CiAgICAgICAgPENSRURJVF9MSUFCSUxJVFkgQ3JlZGl0TGlhYmlsaXR5SUQ9IlRSRDAwMDUiIF9BY2NvdW50SWRlbnRpZmllcj0iMTU5MDM0NTg1OTQwMyIgX0FjY291bnRPcGVuZWREYXRlPSIyMDA4LTA2IiBfQWNjb3VudFJlcG9ydGVkRGF0ZT0iMjAxMy0wNyIgX0FjY291bnRTdGF0dXNEYXRlPSIyMDEzLTA3IiBfQ3JlZGl0TGltaXRBbW91bnQ9IjkwMDAiIF9IaWdoQmFsYW5jZUFtb3VudD0iOTAwMCIgX0hpZ2hDcmVkaXRBbW91bnQ9IjkwMDAiIF9MYXN0QWN0aXZpdHlEYXRlPSIyMDE2LTAyIiBfTW9udGhzUmV2aWV3ZWRDb3VudD0iNTEiIF9QYXN0RHVlQW1vdW50PSIwIiBfVW5wYWlkQmFsYW5jZUFtb3VudD0iMCIgQm9ycm93ZXJJRD0iQm9ycm93ZXIiIENyZWRpdEZpbGVJRD0iVEIwMSBDQjAxIiBDcmVkaXRUcmFkZVJlZmVyZW5jZUlEPSJDVFIwMDA1IiBfQWNjb3VudE93bmVyc2hpcFR5cGU9IkluZGl2aWR1YWwiIF9BY2NvdW50U3RhdHVzVHlwZT0iQ2xvc2VkIiBfQWNjb3VudFR5cGU9Ikluc3RhbGxtZW50IiBfRGVyb2dhdG9yeURhdGFJbmRpY2F0b3I9IlkiIF9UZXJtc0Rlc2NyaXB0aW9uPSJNT05USExZIiBDcmVkaXRMb2FuVHlwZT0iVW5rbm93bkxvYW5UeXBlIj4KICAgICAgICAgIDxfQ1JFRElUT1IgX05hbWU9IkNFTlRSQUwgQkFOSyIvPgogICAgICAgICAgPF9DVVJSRU5UX1JBVElORyBfQ29kZT0iMSIgX1R5cGU9IkFzQWdyZWVkIi8+CiAgICAgICAgICA8X0hJR0hFU1RfQURWRVJTRV9SQVRJTkcgX0NvZGU9IjEiIF9EYXRlPSIyMDEyLTA4IiBfVHlwZT0iTGF0ZTMwRGF5cyIvPgogICAgICAgICAgPF9MQVRFX0NPVU5UIF8zMERheXM9IjEiIF82MERheXM9IjAiIF85MERheXM9IjAiLz4KICAgICAgICAgIDxfTU9TVF9SRUNFTlRfQURWRVJTRV9SQVRJTkcgX0NvZGU9IjEiIF9EYXRlPSIyMDEyLTA4IiBfVHlwZT0iTGF0ZTMwRGF5cyIvPgogICAgICAgICAgPF9QQVlNRU5UX1BBVFRFUk4gX0RhdGE9IkNDQ0NDQ0NDQ0NDQ0MxQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQyIgX1N0YXJ0RGF0ZT0iMjAxMy0wOSIvPgogICAgICAgICAgPF9QUklPUl9BRFZFUlNFX1JBVElORyBfQ29kZT0iMiIgX1R5cGU9IkxhdGUzMERheXMiIF9EYXRlPSIyMDEyLTA4Ii8+CiAgICAgICAgICA8Q1JFRElUX0NPTU1FTlQ+CiAgICAgICAgICAgIDxfVGV4dD5MQVNUIFJFUE9SVEVEIERFTElOUVVFTkNJRVM6IDA4LzIwMTI9STI8L19UZXh0PgogICAgICAgICAgPC9DUkVESVRfQ09NTUVOVD4KICAgICAgICAgIDxDUkVESVRfQ09NTUVOVD4KICAgICAgICAgICAgPF9UZXh0Pk1BS0lORyBQQVlNRU5UUyAoUEFZTUVOVCBTVE9QUEVELCBTSU5DRSBSRVNVTUVEKTwvX1RleHQ+CiAgICAgICAgICA8L0NSRURJVF9DT01NRU5UPgogICAgICAgICAgPENSRURJVF9SRVBPU0lUT1JZIF9Tb3VyY2VUeXBlPSJNZXJnZWREYXRhIi8+CiAgICAgICAgPC9DUkVESVRfTElBQklMSVRZPgogICAgICAgIDxDUkVESVRfTElBQklMSVRZIENyZWRpdExpYWJpbGl0eUlEPSJUUkQwMDA2IiBfQWNjb3VudElkZW50aWZpZXI9IjQ2ODExMjNSMSIgX0FjY291bnRPcGVuZWREYXRlPSIyMDA3LTA2IiBfQWNjb3VudFJlcG9ydGVkRGF0ZT0iMjAxNi0wMiIgX0FjY291bnRTdGF0dXNEYXRlPSIyMDE2LTAyIiBfSGlnaEJhbGFuY2VBbW91bnQ9IjE2MDAiIF9IaWdoQ3JlZGl0QW1vdW50PSIxNjAwIiBfTGFzdEFjdGl2aXR5RGF0ZT0iMjAxNi0wMiIgX01vbnRoc1Jldmlld2VkQ291bnQ9IjYwIiBCb3Jyb3dlcklEPSJCb3Jyb3dlciIgQ3JlZGl0RmlsZUlEPSJDQjAxIiBDcmVkaXRUcmFkZVJlZmVyZW5jZUlEPSJDVFIwMDA2IiBfQWNjb3VudE93bmVyc2hpcFR5cGU9IkluZGl2aWR1YWwiIF9BY2NvdW50U3RhdHVzVHlwZT0iT3BlbiIgX0FjY291bnRUeXBlPSJJbnN0YWxsbWVudCIgX0Rlcm9nYXRvcnlEYXRhSW5kaWNhdG9yPSJZIiBfVGVybXNEZXNjcmlwdGlvbj0iTU9OVEhMWSIgX1VucGFpZEJhbGFuY2VBbW91bnQ9IiIgQ3JlZGl0TG9hblR5cGU9IlVua25vd25Mb2FuVHlwZSI+CiAgICAgICAgICA8X0NSRURJVE9SIF9OYW1lPSJCQVkgQ09NUEFOWSIvPgogICAgICAgICAgPF9DVVJSRU5UX1JBVElORyBfQ29kZT0iMCIgX1R5cGU9IlRvb05ldyIvPgogICAgICAgICAgPF9MQVRFX0NPVU5UIF8zMERheXM9IjIiIF82MERheXM9IjEiIF85MERheXM9IjAiLz4KICAgICAgICAgIDxfUFJJT1JfQURWRVJTRV9SQVRJTkcgX0NvZGU9IjMiIF9UeXBlPSJMYXRlNjBEYXlzIiBfRGF0ZT0iMjAxMy0wNiIvPgogICAgICAgICAgPF9QUklPUl9BRFZFUlNFX1JBVElORyBfQ29kZT0iMiIgX1R5cGU9IkxhdGUzMERheXMiIF9EYXRlPSIyMDEzLTA1Ii8+CiAgICAgICAgICA8X1BSSU9SX0FEVkVSU0VfUkFUSU5HIF9Db2RlPSIyIiBfVHlwZT0iTGF0ZTMwRGF5cyIgX0RhdGU9IjIwMTMtMDMiLz4KICAgICAgICAgIDxDUkVESVRfQ09NTUVOVD4KICAgICAgICAgICAgPF9UZXh0PkxBU1QgUkVQT1JURUQgREVMSU5RVUVOQ0lFUzogMDYvMjAxMz1JMywwNS8yMDEzPUkyLDAzLzIwMTM9STI8L19UZXh0PgogICAgICAgICAgPC9DUkVESVRfQ09NTUVOVD4KICAgICAgICAgIDxDUkVESVRfUkVQT1NJVE9SWSBfU291cmNlVHlwZT0iTWVyZ2VkRGF0YSIvPgogICAgICAgIDwvQ1JFRElUX0xJQUJJTElUWT4KICAgICAgICA8Q1JFRElUX0xJQUJJTElUWSBDcmVkaXRMaWFiaWxpdHlJRD0iVFJEMDAwNyIgX0FjY291bnRJZGVudGlmaWVyPSI0NjgxMTIzUjEiIF9BY2NvdW50T3BlbmVkRGF0ZT0iMjAwNy0wNCIgX0FjY291bnRSZXBvcnRlZERhdGU9IjIwMTYtMDIiIF9BY2NvdW50U3RhdHVzRGF0ZT0iMjAxNi0wMiIgX0hpZ2hDcmVkaXRBbW91bnQ9IjE2MDAiIF9Nb250aHNSZXZpZXdlZENvdW50PSI2MCIgX1Rlcm1zRGVzY3JpcHRpb249IlJFViIgX09yaWdpbmFsQ3JlZGl0b3JOYW1lPSJCYW5raW5nIiBCb3Jyb3dlcklEPSJCb3Jyb3dlciIgQ3JlZGl0RmlsZUlEPSJSQjAxIiBDcmVkaXRUcmFkZVJlZmVyZW5jZUlEPSJDVFIwMDA3IiBfQWNjb3VudE93bmVyc2hpcFR5cGU9IkluZGl2aWR1YWwiIF9BY2NvdW50U3RhdHVzVHlwZT0iT3BlbiIgX0FjY291bnRUeXBlPSJSZXZvbHZpbmciIF9EZXJvZ2F0b3J5RGF0YUluZGljYXRvcj0iWSIgX1VucGFpZEJhbGFuY2VBbW91bnQ9IiIgQ3JlZGl0TG9hblR5cGU9IkNyZWRpdENhcmQiPgogICAgICAgICAgPF9DUkVESVRPUiBfTmFtZT0iQkFZIENPTVBBTlkiLz4KICAgICAgICAgIDxfQ1VSUkVOVF9SQVRJTkcgX0NvZGU9IjEiIF9UeXBlPSJBc0FncmVlZCIvPgogICAgICAgICAgPF9ISUdIRVNUX0FEVkVSU0VfUkFUSU5HIF9Db2RlPSIyIiBfRGF0ZT0iMjAxMy0wNSIgX1R5cGU9IkxhdGU2MERheXMiLz4KICAgICAgICAgIDxfTEFURV9DT1VOVCBfMzBEYXlzPSIyIiBfNjBEYXlzPSIxIiBfOTBEYXlzPSIwIi8+CiAgICAgICAgICA8X01PU1RfUkVDRU5UX0FEVkVSU0VfUkFUSU5HIF9Db2RlPSIyIiBfRGF0ZT0iMjAxMy0wNSIgX1R5cGU9IkxhdGU2MERheXMiLz4KICAgICAgICAgIDxfUEFZTUVOVF9QQVRURVJOIF9EYXRhPSJDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0MyMUMxIiBfU3RhcnREYXRlPSIyMDE2LTAyIi8+CiAgICAgICAgICA8X1BSSU9SX0FEVkVSU0VfUkFUSU5HIF9Db2RlPSIzIiBfVHlwZT0iTGF0ZTYwRGF5cyIgX0RhdGU9IjIwMTMtMDYiLz4KICAgICAgICAgIDxDUkVESVRfQ09NTUVOVD4KICAgICAgICAgICAgPF9UZXh0Pk9QRU4gQUNDT1VOVDwvX1RleHQ+CiAgICAgICAgICA8L0NSRURJVF9DT01NRU5UPgogICAgICAgICAgPENSRURJVF9DT01NRU5UPgogICAgICAgICAgICA8X1RleHQ+VEhJUyBJUyBBTiBBQ0NPVU5UIElOIEdPT0QgU1RBTkRJTkc8L19UZXh0PgogICAgICAgICAgPC9DUkVESVRfQ09NTUVOVD4KICAgICAgICAgIDxDUkVESVRfQ09NTUVOVD4KICAgICAgICAgICAgPF9UZXh0Pk9SSUdJTkFMIENSRURJVE9SIENMQVNTSUZJQ0FUSU9OOiBCYW5raW5nPC9fVGV4dD4KICAgICAgICAgIDwvQ1JFRElUX0NPTU1FTlQ+CiAgICAgICAgICA8Q1JFRElUX0NPTU1FTlQ+CiAgICAgICAgICAgIDxfVGV4dD5MQVNUIFJFUE9SVEVEIERFTElOUVVFTkNJRVM6IDA2LzIwMTM9UjM8L19UZXh0PgogICAgICAgICAgPC9DUkVESVRfQ09NTUVOVD4KICAgICAgICAgIDxDUkVESVRfQ09NTUVOVCBfVHlwZT0iQnVyZWF1UmVtYXJrcyIgX1NvdXJjZVR5cGU9IkNyZWRpdEJ1cmVhdSI+CiAgICAgICAgICAgIDxfVGV4dD5MQVNUIFBBSUQ6PC9fVGV4dD4KICAgICAgICAgIDwvQ1JFRElUX0NPTU1FTlQ+CiAgICAgICAgICA8Q1JFRElUX1JFUE9TSVRPUlkgX1NvdXJjZVR5cGU9Ik1lcmdlZERhdGEiLz4KICAgICAgICA8L0NSRURJVF9MSUFCSUxJVFk+CiAgICAgICAgPENSRURJVF9MSUFCSUxJVFkgQ3JlZGl0TGlhYmlsaXR5SUQ9IlRSRDAwMDgiIF9BY2NvdW50SWRlbnRpZmllcj0iMTU5MDM0NTg1OTQwMyIgX0FjY291bnRPcGVuZWREYXRlPSIyMDA4LTA0IiBfQWNjb3VudFJlcG9ydGVkRGF0ZT0iMjAxMy0wNyIgX0FjY291bnRTdGF0dXNEYXRlPSIyMDEzLTA3IiBfSGlnaEJhbGFuY2VBbW91bnQ9IjkwMDAiIF9IaWdoQ3JlZGl0QW1vdW50PSI5MDAwIiBfTW9udGhzUmV2aWV3ZWRDb3VudD0iNTEiIF9UZXJtc0Rlc2NyaXB0aW9uPSJNT05USExZIiBfT3JpZ2luYWxDcmVkaXRvck5hbWU9IkJhbmtpbmciIEJvcnJvd2VySUQ9IkJvcnJvd2VyIiBDcmVkaXRGaWxlSUQ9IlJCMDEiIENyZWRpdFRyYWRlUmVmZXJlbmNlSUQ9IkNUUjAwMDgiIF9BY2NvdW50T3duZXJzaGlwVHlwZT0iSW5kaXZpZHVhbCIgX0FjY291bnRTdGF0dXNUeXBlPSJPcGVuIiBfQWNjb3VudFR5cGU9Ikluc3RhbGxtZW50IiBfRGVyb2dhdG9yeURhdGFJbmRpY2F0b3I9IlkiIF9UZXJtc01vbnRoc0NvdW50PSI2MCIgX1VucGFpZEJhbGFuY2VBbW91bnQ9IiIgQ3JlZGl0TG9hblR5cGU9Ikluc3RhbGxtZW50TG9hbiI+CiAgICAgICAgICA8X0NSRURJVE9SIF9OYW1lPSJDRU5UUkFMIEJBTksiLz4KICAgICAgICAgIDxfQ1VSUkVOVF9SQVRJTkcgX0NvZGU9IjEiIF9UeXBlPSJBc0FncmVlZCIvPgogICAgICAgICAgPF9ISUdIRVNUX0FEVkVSU0VfUkFUSU5HIF9Db2RlPSIxIiBfRGF0ZT0iMjAxMi0wNSIgX1R5cGU9IkxhdGUzMERheXMiLz4KICAgICAgICAgIDxfTEFURV9DT1VOVCBfMzBEYXlzPSIxIiBfNjBEYXlzPSIwIiBfOTBEYXlzPSIwIi8+CiAgICAgICAgICA8X01PU1RfUkVDRU5UX0FEVkVSU0VfUkFUSU5HIF9Db2RlPSIxIiBfRGF0ZT0iMjAxMi0wNSIgX1R5cGU9IkxhdGUzMERheXMiLz4KICAgICAgICAgIDxfUEFZTUVOVF9QQVRURVJOIF9EYXRhPSJDQ0NDQ0NDQ0NDQ0NDQzFDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDIiBfU3RhcnREYXRlPSIyMDEzLTA3Ii8+CiAgICAgICAgICA8X1BSSU9SX0FEVkVSU0VfUkFUSU5HIF9Db2RlPSIyIiBfVHlwZT0iTGF0ZTMwRGF5cyIgX0RhdGU9IjIwMTItMDgiLz4KICAgICAgICAgIDxDUkVESVRfQ09NTUVOVD4KICAgICAgICAgICAgPF9UZXh0Pk9QRU4gQUNDT1VOVDwvX1RleHQ+CiAgICAgICAgICA8L0NSRURJVF9DT01NRU5UPgogICAgICAgICAgPENSRURJVF9DT01NRU5UPgogICAgICAgICAgICA8X1RleHQ+VEhJUyBJUyBBTiBBQ0NPVU5UIElOIEdPT0QgU1RBTkRJTkc8L19UZXh0PgogICAgICAgICAgPC9DUkVESVRfQ09NTUVOVD4KICAgICAgICAgIDxDUkVESVRfQ09NTUVOVD4KICAgICAgICAgICAgPF9UZXh0Pk9SSUdJTkFMIENSRURJVE9SIENMQVNTSUZJQ0FUSU9OOiBCYW5raW5nPC9fVGV4dD4KICAgICAgICAgIDwvQ1JFRElUX0NPTU1FTlQ+CiAgICAgICAgICA8Q1JFRElUX0NPTU1FTlQ+CiAgICAgICAgICAgIDxfVGV4dD5MQVNUIFJFUE9SVEVEIERFTElOUVVFTkNJRVM6IDA4LzIwMTI9STI8L19UZXh0PgogICAgICAgICAgPC9DUkVESVRfQ09NTUVOVD4KICAgICAgICAgIDxDUkVESVRfQ09NTUVOVCBfVHlwZT0iQnVyZWF1UmVtYXJrcyIgX1NvdXJjZVR5cGU9IkNyZWRpdEJ1cmVhdSI+CiAgICAgICAgICAgIDxfVGV4dD5MQVNUIFBBSUQ6PC9fVGV4dD4KICAgICAgICAgIDwvQ1JFRElUX0NPTU1FTlQ+CiAgICAgICAgICA8Q1JFRElUX1JFUE9TSVRPUlkgX1NvdXJjZVR5cGU9Ik1lcmdlZERhdGEiLz4KICAgICAgICA8L0NSRURJVF9MSUFCSUxJVFk+CiAgICAgICAgPENSRURJVF9MSUFCSUxJVFkgQ3JlZGl0TGlhYmlsaXR5SUQ9IlRSRDAwMDkiIF9BY2NvdW50SWRlbnRpZmllcj0iOThFNTQzMTg0IiBfQWNjb3VudE9wZW5lZERhdGU9IjIwMDgtMDQiIF9BY2NvdW50UmVwb3J0ZWREYXRlPSIyMDE2LTAyIiBfQWNjb3VudFN0YXR1c0RhdGU9IjIwMTYtMDIiIF9IaWdoQmFsYW5jZUFtb3VudD0iMTAwMCIgX0hpZ2hDcmVkaXRBbW91bnQ9IjEwMDAiIF9MYXN0QWN0aXZpdHlEYXRlPSIyMDE2LTAyIiBfTW9udGhzUmV2aWV3ZWRDb3VudD0iMjQiIEJvcnJvd2VySUQ9IkJvcnJvd2VyIiBDcmVkaXRGaWxlSUQ9IkNCMDEiIENyZWRpdFRyYWRlUmVmZXJlbmNlSUQ9IkNUUjAwMDkiIF9BY2NvdW50T3duZXJzaGlwVHlwZT0iSW5kaXZpZHVhbCIgX0FjY291bnRTdGF0dXNUeXBlPSJPcGVuIiBfQWNjb3VudFR5cGU9Ikluc3RhbGxtZW50IiBfRGVyb2dhdG9yeURhdGFJbmRpY2F0b3I9Ik4iIF9UZXJtc0Rlc2NyaXB0aW9uPSJNT05USExZIiBfVW5wYWlkQmFsYW5jZUFtb3VudD0iIiBDcmVkaXRMb2FuVHlwZT0iVW5rbm93bkxvYW5UeXBlIj4KICAgICAgICAgIDxfQ1JFRElUT1IgX05hbWU9IkhFTUxPQ0tTIi8+CiAgICAgICAgICA8X0NVUlJFTlRfUkFUSU5HIF9Db2RlPSIwIiBfVHlwZT0iVG9vTmV3Ii8+CiAgICAgICAgICA8X0xBVEVfQ09VTlQgXzMwRGF5cz0iMCIgXzYwRGF5cz0iMCIgXzkwRGF5cz0iMCIvPgogICAgICAgICAgPENSRURJVF9SRVBPU0lUT1JZIF9Tb3VyY2VUeXBlPSJNZXJnZWREYXRhIi8+CiAgICAgICAgPC9DUkVESVRfTElBQklMSVRZPgogICAgICAgIDxDUkVESVRfRklMRSBDcmVkaXRGaWxlSUQ9IkNCMDEiIENyZWRpdFJlcG9zaXRvcnlTb3VyY2VUeXBlPSJFcXVpZmF4IiBCb3Jyb3dlcklEPSJCb3Jyb3dlciIgQ3JlZGl0U2NvcmVJRD0iQ1JTY3IwMDAwIj4KICAgICAgICAgIDxfQUxFUlRfTUVTU0FHRSBfQ29kZT0iTiIgX0NhdGVnb3J5VHlwZT0iRkFDVEFBZGRyZXNzRGlzY3JlcGFuY3kiPgogICAgICAgICAgICA8X1RleHQ+RkFDVEE6IEFkZHJlc3MgRGlzY3JlcGFuY3kgLSBOTyBTVUJTVEFOVElBTCBESUZGRVJFTkNFIE9DQ1VSUkVELjwvX1RleHQ+CiAgICAgICAgICA8L19BTEVSVF9NRVNTQUdFPgogICAgICAgICAgPF9CT1JST1dFUiBfQmlydGhEYXRlPSIwNS8wMS8xOTYwIiBfU1NOPSI5OTA4MDAwMDgiIF9GaXJzdE5hbWU9IkFMSUNFIiBfTGFzdE5hbWU9IkZSRURESUUiIF9VbnBhcnNlZE5hbWU9IkFMSUNFIEZSRURESUUiPgogICAgICAgICAgICA8X1VucGFyc2VkQWRkcmVzcz45OTkxIFdBUkZPUkQgU1QgREFXU09OIElBIDUwMDY2LCAxMi8wMS8yMDE1PC9fVW5wYXJzZWRBZGRyZXNzPgogICAgICAgICAgICA8X1VucGFyc2VkRW1wbG95bWVudD5FTVBMT1lFUiBYLCBVTks8L19VbnBhcnNlZEVtcGxveW1lbnQ+CiAgICAgICAgICA8L19CT1JST1dFUj4KICAgICAgICAgIDxfVkFSSUFUSU9OIF9UeXBlPSJEaWZmZXJlbnRBZGRyZXNzIi8+CiAgICAgICAgICA8X1ZBUklBVElPTiBfVHlwZT0iRGlmZmVyZW50QmlydGhEYXRlIi8+CiAgICAgICAgPC9DUkVESVRfRklMRT4KICAgICAgICA8Q1JFRElUX0ZJTEUgQ3JlZGl0RmlsZUlEPSJSQjAxIiBDcmVkaXRSZXBvc2l0b3J5U291cmNlVHlwZT0iRXhwZXJpYW4iIEJvcnJvd2VySUQ9IkJvcnJvd2VyIiBDcmVkaXRTY29yZUlEPSJDUlNjcjAwMDEiPgogICAgICAgICAgPF9CT1JST1dFUiBfQmlydGhEYXRlPSIwNS8wMS8xOTYwIiBfU1NOPSI5OTA4MDAwMDgiIF9GaXJzdE5hbWU9IkFMSUNFIiBfTGFzdE5hbWU9IkZSRURESUUiIF9VbnBhcnNlZE5hbWU9IkFMSUNFIEZSRURESUUiPgogICAgICAgICAgICA8X1VucGFyc2VkRW1wbG95bWVudD5FTVBMT1lFUiBYLCAwOS8wOS8yMDEyLTA5LzA5LzIwMTI8L19VbnBhcnNlZEVtcGxveW1lbnQ+CiAgICAgICAgICA8L19CT1JST1dFUj4KICAgICAgICAgIDxfVkFSSUFUSU9OIF9UeXBlPSJEaWZmZXJlbnRCaXJ0aERhdGUiLz4KICAgICAgICA8L0NSRURJVF9GSUxFPgogICAgICAgIDxDUkVESVRfRklMRSBDcmVkaXRGaWxlSUQ9IlRCMDEiIENyZWRpdFJlcG9zaXRvcnlTb3VyY2VUeXBlPSJUcmFuc1VuaW9uIiBCb3Jyb3dlcklEPSJCb3Jyb3dlciIgQ3JlZGl0U2NvcmVJRD0iQ1JTY3IwMDAyIj4KICAgICAgICAgIDxfQk9SUk9XRVIgX0JpcnRoRGF0ZT0iMDUvMDEvMTk2MCIgX1NTTj0iOTkwODAwMDA4IiBfRmlyc3ROYW1lPSJBTElDRSIgX0xhc3ROYW1lPSJGUkVERElFIiBfVW5wYXJzZWROYW1lPSJBTElDRSBGUkVERElFIj4KICAgICAgICAgICAgPF9VbnBhcnNlZEVtcGxveW1lbnQ+RU1QTE9ZRVIgWCwgVU5LPC9fVW5wYXJzZWRFbXBsb3ltZW50PgogICAgICAgICAgPC9fQk9SUk9XRVI+CiAgICAgICAgICA8X1ZBUklBVElPTiBfVHlwZT0iRGlmZmVyZW50QmlydGhEYXRlIi8+CiAgICAgICAgPC9DUkVESVRfRklMRT4KICAgICAgICA8Q1JFRElUX1NDT1JFIENyZWRpdFNjb3JlSUQ9IkNSU2NyMDAwMCIgQm9ycm93ZXJJRD0iQm9ycm93ZXIiIENyZWRpdEZpbGVJRD0iQ0IwMSIgQ3JlZGl0UmVwb3J0SWRlbnRpZmllcj0iVlM3SlMwIiBDcmVkaXRSZXBvc2l0b3J5U291cmNlVHlwZT0iRXF1aWZheCIgX01vZGVsTmFtZVR5cGU9IkVxdWlmYXhCZWFjb24iIF9WYWx1ZT0iMDA3MTUiIF9EYXRlPSIyMDE2LTA4LTAxIi8+CiAgICAgICAgPENSRURJVF9TQ09SRSBDcmVkaXRTY29yZUlEPSJDUlNjcjAwMDEiIEJvcnJvd2VySUQ9IkJvcnJvd2VyIiBDcmVkaXRGaWxlSUQ9IlJCMDEiIENyZWRpdFJlcG9ydElkZW50aWZpZXI9IlZTN0pTMCIgQ3JlZGl0UmVwb3NpdG9yeVNvdXJjZVR5cGU9IkV4cGVyaWFuIiBfTW9kZWxOYW1lVHlwZT0iRXhwZXJpYW5GYWlySXNhYWMiIF9WYWx1ZT0iMDcwMyIgX0RhdGU9IjIwMTYtMDEtMDEiLz4KICAgICAgICA8Q1JFRElUX1NDT1JFIENyZWRpdFNjb3JlSUQ9IkNSU2NyMDAwMiIgQm9ycm93ZXJJRD0iQm9ycm93ZXIiIENyZWRpdEZpbGVJRD0iVEIwMSIgQ3JlZGl0UmVwb3J0SWRlbnRpZmllcj0iVlM3SlMwIiBDcmVkaXRSZXBvc2l0b3J5U291cmNlVHlwZT0iVHJhbnNVbmlvbiIgX01vZGVsTmFtZVR5cGU9Ik90aGVyIiBfTW9kZWxOYW1lVHlwZU90aGVyRGVzY3JpcHRpb249IkZJQ09SaXNrU2NvcmVDbGFzc2ljMDQiIF9WYWx1ZT0iMDA3MTAiIF9EYXRlPSIyMDE2LTAxLTAxIi8+CiAgICAgICAgPENSRURJVF9UUkFERV9SRUZFUkVOQ0UgQ3JlZGl0VHJhZGVSZWZlcmVuY2VJRD0iQ1RSMDAwMCIgX05hbWU9Ik1PVU5UQUlOIEJBTksiPgogICAgICAgICAgPENSRURJVF9SRVBPU0lUT1JZIF9Tb3VyY2VUeXBlPSJNZXJnZWREYXRhIi8+CiAgICAgICAgPC9DUkVESVRfVFJBREVfUkVGRVJFTkNFPgogICAgICAgIDxDUkVESVRfVFJBREVfUkVGRVJFTkNFIENyZWRpdFRyYWRlUmVmZXJlbmNlSUQ9IkNUUjAwMDEiIF9OYW1lPSJNT1VOVEFJTiBCQU5LIj4KICAgICAgICAgIDxDUkVESVRfUkVQT1NJVE9SWSBfU291cmNlVHlwZT0iTWVyZ2VkRGF0YSIvPgogICAgICAgIDwvQ1JFRElUX1RSQURFX1JFRkVSRU5DRT4KICAgICAgICA8Q1JFRElUX1RSQURFX1JFRkVSRU5DRSBDcmVkaXRUcmFkZVJlZmVyZW5jZUlEPSJDVFIwMDAyIiBfTmFtZT0iSEVNTE9DS1MiPgogICAgICAgICAgPENSRURJVF9SRVBPU0lUT1JZIF9Tb3VyY2VUeXBlPSJNZXJnZWREYXRhIi8+CiAgICAgICAgPC9DUkVESVRfVFJBREVfUkVGRVJFTkNFPgogICAgICAgIDxDUkVESVRfVFJBREVfUkVGRVJFTkNFIENyZWRpdFRyYWRlUmVmZXJlbmNlSUQ9IkNUUjAwMDMiIF9OYW1lPSJIRU1MT0NLUyI+CiAgICAgICAgICA8Q1JFRElUX1JFUE9TSVRPUlkgX1NvdXJjZVR5cGU9Ik1lcmdlZERhdGEiLz4KICAgICAgICA8L0NSRURJVF9UUkFERV9SRUZFUkVOQ0U+CiAgICAgICAgPENSRURJVF9UUkFERV9SRUZFUkVOQ0UgQ3JlZGl0VHJhZGVSZWZlcmVuY2VJRD0iQ1RSMDAwNCIgX05hbWU9IkJBWSBDT01QQU5ZIj4KICAgICAgICAgIDxDUkVESVRfUkVQT1NJVE9SWSBfU291cmNlVHlwZT0iTWVyZ2VkRGF0YSIvPgogICAgICAgIDwvQ1JFRElUX1RSQURFX1JFRkVSRU5DRT4KICAgICAgICA8Q1JFRElUX1RSQURFX1JFRkVSRU5DRSBDcmVkaXRUcmFkZVJlZmVyZW5jZUlEPSJDVFIwMDA1IiBfTmFtZT0iQ0VOVFJBTCBCQU5LIj4KICAgICAgICAgIDxDUkVESVRfUkVQT1NJVE9SWSBfU291cmNlVHlwZT0iTWVyZ2VkRGF0YSIvPgogICAgICAgIDwvQ1JFRElUX1RSQURFX1JFRkVSRU5DRT4KICAgICAgICA8Q1JFRElUX1RSQURFX1JFRkVSRU5DRSBDcmVkaXRUcmFkZVJlZmVyZW5jZUlEPSJDVFIwMDA2IiBfTmFtZT0iQkFZIENPTVBBTlkiPgogICAgICAgICAgPENSRURJVF9SRVBPU0lUT1JZIF9Tb3VyY2VUeXBlPSJNZXJnZWREYXRhIi8+CiAgICAgICAgPC9DUkVESVRfVFJBREVfUkVGRVJFTkNFPgogICAgICAgIDxDUkVESVRfVFJBREVfUkVGRVJFTkNFIENyZWRpdFRyYWRlUmVmZXJlbmNlSUQ9IkNUUjAwMDciIF9OYW1lPSJCQVkgQ09NUEFOWSI+CiAgICAgICAgICA8Q1JFRElUX1JFUE9TSVRPUlkgX1NvdXJjZVR5cGU9Ik1lcmdlZERhdGEiLz4KICAgICAgICA8L0NSRURJVF9UUkFERV9SRUZFUkVOQ0U+CiAgICAgICAgPENSRURJVF9UUkFERV9SRUZFUkVOQ0UgQ3JlZGl0VHJhZGVSZWZlcmVuY2VJRD0iQ1RSMDAwOCIgX05hbWU9IkNFTlRSQUwgQkFOSyI+CiAgICAgICAgICA8Q1JFRElUX1JFUE9TSVRPUlkgX1NvdXJjZVR5cGU9Ik1lcmdlZERhdGEiLz4KICAgICAgICA8L0NSRURJVF9UUkFERV9SRUZFUkVOQ0U+CiAgICAgICAgPENSRURJVF9UUkFERV9SRUZFUkVOQ0UgQ3JlZGl0VHJhZGVSZWZlcmVuY2VJRD0iQ1RSMDAwOSIgX05hbWU9IkhFTUxPQ0tTIj4KICAgICAgICAgIDxDUkVESVRfUkVQT1NJVE9SWSBfU291cmNlVHlwZT0iTWVyZ2VkRGF0YSIvPgogICAgICAgIDwvQ1JFRElUX1RSQURFX1JFRkVSRU5DRT4KICAgICAgICA8Q1JFRElUX0NPTU1FTlQgX1NvdXJjZVR5cGU9IkVxdWlmYXgiPgogICAgICAgICAgPF9UZXh0PkFERFJFU1MgRElTQ1JFUEFOQ1k6KE4pIE5PIFNVQlNUQU5USUFMIERJRkZFUkVOQ0UgT0NDVVJSRUQ8L19UZXh0PgogICAgICAgIDwvQ1JFRElUX0NPTU1FTlQ+CiAgICAgICAgPENSRURJVF9DT01NRU5UIF9Tb3VyY2VUeXBlPSJFcXVpZmF4Ij4KICAgICAgICAgIDxfVGV4dD5DUkVESVQgUkVQT1JUIFNTTjogOTkwODAwMDA4PC9fVGV4dD4KICAgICAgICA8L0NSRURJVF9DT01NRU5UPgogICAgICAgIDxDUkVESVRfQ09NTUVOVCBfU291cmNlVHlwZT0iRXF1aWZheCI+CiAgICAgICAgICA8X1RleHQ+Q1JFRElUIFJFUE9SVCBTU04gQ09ORklSTUVEOiBZPC9fVGV4dD4KICAgICAgICA8L0NSRURJVF9DT01NRU5UPgogICAgICAgIDxDUkVESVRfQ09NTUVOVCBfU291cmNlVHlwZT0iRXF1aWZheCI+CiAgICAgICAgICA8X1RleHQ+SU5RVUlSWSBTU046IDk5MDgwMDAwODwvX1RleHQ+CiAgICAgICAgPC9DUkVESVRfQ09NTUVOVD4KICAgICAgICA8Q1JFRElUX0NPTU1FTlQgX1NvdXJjZVR5cGU9IkVxdWlmYXgiPgogICAgICAgICAgPF9UZXh0PklOUVVJUlkgU1NOIERBVEUgSVNTVUVEOiAyMDExPC9fVGV4dD4KICAgICAgICA8L0NSRURJVF9DT01NRU5UPgogICAgICAgIDxDUkVESVRfQ09NTUVOVCBfU291cmNlVHlwZT0iRXF1aWZheCI+CiAgICAgICAgICA8X1RleHQ+SU5RVUlSWSBTU04gU1RBVEUgSVNTVUVEOiBHQTwvX1RleHQ+CiAgICAgICAgPC9DUkVESVRfQ09NTUVOVD4KICAgICAgICA8Q1JFRElUX0NPTU1FTlQgX1NvdXJjZVR5cGU9IkVxdWlmYXgiPgogICAgICAgICAgPF9UZXh0PlNTTiBNQVRDSCBJTkRJQ0FUT1I6IFlZWVlZWVlZWTwvX1RleHQ+CiAgICAgICAgPC9DUkVESVRfQ09NTUVOVD4KICAgICAgICA8Q1JFRElUX0NPTU1FTlQgX1NvdXJjZVR5cGU9IkV4cGVyaWFuIj4KICAgICAgICAgIDxfVGV4dD5ESVNQTEFZRUQgU1NOIElTIFRIRSBTQU1FIEFTIElOUVVJUlkgU1NOPC9fVGV4dD4KICAgICAgICA8L0NSRURJVF9DT01NRU5UPgogICAgICAgIDxDUkVESVRfQ09NTUVOVCBfU291cmNlVHlwZT0iRXhwZXJpYW4iPgogICAgICAgICAgPF9UZXh0PlNTTiBNQVRDSCBJTkRJQ0FUT1I6IFlZWVlZWVlZWTwvX1RleHQ+CiAgICAgICAgPC9DUkVESVRfQ09NTUVOVD4KICAgICAgICA8Q1JFRElUX0NPTU1FTlQgX1NvdXJjZVR5cGU9IlRyYW5zVW5pb24iPgogICAgICAgICAgPF9UZXh0PjA1IC0gRXhhY3QgbWF0Y2ggYmV0d2VlbiBTU04gb24gaW5wdXQgYW5kIFNTTiBvbiBmaWxlPC9fVGV4dD4KICAgICAgICA8L0NSRURJVF9DT01NRU5UPgogICAgICAgIDxDUkVESVRfQ09NTUVOVCBfU291cmNlVHlwZT0iRXF1aWZheCI+CiAgICAgICAgICA8X1RleHQ+Qk9SUk9XRVI6ICAgU1NOIElTU1VFIFNUQVRFOkdBIFNTTiBJU1NVRSBEQVRFOiAyMDExPC9fVGV4dD4KICAgICAgICA8L0NSRURJVF9DT01NRU5UPgogICAgICAgIDxDUkVESVRfQ09NTUVOVCBfQ29kZT0iT0ZBQyIgX1NvdXJjZVR5cGU9IkVxdWlmYXgiPgogICAgICAgICAgPF9UZXh0PkNPTVBMSUFOQ0UgREFUQSBDRU5URVIsIElOQyAtIEVRVUlGQVg8L19UZXh0PgogICAgICAgICAgPF9UZXh0PkFMSUNFIEZSRURESUU8L19UZXh0PgogICAgICAgICAgPF9UZXh0Pk5PIE1BVENIIEZPVU5EIElOIFRIRSBDREMnUyBPRkFDIERBVEFCQVNFLjwvX1RleHQ+CiAgICAgICAgICA8X1RleHQ+RW5kIG9mIHJlcG9ydCwgQ09NUExJQU5DRSBEQVRBIENFTlRFUiwgSU5DLiAtIEVRVUlGQVg8L19UZXh0PgogICAgICAgIDwvQ1JFRElUX0NPTU1FTlQ+CiAgICAgICAgPEVNQkVEREVEX0ZJTEUgX1R5cGU9IlBSSU5UIiBfTmFtZT0iVlM3SlMwIiBfRXh0ZW5zaW9uPSJUWFQiPgogICAgICAgICAgPERPQ1VNRU5UPjwhW0NEQVRBW0VRVUlGQVggTU9SVEdBR0UgU09MVVRJT05TICAgICAgICAgICAgICAgIE9SREVSIE5VTUJFUjogVlM3SlMwICAgICBQYWdlOiAxDQogICAgODE1IEVBU1QgR0FURSBEUixTVUlURSAxMDIgICAgICAgICAgIFJFUE9TSVRPUlkgU09VUkNFOiBFRlggWFBOIFRVDQogICAgTU9VTlQgTEFVUkVMLCBOSiAwODA1NCAgICAgICAgICAgICAgICAgICAgICAgIERBVEUgT1JEOiAxMi8xMS8yMDIwDQogICAgUEhPTkU6ICg4MDApMzMzLTAwMzcgRkFYOiAoODAwKTY3OC03MDc5ICAgICAgIERBVEUgREVMOiAwMS8wOC8yMDIxDQogIFJFUE9SVCBQUkVQQVJFRCBGT1I6ICAgICAgICAgICAgICAgICAgICAgICAgIExPQU4gTlVNQkVSOiBMUEFfREVNTw0KICAgIEVMTElFIE1BRSBGTUFDIFVBVCBURVNUICAgICAgICAgICAgIElORElWL0pPSU5UIFJFUE9SVDogSU5ESVZJRFVBTA0KICAgIDQ0MjAgUk9TRVdPT0QgRFIgU1RFIDUwMCAgICAgICAgICAgICAgICAgICAgICAgICBQUklDRTogMC4wMQ0KICAgIFBMRUFTQU5UT04sIENBIDk0NTg4ICAgICAgICAgICAgICAgICAgICBBQ0NPVU5UIE5VTUJFUjogOTk5Rk03MzExMw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgT1JERVJFRCBCWTogQWRtaW4gVXNlcg0KDQogIFJFUE9SVCBUWVBFOiBNRVJHRUQgQ1JFRElUIElORklMRSBSRVBPUlQNCg0KDQogICBCT1JST1dFUidTIElORk9STUFUSU9ODQogIE5BTUU6IEFMSUNFIEZSRURESUUNCiAgU1NOOiA5OTAtODAtMDAwOCAgICAgICAgQUdFOiAyNg0KDQogICBDTy1CT1JST1dFUidTIElORk9STUFUSU9ODQogIE5BTUU6DQogIFNTTjogICAgICAgICAgICAgICAgICAgIEFHRToNCg0KICAgICAgICAgICAgICAgICAgICAgICAgLS0tLSBWQUxVRSBBRERFRCBQUk9EVUNUUyAtLS0tDQoNCg0KICBCRUFDT04gNS4wIEZBQ1RBIFNDT1JFIEZPUiBBTElDRSBTU046OTkwODAwMDA4IFNDT1JFPTAwNzE1ICAgICAgICAgICBFQ0lTLTAxDQogIFNDT1JFIFJBTkdFOiAgICAgICAgICAgICAgICAgUkJQIFBFUkNFTlRBR0U6ICUNCg0KDQogIEZBSVIgSVNBQUMgTU9ERUwgU0NPUkUgRk9SIEFMSUNFIFNTTjo5OTA4MDAwMDggU0NPUkU9KzA3MDMgICAgICAgICAgIFhQTi0wMQ0KICBTQ09SRSBSQU5HRTogICAgICAgICAgICAgICAgIFJCUCBQRVJDRU5UQUdFOiAlDQoNCg0KICBGSUNPIFJJU0sgU0NPUkUsIENMQVNTSUMgRk9SIEFMSUNFIFNTTjo5OTA4MDAwMDggU0NPUkU9MDA3MTAgICAgICAgICBUVS0wMQ0KICBTQ09SRSBSQU5HRTogICAgICAgICAgICAgICAgIFJCUCBQRVJDRU5UQUdFOiAlDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KICAgIEVRVUlGQVggTU9SVEdBR0UgU09MVVRJT05TICAgICAgICAgICAgICAgIE9SREVSIE5VTUJFUjogVlM3SlMwICAgICBQYWdlOiAxDQogICAgODE1IEVBU1QgR0FURSBEUixTVUlURSAxMDIgICAgICAgICAgIFJFUE9TSVRPUlkgU09VUkNFOiBFRlggWFBOIFRVDQogICAgTU9VTlQgTEFVUkVMLCBOSiAwODA1NCAgICAgICAgICAgICAgICAgICAgICAgIERBVEUgT1JEOiAxMi8xMS8yMDIwDQogICAgUEhPTkU6ICg4MDApMzMzLTAwMzcgRkFYOiAoODAwKTY3OC03MDc5ICAgICAgIERBVEUgREVMOiAwMS8wOC8yMDIxDQogIFJFUE9SVCBQUkVQQVJFRCBGT1I6ICAgICAgICAgICAgICAgICAgICAgICAgIExPQU4gTlVNQkVSOiBMUEFfREVNTw0KICAgIEVMTElFIE1BRSBGTUFDIFVBVCBURVNUICAgICAgICAgICAgIElORElWL0pPSU5UIFJFUE9SVDogSU5ESVZJRFVBTA0KICAgIDQ0MjAgUk9TRVdPT0QgRFIgU1RFIDUwMCAgICAgICAgICAgICAgICAgICAgICAgICBQUklDRTogMC4wMQ0KICAgIFBMRUFTQU5UT04sIENBIDk0NTg4ICAgICAgICAgICAgICAgICAgICBBQ0NPVU5UIE5VTUJFUjogOTk5Rk03MzExMw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgT1JERVJFRCBCWTogQWRtaW4gVXNlcg0KDQoNCg0KICAgQk9SUk9XRVInUyBJTkZPUk1BVElPTg0KICBOQU1FOiBBTElDRSBGUkVERElFDQogIFNTTjogOTkwLTgwLTAwMDggICAgICAgIEFHRTogMjYNCg0KICAgQ08tQk9SUk9XRVInUyBJTkZPUk1BVElPTg0KICBOQU1FOg0KICBTU046ICAgICAgICAgICAgICAgICAgICBBR0U6DQoNCg0KICAgICAgICAgICAgICAgICAgICAgICAgQURWRVJTRSBTVU1NQVJZIElORk9STUFUSU9ODQoNCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KDQoNCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KICAgIENSRURJVCBHUkFOVE9SICAgICBEQVRFICAgIExBU1QgRFQgIENSRURJVCBMTVQgQkFMQU5DRSBDVVJSIEhJU1RPUlkNCiAgICBBQ0NPVU5UIE5VTUJFUiAgICAgT1BFTkVEICBSRVBPUlREICAgSEkgQ1JFRElUICAgT1dJTkcgUkFURSAzMCA2MCA5MA0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQoNCiAgMSAgQkFZIENPTVBBTlkgICAgICAgMDYvMjAwNyAwMi8yMDE2ICAgICAgMTYwMCAgICAgICAgMCAgUjEgICAyICAxICAxDQogICAgIDQ2ODExMjNSMSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDE2MDAgICAgICAgICAgIFRFUk1TPQ0KICAgICBNUj02MCAgRUNPQT1JICBCIC8gVFU9MDEgRExBPTAyLzIwMTYNCiAgICAgUERBPTAgREVMIERBVEVTPSAwNi8yMDEzPVIzLDA1LzIwMTM9UjIsMDMvMjAxMz1SMg0KICAgICBQUCBTVEFSVCBEVD0gMDEvMjAxNiBQUD0xMTExMTExMTExMTExMTExMTExMTExMTENCiAgICAgVFlQRSBPRiBMT0FOOiBDUkVESVQgQ0FSRCAvIENIQVJHRSBBQ0NPVU5UDQogICAgIE1BS0lORyBQQVlNRU5UUyAoUEFZTUVOVCBTVE9QUEVELCBTSU5DRSBSRVNVTUVEKQ0KDQogIDIgIENFTlRSQUwgQkFOSyAgICAgIDA2LzIwMDggMDcvMjAxMyAgICAgIDkwMDAgICAgICAgIDAgIEkxICAgMSAgMCAgMA0KICAgICAxNTkwMzQ1ODU5NDAzICAgICAgICAgICAgICAgICAgICAgICAgICA5MDAwICAgICAgICAgICBURVJNUz0NCiAgICAgTVI9NTEgIEVDT0E9SSAgQiAvIFRVPTAxLEVGWD0wMSBETEE9MDIvMjAxNg0KICAgICBQREE9MCBERUwgREFURVM9IDA4LzIwMTI9STINCiAgICAgUFAgU1RBUlQgRFQ9IDA5LzIwMTMgUFA9MTExMTExMTExMTExMTIxMTExMTExMTExDQogICAgIE1BS0lORyBQQVlNRU5UUyAoUEFZTUVOVCBTVE9QUEVELCBTSU5DRSBSRVNVTUVEKQ0KDQogIDMgIEJBWSBDT01QQU5ZICAgICAgIDA2LzIwMDcgMDIvMjAxNiAgICAgICBVTksgICAgICAgICAgIEkwICAgMiAgMSAgMA0KICAgICA0NjgxMTIzUjEgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxNjAwICAgICAgICAgICBURVJNUz0NCiAgICAgTVI9NjAgIEVDT0E9SSAgQiAvIEVGWD0wMSBETEE9MDIvMjAxNg0KICAgICBERUwgREFURVM9IDA2LzIwMTM9STMsMDUvMjAxMz1JMiwwMy8yMDEzPUkyDQoNCg0KDQoNCg0KDQoNCkFMSUNFIEZSRURESUUgICAgICAgICAgICAgICAgICA5OTAtODAtMDAwOCAgICAgICAgICAgICAgICAoVlM3SlMwKSBQYWdlICAgICAgMg0KTFBBX0RFTU8NCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQoNCg0KDQoNCg0KDQoNCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KICAgIENSRURJVCBHUkFOVE9SICAgICBEQVRFICAgIExBU1QgRFQgIENSRURJVCBMTVQgQkFMQU5DRSBDVVJSIEhJU1RPUlkNCiAgICBBQ0NPVU5UIE5VTUJFUiAgICAgT1BFTkVEICBSRVBPUlREICAgSEkgQ1JFRElUICAgT1dJTkcgUkFURSAzMCA2MCA5MA0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQoNCiAgNCAgQkFZIENPTVBBTlkgICAgICAgMDQvMjAwNyAwMi8yMDE2ICAgICAgIFVOSyAgICAgICAgICAgUjEgICAyICAxICAwDQogICAgIDQ2ODExMjNSMSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDE2MDAgICAgICAgICAgIFRFUk1TPVJFVg0KICAgICBNUj02MCAgRUNPQT1JICBCIC8gWFBOPTAxDQogICAgIERFTCBEQVRFUz0gMDYvMjAxMz1SMw0KICAgICBQUCBTVEFSVCBEVD0gMDIvMjAxNiBQUD0xMTExMTExMTExMTExMTExMTExMTExMTENCiAgICAgVFlQRSBPRiBMT0FOOiBDUkVESVQgQ0FSRCAvIENIQVJHRSBBQ0NPVU5UDQogICAgIE9QRU4gQUNDT1VOVDsgVEhJUyBJUyBBTiBBQ0NPVU5UIElOIEdPT0QgU1RBTkRJTkc7IE9SSUdJTkFMIENSRURJVE9SDQogICAgIENMQVNTSUZJQ0FUSU9OOiBCYW5raW5nOyBMQVNUIFBBSUQ6DQoNCiAgNSAgQ0VOVFJBTCBCQU5LICAgICAgMDQvMjAwOCAwNy8yMDEzICAgICAgIFVOSyAgICAgICAgICAgSTEgICAxICAwICAwDQogICAgIDE1OTAzNDU4NTk0MDMgICAgICAgICAgICAgICAgICAgICAgICAgIDkwMDAgICAgICAgICAgIFRFUk1TPTYwTQ0KICAgICBNUj01MSAgRUNPQT1JICBCIC8gWFBOPTAxDQogICAgIERFTCBEQVRFUz0gMDgvMjAxMj1JMg0KICAgICBQUCBTVEFSVCBEVD0gMDcvMjAxMyBQUD0xMTExMTExMTExMTExMTIxMTExMTExMTENCiAgICAgVFlQRSBPRiBMT0FOOiBJTlNUQUxMTUVOVCBMT0FODQogICAgIE9QRU4gQUNDT1VOVDsgVEhJUyBJUyBBTiBBQ0NPVU5UIElOIEdPT0QgU1RBTkRJTkc7IE9SSUdJTkFMIENSRURJVE9SDQogICAgIENMQVNTSUZJQ0FUSU9OOiBCYW5raW5nOyBMQVNUIFBBSUQ6DQoNCg0KIE5PIFBVQkxJQyBSRUNPUkRTIEZPVU5EDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQogICAgRVFVSUZBWCBNT1JUR0FHRSBTT0xVVElPTlMgICAgICAgICAgICAgICAgT1JERVIgTlVNQkVSOiBWUzdKUzAgICAgIFBhZ2U6IDENCiAgICA4MTUgRUFTVCBHQVRFIERSLFNVSVRFIDEwMiAgICAgICAgICAgUkVQT1NJVE9SWSBTT1VSQ0U6IEVGWCBYUE4gVFUNCiAgICBNT1VOVCBMQVVSRUwsIE5KIDA4MDU0ICAgICAgICAgICAgICAgICAgICAgICAgREFURSBPUkQ6IDEyLzExLzIwMjANCiAgICBQSE9ORTogKDgwMCkzMzMtMDAzNyBGQVg6ICg4MDApNjc4LTcwNzkgICAgICAgREFURSBERUw6IDAxLzA4LzIwMjENCiAgUkVQT1JUIFBSRVBBUkVEIEZPUjogICAgICAgICAgICAgICAgICAgICAgICAgTE9BTiBOVU1CRVI6IExQQV9ERU1PDQogICAgRUxMSUUgTUFFIEZNQUMgVUFUIFRFU1QgICAgICAgICAgICAgSU5ESVYvSk9JTlQgUkVQT1JUOiBJTkRJVklEVUFMDQogICAgNDQyMCBST1NFV09PRCBEUiBTVEUgNTAwICAgICAgICAgICAgICAgICAgICAgICAgIFBSSUNFOiAwLjAxDQogICAgUExFQVNBTlRPTiwgQ0EgOTQ1ODggICAgICAgICAgICAgICAgICAgIEFDQ09VTlQgTlVNQkVSOiA5OTlGTTczMTEzDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBPUkRFUkVEIEJZOiBBZG1pbiBVc2VyDQoNCg0KDQoNCiAgIEJPUlJPV0VSJ1MgSU5GT1JNQVRJT04NCiAgTkFNRTogQUxJQ0UgRlJFRERJRQ0KICBTU046IDk5MC04MC0wMDA4ICAgICAgICBBR0U6IDI2DQoNCiAgIENPLUJPUlJPV0VSJ1MgSU5GT1JNQVRJT04NCiAgTkFNRToNCiAgU1NOOiAgICAgICAgICAgICAgICAgICAgQUdFOg0KICBDVVJSRU5UIEFERFJFU1M6IDk5OTEgV0FSRk9SRCBTVFJFRVQgREFXU09OIElBIDUwMDY2DQogIFBSRVZJT1VTIEFERFJFU1M6IDE1OCAyMVNUIFNUUkVFVCBEQVdTT04gSUEgNTAwNjYNCg0KICBPV04vUkVOVDogICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNJTkNFOg0KICBOVU1CRVIgT0YgREVQRU5ERU5UUzogICAgICAgICAgICAgICAgIE1BUklUQUwgU1RBVFVTOiBVTk1BUlJJRUQNCg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgRU1QTE9ZTUVOVCBJTkZPUk1BVElPTg0KICBFTVBMT1lFUjogRW50ZXJwcmlzZSBVU0EgICAgICAgICAgICAgIEVNUExPWUVSOg0KICAgQUREUkVTUzogRGF3c29uLCBJQSA1MDA2NiAgICAgICAgICAgICBBRERSRVNTOg0KICBQT1NJVElPTjogICAgICAgICAgICAgICAgICAgICAgICAgICAgIFBPU0lUSU9OOg0KICAgIFNBTEFSWTogICAgICAgICAgICBMRU5HVEg6ICAgICAgICAgICAgU0FMQVJZOiAgICAgICAgICAgTEVOR1RIOg0KICBEQVRFIFZFUjogICAgICAgICAgICAgICAgICAgICAgICAgICAgIERBVEUgVkVSOg0KICBWRVIgICBCWTogICAgICAgICAgICAgICAgICAgICAgICAgICAgIFZFUiAgICBCWToNCg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNVTU1BUlkgUkVQT1JUDQoNCiAgVFJBREUgICAgICAgICMgIFRPVEFMICAgICBUT1RBTCAgICAgIFRPVEFMICAgICBUT1RBTCAgICAgICAgVE9UQUwgICAgICAgREFURQ0KICBUWVBFICAgICAgICAgICAgVy9CQUwgICAgQkFMQU5DRSAgICAgUFlNVCAgICAgICBQL0QgICAgIDMwICAgNjAgICA5MCAgTEFTVCBQL0QNCiAgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KICBSRUFMIEVTVCAgICAgIDAgICAgIDAgICQgICAgICAgIDAgJCAgICAgICAgMCAkICAgICAgIDAgICAwICAgIDAgICAgMA0KICBJTlNUQUxMICAgICAgIDYgICAgIDEgICQgICAgIDI2MDAgJCAgICAgIDEyMyAkICAgICAgIDAgICAyICAgIDAgICAgMA0KICBSRVZPTFZJTkcgICAgIDQgICAgIDIgICQgICAgICA4NzQgJCAgICAgICA4OCAkICAgICAgIDAgICA0ICAgIDIgICAgMQ0KICBDT0xMRUNUICAgICAgIDAgICAgIDAgICQgICAgICAgIDAgJCAgICAgICAgMCAkICAgICAgIDAgICAtICAgIC0gICAgLQ0KICBPVEhFUiAgICAgICAgIDAgICAgIDAgICQgICAgICAgIDAgJCAgICAgICAgMCAkICAgICAgIDAgICAwICAgIDAgICAgMA0KDQogIFRPVEFMICAgICAgICAxMCAgICAgNCAgJCAgICAgNjA3NCAkICAgICAgMzM0ICQgICAgICAgMCAgIDYgICAgMiAgICAxDQogIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCiAgUFVCTElDIFJFQ09SRFMgOiBMSUVOUyA6IEpVREdNRU5UUyA6IEZPUkVDTE9TVVJFIDogQkFOS1JVUFRDWSA6IE9USEVSIDogVE9UQUwNCiAgVE9UQUwgTlVNQkVSICAgICAgIDAgICAgICAgICAgMCAgICAgICAgICAgMCAgICAgICAgICAgICAwICAgICAgICAgMCAgICAgICAwDQogIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCiAgIyBJTlFVSVJJRVM6IDAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICMgTkVXIFRSQURFUzogMA0KICBPTERFU1QgVFJBREUgT1BFTiA6IDA0LzIwMDcNCg0KDQoNCg0KDQpBTElDRSBGUkVERElFICAgICAgICAgICAgICAgICAgOTkwLTgwLTAwMDggICAgICAgICAgICAgICAgKFZTN0pTMCkgUGFnZSAgICAgIDINCkxQQV9ERU1PDQo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCg0KDQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCiAgICBDUkVESVQgR1JBTlRPUiAgICAgREFURSAgICBMQVNUIERUICBDUkVESVQgTE1UIEJBTEFOQ0UgQ1VSUiBISVNUT1JZDQogICAgQUNDT1VOVCBOVU1CRVIgICAgIE9QRU5FRCAgUkVQT1JURCAgIEhJIENSRURJVCAgIE9XSU5HIFJBVEUgMzAgNjAgOTANCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KDQogIDEgIE1PVU5UQUlOIEJBTksgICAgIDA1LzIwMTMgMDIvMjAxNiAgICAgICBVTksgICAgIDI2MDAgIEkxICAgMCAgMCAgMA0KICAgICAzNTYzQTAxOTczMiAgICAgICAgICAgICAgICAgICAgICAgICAgICA0NDAwICAgICAgICAgICBURVJNUz0zNk0xMjMNCiAgICAgTVI9MzEgIEVDT0E9SSAgQiAvIFhQTj0wMQ0KICAgICBQUCBTVEFSVCBEVD0gMDIvMjAxNiBQUD0xMTExMTExMTExMTExMTExMTExMTExMTENCiAgICAgVFlQRSBPRiBMT0FOOiBMRUFTRSAvIFJFTlRBTCBBR1JFRU1FTlQNCiAgICAgT1BFTiBBQ0NPVU5UOyBUSElTIElTIEFOIEFDQ09VTlQgSU4gR09PRCBTVEFORElORzsgT1JJR0lOQUwgQ1JFRElUT1INCiAgICAgQ0xBU1NJRklDQVRJT046IFJlbnRhbC9MZWFzaW5nOyBMQVNUIFBBSUQ6DQoNCiAgMiAgTU9VTlRBSU4gQkFOSyAgICAgMDcvMjAxMyAwMi8yMDE2ICAgICAgNDQwMCAgICAgMjYwMCAgSTEgICAwICAwICAwDQogICAgIDM1NjNBMDE5NzMyICAgICAgICAgICAgICAgICAgICAgICAgICAgIDQ0MDAgICAgICAgICAgIFRFUk1TPTM2TTEyMw0KICAgICBNUj0zMSAgRUNPQT1JICBCIC8gVFU9MDEsRUZYPTAxIERMQT0wMi8yMDE2DQogICAgIFBEQT0wDQogICAgIFBQIFNUQVJUIERUPSAwMS8yMDE2IFBQPTExMTExMTExMTExMTExMTExMTExMTExMQ0KICAgICBUWVBFIE9GIExPQU46IExFQVNFIC8gUkVOVEFMIEFHUkVFTUVOVA0KICAgICBNQUtJTkcgUEFZTUVOVFMgKFBBWU1FTlQgU1RPUFBFRCwgU0lOQ0UgUkVTVU1FRCkNCg0KICAzICBIRU1MT0NLUyAgICAgICAgICAwMi8yMDA4IDAyLzIwMTYgICAgICAgVU5LICAgICAgNDM3ICBSMSAgIDAgIDAgIDANCiAgICAgOThFNTQzMTg0ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMTAwMCAgICAgICAgICAgVEVSTVM9UkVWNDQNCiAgICAgTVI9MjQgIEVDT0E9SSAgQiAvIFhQTj0wMQ0KICAgICBQUCBTVEFSVCBEVD0gMDIvMjAxNiBQUD0xMTExMTExMTExMTExMTExMTExMTExMTENCiAgICAgVFlQRSBPRiBMT0FOOiBDUkVESVQgQ0FSRCAvIENIQVJHRSBBQ0NPVU5UDQogICAgIE9QRU4gQUNDT1VOVDsgVEhJUyBJUyBBTiBBQ0NPVU5UIElOIEdPT0QgU1RBTkRJTkc7IE9SSUdJTkFMIENSRURJVE9SDQogICAgIENMQVNTSUZJQ0FUSU9OOiBCYW5raW5nOyBMQVNUIFBBSUQ6DQoNCiAgNCAgSEVNTE9DS1MgICAgICAgICAgMDQvMjAwOCAwMi8yMDE2ICAgICAgMTAwMCAgICAgIDQzNyAgUjEgICAwICAwICAwDQogICAgIDk4RTU0MzE4NCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDEwMDAgICAgICAgICAgIFRFUk1TPU1JTjQ0DQogICAgIE1SPTI0ICBFQ09BPUkgIEIgLyBUVT0wMSBETEE9MDIvMjAxNg0KICAgICBQREE9MA0KICAgICBQUCBTVEFSVCBEVD0gMDEvMjAxNiBQUD0xMTExMTExMTExMTExMTExMTExMTExMTENCiAgICAgVFlQRSBPRiBMT0FOOiBDUkVESVQgQ0FSRCAvIENIQVJHRSBBQ0NPVU5UDQogICAgIE1BS0lORyBQQVlNRU5UUyAoUEFZTUVOVCBTVE9QUEVELCBTSU5DRSBSRVNVTUVEKQ0KDQogIDUgIEJBWSBDT01QQU5ZICAgICAgIDA2LzIwMDcgMDIvMjAxNiAgICAgIDE2MDAgICAgICAgIDAgIFIxICAgMiAgMSAgMQ0KICAgICA0NjgxMTIzUjEgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxNjAwICAgICAgICAgICBURVJNUz0NCiAgICAgTVI9NjAgIEVDT0E9SSAgQiAvIFRVPTAxIERMQT0wMi8yMDE2DQogICAgIFBEQT0wIERFTCBEQVRFUz0gMDYvMjAxMz1SMywwNS8yMDEzPVIyLDAzLzIwMTM9UjINCiAgICAgUFAgU1RBUlQgRFQ9IDAxLzIwMTYgUFA9MTExMTExMTExMTExMTExMTExMTExMTExDQogICAgIFRZUEUgT0YgTE9BTjogQ1JFRElUIENBUkQgLyBDSEFSR0UgQUNDT1VOVA0KICAgICBNQUtJTkcgUEFZTUVOVFMgKFBBWU1FTlQgU1RPUFBFRCwgU0lOQ0UgUkVTVU1FRCkNCg0KDQoNCg0KDQoNCkNPTlRJTlVFRCBPTiBORVhUIFBBR0UNCg0KQUxJQ0UgRlJFRERJRSAgICAgICAgICAgICAgICAgIDk5MC04MC0wMDA4ICAgICAgICAgICAgICAgIChWUzdKUzApIFBhZ2UgICAgICAzDQpMUEFfREVNTw0KPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQoNCg0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQogICAgQ1JFRElUIEdSQU5UT1IgICAgIERBVEUgICAgTEFTVCBEVCAgQ1JFRElUIExNVCBCQUxBTkNFIENVUlIgSElTVE9SWQ0KICAgIEFDQ09VTlQgTlVNQkVSICAgICBPUEVORUQgIFJFUE9SVEQgICBISSBDUkVESVQgICBPV0lORyBSQVRFIDMwIDYwIDkwDQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCg0KICA2ICBDRU5UUkFMIEJBTksgICAgICAwNi8yMDA4IDA3LzIwMTMgICAgICA5MDAwICAgICAgICAwICBJMSAgIDEgIDAgIDANCiAgICAgMTU5MDM0NTg1OTQwMyAgICAgICAgICAgICAgICAgICAgICAgICAgOTAwMCAgICAgICAgICAgVEVSTVM9DQogICAgIE1SPTUxICBFQ09BPUkgIEIgLyBUVT0wMSxFRlg9MDEgRExBPTAyLzIwMTYNCiAgICAgUERBPTAgREVMIERBVEVTPSAwOC8yMDEyPUkyDQogICAgIFBQIFNUQVJUIERUPSAwOS8yMDEzIFBQPTExMTExMTExMTExMTEyMTExMTExMTExMQ0KICAgICBNQUtJTkcgUEFZTUVOVFMgKFBBWU1FTlQgU1RPUFBFRCwgU0lOQ0UgUkVTVU1FRCkNCg0KICA3ICBCQVkgQ09NUEFOWSAgICAgICAwNi8yMDA3IDAyLzIwMTYgICAgICAgVU5LICAgICAgICAgICBJMCAgIDIgIDEgIDANCiAgICAgNDY4MTEyM1IxICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMTYwMCAgICAgICAgICAgVEVSTVM9DQogICAgIE1SPTYwICBFQ09BPUkgIEIgLyBFRlg9MDEgRExBPTAyLzIwMTYNCiAgICAgREVMIERBVEVTPSAwNi8yMDEzPUkzLDA1LzIwMTM9STIsMDMvMjAxMz1JMg0KDQogIDggIEJBWSBDT01QQU5ZICAgICAgIDA0LzIwMDcgMDIvMjAxNiAgICAgICBVTksgICAgICAgICAgIFIxICAgMiAgMSAgMA0KICAgICA0NjgxMTIzUjEgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxNjAwICAgICAgICAgICBURVJNUz1SRVYNCiAgICAgTVI9NjAgIEVDT0E9SSAgQiAvIFhQTj0wMQ0KICAgICBERUwgREFURVM9IDA2LzIwMTM9UjMNCiAgICAgUFAgU1RBUlQgRFQ9IDAyLzIwMTYgUFA9MTExMTExMTExMTExMTExMTExMTExMTExDQogICAgIFRZUEUgT0YgTE9BTjogQ1JFRElUIENBUkQgLyBDSEFSR0UgQUNDT1VOVA0KICAgICBPUEVOIEFDQ09VTlQ7IFRISVMgSVMgQU4gQUNDT1VOVCBJTiBHT09EIFNUQU5ESU5HOyBPUklHSU5BTCBDUkVESVRPUg0KICAgICBDTEFTU0lGSUNBVElPTjogQmFua2luZzsgTEFTVCBQQUlEOg0KDQogIDkgIENFTlRSQUwgQkFOSyAgICAgIDA0LzIwMDggMDcvMjAxMyAgICAgICBVTksgICAgICAgICAgIEkxICAgMSAgMCAgMA0KICAgICAxNTkwMzQ1ODU5NDAzICAgICAgICAgICAgICAgICAgICAgICAgICA5MDAwICAgICAgICAgICBURVJNUz02ME0NCiAgICAgTVI9NTEgIEVDT0E9SSAgQiAvIFhQTj0wMQ0KICAgICBERUwgREFURVM9IDA4LzIwMTI9STINCiAgICAgUFAgU1RBUlQgRFQ9IDA3LzIwMTMgUFA9MTExMTExMTExMTExMTEyMTExMTExMTExDQogICAgIFRZUEUgT0YgTE9BTjogSU5TVEFMTE1FTlQgTE9BTg0KICAgICBPUEVOIEFDQ09VTlQ7IFRISVMgSVMgQU4gQUNDT1VOVCBJTiBHT09EIFNUQU5ESU5HOyBPUklHSU5BTCBDUkVESVRPUg0KICAgICBDTEFTU0lGSUNBVElPTjogQmFua2luZzsgTEFTVCBQQUlEOg0KDQogMTAgIEhFTUxPQ0tTICAgICAgICAgIDA0LzIwMDggMDIvMjAxNiAgICAgICBVTksgICAgICAgICAgIEkwICAgMCAgMCAgMA0KICAgICA5OEU1NDMxODQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxMDAwICAgICAgICAgICBURVJNUz0NCiAgICAgTVI9MjQgIEVDT0E9SSAgQiAvIEVGWD0wMSBETEE9MDIvMjAxNg0KDQoNCiAgUFVCTElDIFJFQ09SRCBTT1VSQ0VTOiBFRlggWFBOIFRVDQoNCiAgUFVCTElDIFJFQ09SRFMgSEFWRSBCRUVOIENIRUNLRUQgRlJPTSBPVEhFUiBTT1VSQ0VTIEFORC9PUiBUSEUgUkVQT1NJVE9SSUVTDQogIExJU1RFRCBXSVRIIFRIRSBGT0xMT1dJTkcgUkVTVUxUUzogTk8gUFVCTElDIFJFQ09SRFMgRk9VTkQNCg0KDQogIE5PIElOUVVJUklFUyBXSVRISU4gVEhFIFBBU1QgMzY1IERBWVMNCg0KDQoNCg0KDQpBTElDRSBGUkVERElFICAgICAgICAgICAgICAgICAgOTkwLTgwLTAwMDggICAgICAgICAgICAgICAgKFZTN0pTMCkgUGFnZSAgICAgIDQNCkxQQV9ERU1PDQo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCg0KICAgQVBQTElDQU5UIEFERFJFU1MgSU5GT1JNQVRJT046DQogICAxICAgOTk5MSBXQVJGT1JEIFNUICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBFQ0lTLTAxIEINCiAgICAgICBEQVdTT04sIElBIDUwMDY2ICAgICAgICAgICAgICAgICAgICAgICAgICAgU0lOQ0U6IDA2LzIwMTEgUkVQVDogMTIvMjAxNQ0KDQogIEFQUExJQ0FOVCBFTVBMT1lNRU5UIElORk9STUFUSU9OOg0KICAgMSAgIEVNUExPWUVSIFggICAgICAgICAgICAgICAgICAgICAgICAgIEIgRUNJUy0wMSAgRlJPTSAgICAgICAgIFRPDQogICAyICAgRU1QTE9ZRVIgWCAgICAgICAgICAgICAgICAgICAgICAgICAgQiBYUE4tMDEgICBGUk9NIDA5LzIwMTIgVE8gMDkvMjAxMg0KICAgMyAgIEVNUExPWUVSIFggICAgICAgICAgICAgICAgICAgICAgICAgIEIgVFUtMDEgICAgRlJPTSAgICAgICAgIFRPDQoNCg0KICAgIEVDSVMtMDEgQiBGSUxFIFZBUklBVElPTjogQUxJQ0UgRlJFRERJRSAgICAgICAgIDk5MC04MC0wMDA4IERPQjowNS8wMS8xOTYwDQogICAgIFhQTi0wMSBCIEZJTEUgVkFSSUFUSU9OOiBBTElDRSBGUkVERElFICAgICAgICAgOTkwLTgwLTAwMDggRE9COjA1LzAxLzE5NjANCiAgICAgIFRVLTAxIEIgRklMRSBWQVJJQVRJT046IEFMSUNFIEZSRURESUUgICAgICAgICA5OTAtODAtMDAwOCBET0I6MDUvMDEvMTk2MA0KDQoNCiAgICAgICAgICAgICAgICAgICAgICAgLS0tLSBBRERJVElPTkFMIElORk9STUFUSU9OIC0tLS0NCg0KICBFQ0lTLTAxIEIgQUREUkVTUyBESVNDUkVQQU5DWTogTk8gU1VCU1RBTlRJQUwgRElGRkVSRU5DRSBPQ0NVUlJFRA0KDQogIEVDSVMtMDEgQiBDUkVESVQgUkVQT1JUIFNTTjogOTkwODAwMDA4DQoNCiAgRUNJUy0wMSBCIENSRURJVCBSRVBPUlQgU1NOIENPTkZJUk1FRDogWQ0KDQogIEVDSVMtMDEgQiBJTlFVSVJZIFNTTjogOTkwODAwMDA4DQoNCiAgRUNJUy0wMSBCIElOUVVJUlkgU1NOIERBVEUgSVNTVUVEOiAyMDExDQoNCiAgRUNJUy0wMSBCIElOUVVJUlkgU1NOIFNUQVRFIElTU1VFRDogR0ENCg0KICBFQ0lTLTAxIEIgU1NOIE1BVENIIElORElDQVRPUjogWVlZWVlZWVlZDQoNCiAgIFhQTi0wMSBCIERJU1BMQVlFRCBTU04gSVMgVEhFIFNBTUUgQVMgSU5RVUlSWSBTU04NCg0KICAgWFBOLTAxIEIgU1NOIE1BVENIIElORElDQVRPUjogWVlZWVlZWVlZDQoNCiAgICBUVS0wMSBCIDA1IC0gRXhhY3QgbWF0Y2ggYmV0d2VlbiBTU04gb24gaW5wdXQgYW5kIFNTTiBvbiBmaWxlDQoNCg0KICAqIFBBWU1FTlQgQU1PVU5UUyBNQVJLRUQgV0lUSCBBTiBBU1RFUklTSyAoKikgSEFWRSBCRUVOIENBTENVTEFURUQgQVQgNSUNCiAgICBPRiBUSEUgQkFMQU5DRSBPV0lORyBPUiAkMTAuMDAgV0hJQ0hFVkVSIEFNT1VOVCBJUyBHUkVBVEVSDQoNCg0KICBSRVBPUlQgUFJFUEFSRUQgQlk6IEdBVEVXQVkgU1lTVEVNDQoNCg0KRXF1aWZheCBJbmZvcm1hdGlvbiBTdmMuIExMQyAgICAgIEV4cGVyaWFuICAgICAgICAgICAgICAgICAgVHJhbnNVbmlvbiBMTEMNClAuTy4gQm94IDc0MDI0MSAgICAgICAgICAgICAgICAgICA3MDEgRXhwZXJpYW4gUGFya3dheSAgICAgIFAuTy4gQm94IDIwMDANCkF0bGFudGEsIEdBIDMwMzc0ICAgICAgICAgICAgICAgICBQLk8uIEJveCAyMDAyICAgICAgICAgICAgIENoZXN0ZXIsIFBBIDE5MDE2DQo4MDAtNjg1LTExMTEgICAgICAgICAgICAgICAgICAgICAgQWxsZW4sIFRYIDc1MDEzICAgICAgICAgICA4NjYtODg3LTI2NzMNCg0KDQoNCg0KQUxJQ0UgRlJFRERJRSAgICAgICAgICAgICAgICAgIDk5MC04MC0wMDA4ICAgICAgICAgICAgICAgIChWUzdKUzApIFBhZ2UgICAgICA1DQpMUEFfREVNTw0KPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQoNCnd3dy5lcXVpZmF4LmNvbSAgICAgICAgICAgICAgICAgICA4ODgtMzk3LTM3NDIgICAgICAgICAgICAgIHd3dy50cmFuc3VuaW9uLmNvbQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHd3dy5leHBlcmlhbi5jb20vcmVwb3J0YWNjZXNzDQoNCg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICoqRU5EIE9GIENSRURJVCBSRVBPUlQqKg0KDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNVQlNDUklCRVIgTElTVElORw0KPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQpTVUIgQ09ERSAgICAgIENSRURJVCBHUkFOVE9SICAgICAgICBURUxFUEhPTkUgICAgICAgU1RBVEUgWklQICAgICAgICAgIEIvQw0KICAgICAgICAgICAgICBBRERSRVNTICAgICAgICAgICAgICAgQ0lUWQ0KPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQogICAgICAgICAgICAgIEJBWSBDT01QQU5ZICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgRUNJUy0wMSBCDQogICAgICAgICAgICAgIEJBWSBDT01QQU5ZICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFhQTi0wMSBCDQogICAgICAgICAgICAgIEJBWSBDT01QQU5ZICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUVS0wMSBCDQogICAgICAgICAgICAgIENFTlRSQUwgQkFOSyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFhQTi0wMSBCDQogICAgICAgICAgICAgIENFTlRSQUwgQkFOSyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUVS0wMSBCDQogICAgICAgICAgICAgIEhFTUxPQ0tTICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgRUNJUy0wMSBCDQogICAgICAgICAgICAgIEhFTUxPQ0tTICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFhQTi0wMSBCDQogICAgICAgICAgICAgIEhFTUxPQ0tTICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUVS0wMSBCDQogICAgICAgICAgICAgIE1PVU5UQUlOIEJBTksgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFhQTi0wMSBCDQogICAgICAgICAgICAgIE1PVU5UQUlOIEJBTksgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUVS0wMSBCDQoNCg0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQogICAgIFRoZSByZXBvcnRpbmcgYnVyZWF1IGNlcnRpZmllcyB0aGF0OyAoYSkgcHVibGljIHJlY29yZHMgaGF2ZSBiZWVuIGNoZWNrZWQNCiAgICAgZm9yIHRheCBsaWVucywganVkZ21lbnRzLCBmb3JlY2xvc3VyZXMsIGdhcm5pc2htZW50cywgYmFua3J1cHRjaWVzLCBhbmQNCiAgICAgb3RoZXIgbGVnYWwgYWN0aW9ucyBpbnZvbHZpbmcgdGhlIHN1YmplY3Qocykgd2l0aCB0aGUgcmVzdWx0cyBpbmRpY2F0ZWQNCiAgICAgYWJvdmU7IG9yIChiKSBlcXVpdmFsZW50IGluZm9ybWF0aW9uIGhhcyBiZWVuIG9idGFpbmVkIHRocm91Z2ggdGhlIHVzZQ0KICAgICBvZiBhIHF1YWxpZmllZCBwdWJsaWMgcmVjb3JkcyByZXBvcnRpbmcgc2VydmljZSB3aXRoIHRoZSByZXN1bHRzIGluZGljYXRlZA0KICAgICBhYm92ZS4gVGhlIHJlY29yZHMgb2YgcmVhbCBlc3RhdGUgdHJhbnNmZXJzIHdoaWNoIGRvIG5vdCBpbnZvbHZlDQogICAgIGZvcmVjbG9zdXJlcyBtYXkgYmUgZXhjbHVkZWQuDQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCiAgICAgRXF1aWZheCBDcmVkaXQgU2VydmljZXMgY2VydGlmaWVzIHRoYXQgdGhlIGluZm9ybWF0aW9uIHByb3ZpZGVkIGluIHRoaXMNCiAgICAgcmVwb3J0IG1lZXRzIHRoZSByZXF1aXJlbWVudHMgb2YgdGhlIFUuUy4gRGVwdC4gb2YgSFVELCBGSEEsIFZBLCBVU0RBLA0KICAgICBSRUNEICYgRlNBLCBGYW5uaWUgTWFlIGFuZCBGSExNQy4NCiAgICAgVGhlIGluZm9ybWF0aW9uIGlzIGNvbmZpZGVudGlhbCBhbmQgbm90IHRvIGJlIGRpdnVsZ2VkIGV4Y2VwdCBhcyByZXF1aXJlZA0KICAgICBieSBQVUJMSUMgTEFXIDkxLTUwOCwgOTMtNTc5LCA5NC0yMzkuDQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBQYWdlIDogMQ0KDQogICAxMi8xMS8yMDIwDQoNCg0KICAgRUxMSUUgTUFFIEZNQUMgVUFUIFRFU1QNCiAgIDQ0MjAgUk9TRVdPT0QgRFIgU1RFIDUwMA0KICAgUExFQVNBTlRPTiwgQ0EgOTQ1ODgNCg0KDQogICBBTElDRSBGUkVERElFDQogICA5OTkxIFdBUkZPUkQgU1RSRUVUDQogICBEQVdTT04gSUEgNTAwNjYNCg0KDQogICAgICAgICAgICAgICAgICAgICAgICAgIE5PVElDRSBUTyBIT01FIExPQU4gQVBQTElDQU5UDQoNCiAgICAgICAgICBJbiBjb25uZWN0aW9uIHdpdGggeW91ciBhcHBsaWNhdGlvbiBmb3IgYSBob21lIGxvYW4sIHRoZSBsZW5kZXIgbXVzdA0KICAgZGlzY2xvc2UgdG8geW91IHRoZSBzY29yZSB0aGF0IGEgY29uc3VtZXIgcmVwb3J0aW5nIGFnZW5jeSBkaXN0cmlidXRlZA0KICAgdG8gdXNlcnMgYW5kIHRoZSBsZW5kZXIgdXNlZCBpbiBjb25uZWN0aW9uIHdpdGggeW91ciBob21lIGxvYW4sIGFuZCB0aGUNCiAgIGtleSBmYWN0b3JzIGFmZmVjdGluZyB5b3VyIGNyZWRpdCBzY29yZXMuDQoNCiAgICAgICAgICBUaGUgY3JlZGl0IHNjb3JlIGlzIGEgY29tcHV0ZXIgZ2VuZXJhdGVkIHN1bW1hcnkgY2FsY3VsYXRlZCBhdCB0aGUNCiAgIHRpbWUgb2YgdGhlIHJlcXVlc3QgYW5kIGJhc2VkIG9uIGluZm9ybWF0aW9uIHRoYXQgYSBjb25zdW1lciByZXBvcnRpbmcNCiAgIGFnZW5jeSBvciBsZW5kZXIgaGFzIG9uIGZpbGUuIFRoZSBzY29yZXMgYXJlIGJhc2VkIG9uIGRhdGEgYWJvdXQgeW91cg0KICAgY3JlZGl0IGhpc3RvcnkgYW5kIHBheW1lbnQgcGF0dGVybnMuIENyZWRpdCBzY29yZXMgYXJlIGltcG9ydGFudCBiZWNhdXNlDQogICB0aGV5IGFyZSB1c2VkIHRvIGFzc2lzdCB0aGUgbGVuZGVyIGluIGRldGVybWluaW5nIHdoZXRoZXIgeW91IHdpbGwgb2J0YWluIGENCiAgIGxvYW4uIFRoZXkgbWF5IGFsc28gYmUgdXNlZCB0byBkZXRlcm1pbmUgd2hhdCBpbnRlcmVzdCByYXRlIHlvdSBtYXkgYmUNCiAgIG9mZmVyZWQgb24gdGhlIG1vcnRnYWdlLiBDcmVkaXQgc2NvcmVzIGNhbiBjaGFuZ2Ugb3ZlciB0aW1lLCBkZXBlbmRpbmcgb24NCiAgIHlvdXIgY29uZHVjdCwgaG93IHlvdXIgY3JlZGl0IGhpc3RvcnkgYW5kIHBheW1lbnQgcGF0dGVybnMgY2hhbmdlLCBhbmQNCiAgIGhvdyBjcmVkaXQgc2NvcmluZyB0ZWNobm9sb2dpZXMgY2hhbmdlLg0KDQogICAgICAgICAgQmVjYXVzZSB0aGUgc2NvcmUgaXMgYmFzZWQgb24gaW5mb3JtYXRpb24gaW4geW91ciBjcmVkaXQgaGlzdG9yeSwgaXQNCiAgIGlzIHZlcnkgaW1wb3J0YW50IHRoYXQgeW91IHJldmlldyB0aGUgY3JlZGl0LXJlbGF0ZWQgaW5mb3JtYXRpb24gdGhhdA0KICAgaXMgYmVpbmcgZnVybmlzaGVkIHRvIG1ha2Ugc3VyZSBpdCBpcyBhY2N1cmF0ZS4gQ3JlZGl0IHJlY29yZHMgbWF5DQogICB2YXJ5IGZyb20gb25lIGNvbXBhbnkgdG8gYW5vdGhlci4NCg0KICAgICAgICAgIElmIHlvdSBoYXZlIHF1ZXN0aW9ucyBhYm91dCB5b3VyIGNyZWRpdCBzY29yZSBvciB0aGUgY3JlZGl0DQogICBpbmZvcm1hdGlvbiB0aGF0IGlzIGZ1cm5pc2hlZCB0byB5b3UsIGNvbnRhY3QgdGhlIGNvbnN1bWVyIHJlcG9ydGluZyBhZ2VuY3kNCiAgIGF0IHRoZSBhZGRyZXNzIGFuZCB0ZWxlcGhvbmUgbnVtYmVyIHByb3ZpZGVkIHdpdGggdGhpcyBub3RpY2UsIG9yIGNvbnRhY3QNCiAgIHRoZSBsZW5kZXIsIGlmIHRoZSBsZW5kZXIgZGV2ZWxvcGVkIG9yIGdlbmVyYXRlZCB0aGUgY3JlZGl0IHNjb3JlLiBUaGUNCiAgIGNvbnN1bWVyIHJlcG9ydGluZyBhZ2VuY3kgcGxheXMgbm8gcGFydCBpbiB0aGUgZGVjaXNpb24gdG8gdGFrZSBhbnkgYWN0aW9uDQogICBvbiB0aGUgbG9hbiBhcHBsaWNhdGlvbiBhbmQgaXMgdW5hYmxlIHRvIHByb3ZpZGUgeW91IHdpdGggc3BlY2lmaWMgcmVhc29ucw0KICAgZm9yIHRoZSBkZWNpc2lvbiBvbiBhIGxvYW4gYXBwbGljYXRpb24uDQoNCiAgICAgICAgICBJZiB5b3UgaGF2ZSBxdWVzdGlvbnMgY29uY2VybmluZyB0aGUgdGVybXMgb2YgdGhlIGxvYW4sIGNvbnRhY3QgdGhlDQogICBsZW5kZXIuDQoNCiAgICBFTExJRSBNQUUgRk1BQyBVQVQgVEVTVCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUGFnZTogMg0KDQogICAgT1JERVIgTlVNQkVSOiBWUzdKUzAgICAgICAgICAgICAgICAgICAgICBEQVRFIE9SREVSRUQ6IDEyLzExLzIwMjANCiAgICBDT05TVU1FUiBSRVBPUlRJTkcgQUdFTkNZOiAgICAgICAgICAgICAgIFJFUE9SVCBQUkVQQVJFRCBGT1I6DQoNCiAgICBFUVVJRkFYIE1PUlRHQUdFIFNPTFVUSU9OUyAgICAgICAgICAgICAgICAgRUxMSUUgTUFFIEZNQUMgVUFUIFRFU1QNCiAgICA4MTUgRUFTVCBHQVRFIERSLFNVSVRFIDEwMiAgICAgICAgICAgICAgICAgNDQyMCBST1NFV09PRCBEUiBTVEUgNTAwDQogICAgTU9VTlQgTEFVUkVMLCBOSiAwODA1NCAgICAgICAgICAgICAgICAgICAgIFBMRUFTQU5UT04sIENBIDk0NTg4DQogICAgKDgwMCkzMzMtMDAzNyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDkyNS0yNzctMjAxNw0KDQoNCiAgICBCT1JST1dFUidTIElORk9STUFUSU9ODQogICAgTkFNRTogQUxJQ0UgRlJFRERJRQ0KDQoNCiAgWW91ciBDcmVkaXQgU2NvcmUgYW5kIHRoZSBQcmljZSBZb3UgUGF5IGZvciBDcmVkaXQNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KDQoNCiAgWW91ciBFcXVpZmF4IENyZWRpdCBTY29yZToNCiAgU2NvcmU6ICAgMDA3MTUNCiAgU291cmNlOiAgRVFVSUZBWCBCRUFDT04gNS4wIEZBQ1RBICAgICAgICAgICAgICAgICAgICAgICAgICBEYXRlOiAgMTIvMTEvMjAyMA0KX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQoNCiAgWW91ciBFeHBlcmlhbiBDcmVkaXQgU2NvcmU6DQogIFNjb3JlOiAgIDAwNzAzDQogIFNvdXJjZTogIEVYUEVSSUFOIEZBSVIgSVNBQUMgVjIgICAgICAgICAgICAgICAgICAgICAgICAgICAgRGF0ZTogIDEyLzExLzIwMjANCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KDQogIFlvdXIgVHJhbnMgVW5pb24gQ3JlZGl0IFNjb3JlOg0KICBTY29yZTogICAwMDcxMA0KICBTb3VyY2U6ICBUUkFOUyBVTklPTiBGSUNPIFJJU0sgU0NPUkUgQ0xBU1NJQyAwNCAgICAgICAgICAgIERhdGU6ICAxMi8xMS8yMDIwDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18NCg0KDQogIFVuZGVyc3RhbmRpbmcgWW91ciBDcmVkaXQgU2NvcmU6DQoNCiAgV2hhdCB5b3Ugc2hvdWxkIGtub3cgYWJvdXQgY3JlZGl0IHNjb3JlczoNCg0KICBZb3VyIGNyZWRpdCBzY29yZSBpcyBhIG51bWJlciB0aGF0IHJlZmxlY3RzIHRoZSBpbmZvcm1hdGlvbiBpbiB5b3VyIGNyZWRpdA0KICByZXBvcnQuDQoNCiAgWW91ciBjcmVkaXQgcmVwb3J0IGlzIGEgcmVjb3JkIG9mIHlvdXIgY3JlZGl0IGhpc3RvcnkuIEl0IGluY2x1ZGVzIGluZm9ybWF0aW9uDQogIGFib3V0IHdoZXRoZXIgeW91IHBheSB5b3VyIGJpbGxzIG9uIHRpbWUgYW5kIGhvdyBtdWNoIHlvdSBvd2UgdG8gY3JlZGl0b3JzLg0KDQogIFlvdXIgY3JlZGl0IHNjb3JlIGNhbiBjaGFuZ2UsIGRlcGVuZGluZyBvbiBob3cgeW91ciBjcmVkaXQgaGlzdG9yeSBjaGFuZ2VzLg0KX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQoNCiAgSG93IHdlIHVzZSB5b3VyIGNyZWRpdCBzY29yZToNCg0KICBZb3VyIGNyZWRpdCBzY29yZSBjYW4gYWZmZWN0IHdoZXRoZXIgeW91IGNhbiBnZXQgYSBsb2FuIGFuZCBob3cgbXVjaCB5b3Ugd2lsbA0KICBoYXZlIHRvIHBheSBmb3IgdGhhdCBsb2FuLg0KX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQoNCiAgVGhlIHJhbmdlIG9mIHNjb3JlczoNCg0KICBFUVVJRkFYIEJFQUNPTiA1LjAgRkFDVEEgICAgICAgICAgICAgICAgICAgICAgICAgIDogU2NvcmVzIHJhbmdlIGZyb20gYSBsb3cNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9mIDMzNCB0byBhIGhpZ2ggb2YgODE4Lg0KICBFWFBFUklBTiBGQUlSIElTQUFDIFYyICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogU2NvcmVzIHJhbmdlIGZyb20gYSBsb3cNCg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFBhZ2U6IDMNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9mIDMyMCB0byBhIGhpZ2ggb2YgODQ0Lg0KICBUUkFOUyBVTklPTiBGSUNPIFJJU0sgU0NPUkUgQ0xBU1NJQyAwNCAgICAgICAgICAgIDogU2NvcmVzIHJhbmdlIGZyb20gYSBsb3cNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9mIDMwOSB0byBhIGhpZ2ggb2YgODM5Lg0KDQogIEdlbmVyYWxseSwgdGhlIGhpZ2hlciB5b3VyIHNjb3JlLCB0aGUgbW9yZSBsaWtlbHkgeW91IGFyZSB0byBiZSBvZmZlcmVkIGJldHRlcg0KICBjcmVkaXQgdGVybXMuDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18NCg0KICBIb3cgeW91ciBFcXVpZmF4IHNjb3JlIGNvbXBhcmVzIHRvIHRoZSBzY29yZXMgb2Ygb3RoZXIgY29uc3VtZXJzOg0KDQogIFlvdXIgRXF1aWZheCBjcmVkaXQgc2NvcmUgcmFua3MgaGlnaGVyIHRoYW4gNDYgcGVyY2VudCBvZiBVLlMuIGNvbnN1bWVycy4NCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KDQogIEtleSBmYWN0b3JzIHRoYXQgYWR2ZXJzZWx5IGFmZmVjdGVkIHlvdXIgRXF1aWZheCBjcmVkaXQgc2NvcmU6DQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KICBIb3cgeW91ciBFeHBlcmlhbiBzY29yZSBjb21wYXJlcyB0byB0aGUgc2NvcmVzIG9mIG90aGVyIGNvbnN1bWVyczoNCg0KICBZb3VyIEV4cGVyaWFuIGNyZWRpdCBzY29yZSByYW5rcyBoaWdoZXIgdGhhbiA0MSBwZXJjZW50IG9mIFUuUy4gY29uc3VtZXJzLg0KX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQoNCiAgS2V5IGZhY3RvcnMgdGhhdCBhZHZlcnNlbHkgYWZmZWN0ZWQgeW91ciBFeHBlcmlhbiBjcmVkaXQgc2NvcmU6DQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KICBIb3cgeW91ciBUcmFucyBVbmlvbiBzY29yZSBjb21wYXJlcyB0byB0aGUgc2NvcmVzIG9mIG90aGVyIGNvbnN1bWVyczoNCg0KICBZb3VyIFRyYW5zIFVuaW9uIGNyZWRpdCBzY29yZSByYW5rcyBoaWdoZXIgdGhhbiA0NCBwZXJjZW50IG9mIFUuUy4gY29uc3VtZXJzLg0KX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQoNCiAgS2V5IGZhY3RvcnMgdGhhdCBhZHZlcnNlbHkgYWZmZWN0ZWQgeW91ciBUcmFucyBVbmlvbiBjcmVkaXQgc2NvcmU6DQoNCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KDQogIENoZWNraW5nIFlvdXIgQ3JlZGl0IFJlcG9ydDoNCg0KICBXaGF0IGlmIHRoZXJlIGFyZSBtaXN0YWtlcyBpbiB5b3VyIGNyZWRpdCByZXBvcnQ/DQoNCiAgWW91IGhhdmUgdGhlIHJpZ2h0IHRvIGRpc3B1dGUgYW55IGluYWNjdXJhdGUgaW5mb3JtYXRpb24gaW4geW91ciBjcmVkaXQNCiAgcmVwb3J0LiBJZiB5b3UgZmluZCBtaXN0YWtlcyBvbiB5b3VyIGNyZWRpdCByZXBvcnQsIGNvbnRhY3QgdGhlIGNvbnN1bWVyDQogIHJlcG9ydGluZyBhZ2VuY3kuDQoNCiAgSXQgaXMgYSBnb29kIGlkZWEgdG8gY2hlY2sgeW91ciBjcmVkaXQgcmVwb3J0IHRvIG1ha2Ugc3VyZSB0aGUgaW5mb3JtYXRpb24gaXQNCiAgY29udGFpbnMgaXMgYWNjdXJhdGUuDQpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX18NCg0KICBIb3cgY2FuIHlvdSBvYnRhaW4gYSBjb3B5IG9mIHlvdXIgY3JlZGl0IHJlcG9ydD8NCg0KICBVbmRlciBmZWRlcmFsIGxhdywgeW91IGhhdmUgdGhlIHJpZ2h0IHRvIG9idGFpbiBhIGZyZWUgY29weSBvZiB5b3VyIGNyZWRpdA0KICByZXBvcnQgZnJvbSBlYWNoIG9mIHRoZSBuYXRpb253aWRlIGNvbnN1bWVyIHJlcG9ydGluZyBhZ2VuY2llcyBvbmNlIGEgeWVhci4NCg0KICBUbyBvcmRlciB5b3VyIGZyZWUgYW5udWFsIGNyZWRpdCByZXBvcnQtDQoNCiAgQnkgdGVsZXBob25lIDogICBDYWxsIHRvbGwtZnJlZTogMS04NzctMzIyLTgyMjgNCg0KDQoNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBQYWdlOiA0DQogIE9uIHRoZSB3ZWIgICA6ICAgVmlzaXQgd3d3LmFubnVhbGNyZWRpdHJlcG9ydC5jb20NCg0KICBCeSBtYWlsICAgICAgOiAgIE1haWwgeW91ciBjb21wbGV0ZWQgQW5udWFsIENyZWRpdCBSZXBvcnQgUmVxdWVzdCBGb3JtICh3aGljaA0KICAgICAgICAgICAgICAgICAgIHlvdSBjYW4gb2J0YWluIGZyb20gdGhlIEZlZGVyYWwgVHJhZGUgQ29tbWlzc2lvbidzIHdlYnNpdGUgYXQNCiAgICAgICAgICAgICAgICAgICBodHRwOi8vd3d3LmZ0Yy5nb3YvYmNwL2NvbmxpbmUvaW5jbHVkZS9yZXF1ZXN0Zm9ybWZpbmFsLnBkZikNCiAgICAgICAgICAgICAgICAgICB0bzoNCg0KICAgICAgICAgICAgICAgICAgIEFubnVhbCBDcmVkaXQgUmVwb3J0IFJlcXVlc3QgU2VydmljZQ0KICAgICAgICAgICAgICAgICAgIFAuTy4gQm94IDEwNTI4MQ0KICAgICAgICAgICAgICAgICAgIEF0bGFudGEsIEdBIDMwMzQ4LTUyODENCl9fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KDQogIEhvdyBjYW4geW91IGdldCBtb3JlIGluZm9ybWF0aW9uPw0KDQogIEZvciBtb3JlIGluZm9ybWF0aW9uIGFib3V0IGNyZWRpdCByZXBvcnRzIGFuZCB5b3VyIHJpZ2h0cyB1bmRlciBGZWRlcmFsIGxhdywNCiAgdmlzaXQgdGhlIENvbnN1bWVyIEZpbmFuY2lhbCBQcm90ZWN0aW9uIEJ1cmVhdSdzIHdlYnNpdGUgYXQNCiAgd3d3LmNvbnN1bWVyZmluYW5jZS5nb3YvbGVhcm5tb3JlLg0KX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KICAgIEVRVUlGQVggTU9SVEdBR0UgU09MVVRJT05TICAgICAgICAgICAgICAgIE9SREVSIE5VTUJFUjogVlM3SlMwICAgICBQYWdlOiAxDQogICAgODE1IEVBU1QgR0FURSBEUixTVUlURSAxMDIgICAgICAgICAgIFJFUE9TSVRPUlkgU09VUkNFOiBFRlggWFBOIFRVDQogICAgTU9VTlQgTEFVUkVMLCBOSiAwODA1NCAgICAgICAgICAgICAgICAgICAgICAgIERBVEUgT1JEOiAxMi8xMS8yMDIwDQogICAgUEhPTkU6ICg4MDApMzMzLTAwMzcgRkFYOiAoODAwKTY3OC03MDc5ICAgICAgIERBVEUgREVMOiAwMS8wOC8yMDIxDQogIFJFUE9SVCBQUkVQQVJFRCBGT1I6ICAgICAgICAgICAgICAgICAgICAgICAgIExPQU4gTlVNQkVSOiBMUEFfREVNTw0KICAgIEVMTElFIE1BRSBGTUFDIFVBVCBURVNUICAgICAgICAgICAgIElORElWL0pPSU5UIFJFUE9SVDogSU5ESVZJRFVBTA0KICAgIDQ0MjAgUk9TRVdPT0QgRFIgU1RFIDUwMCAgICAgICAgICAgICAgICAgICAgICAgICBQUklDRTogMC4wMQ0KICAgIFBMRUFTQU5UT04sIENBIDk0NTg4ICAgICAgICAgICAgICAgICAgICBBQ0NPVU5UIE5VTUJFUjogOTk5Rk03MzExMw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgT1JERVJFRCBCWTogQWRtaW4gVXNlcg0KDQoNCg0KICAgQk9SUk9XRVInUyBJTkZPUk1BVElPTg0KICBOQU1FOiBBTElDRSBGUkVERElFDQogIFNTTjogOTkwLTgwLTAwMDggICAgICAgIEFHRTogMjYNCg0KICAgQ08tQk9SUk9XRVInUyBJTkZPUk1BVElPTg0KICBOQU1FOg0KICBTU046ICAgICAgICAgICAgICAgICAgICBBR0U6DQoNCiAgIENPTVBMSUFOQ0UgREFUQSBDRU5URVIsIElOQyAtIEVRVUlGQVgNCg0KICAgQUxJQ0UgRlJFRERJRQ0KDQogICBOTyBNQVRDSCBGT1VORCBJTiBDREMnUyBPRkFDIERBVEFCQVNFLg0KDQogICBFbmQgb2YgcmVwb3J0LCBDT01QTElBTkNFIERBVEEgQ0VOVEVSLCBJTkMuIC0gRVFVSUZBWA0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KICAgIEVRVUlGQVggTU9SVEdBR0UgU09MVVRJT05TICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBQYWdlOiAxDQogICAgODE1IEVBU1QgR0FURSBEUixTVUlURSAxMDINCiAgICBNT1VOVCBMQVVSRUwsIE5KIDA4MDU0ICAgICAgICAgICAgICAgICAgICAgICAgREFURSBPUkQ6IDEyLzExLzIwMjANCiAgICBQSE9ORTogKDgwMCkzMzMtMDAzNyAgICAgICAgICAgICAgICAgICAgICAgICAgREFURSBERUw6IDAxLzA4LzIwMjENCiAgUkVQT1JUIFBSRVBBUkVEIEZPUjoNCiAgICBFTExJRSBNQUUgRk1BQyBVQVQgVEVTVA0KICAgIDQ0MjAgUk9TRVdPT0QgRFIgU1RFIDUwMA0KICAgIFBMRUFTQU5UT04sIENBIDk0NTg4DQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCiAgICAgICAgICAgICAgICAgICAgICoqKioqKioqKioqKioqKiBOT1RJQ0UgKioqKioqKioqKioqKioNCg0KICAgICAgICAgICAgICBVc2VyJ3MgYWNjZXNzIHRvIGFuZCB1c2Ugb2YgdGhpcyBtb3J0Z2FnZSBjcmVkaXQgcmVwb3J0IGFyZSBzdWJqZWMNCiAgICAgICAgICAgICAgZWl0aGVyDQoNCiAgICAgICAgIChpKSBBbGwgdGVybXMgYW5kIGNvbmRpdGlvbnMgaW4gdXNlcidzIHdyaXR0ZW4gc2VydmljZSBhZ3JlZW1lbnQNCiAgICAgICAgICAgICB3aXRoIHRoZSBjb25zdW1lciByZXBvcnRpbmcgYWdlbmN5IGlkZW50aWZpZWQgYXQgdGhlIHRvcA0KICAgICAgICAgICAgIG9mIHRoaXMgcmVwb3J0DQoNCiAgICAgICAgICAgICBvciwgaWYgdXNlciBoYXMgbm8gc3VjaCBhZ3JlZW1lbnQsDQoNCiAgICAgICAgKGlpKSBBbGwgdGVybXMgYW5kIGNvbmRpdGlvbnMgcG9zdGVkIG9uIHRoZSB3ZWJzaXRlIGZvdW5kIGF0DQogICAgICAgICAgICAgaHR0cDovL3d3dy5lcXVpZmF4LmNvbS9jb25zdW1lci9tb3J0Z2FnZS90ZWNobmljYWxhZmZpbGlhdGVuZXR3b3JrDQogICAgICAgICAgICAgYW5kIHVzZXIncyBhY2NlcHRhbmNlIGFuZCB1c2Ugb2YgdGhpcyBtb3J0Z2FnZSBjcmVkaXQgcmVwb3J0IHdpbGwNCiAgICAgICAgICAgICBjb25zdGl0dXRlIHVzZXIncyBhZ3JlZW1lbnQgdG8gdGhvc2UgdGVybXMgYW5kIGNvbmRpdGlvbnNdXT48L0RPQ1VNRU5UPgogICAgICAgIDwvRU1CRURERURfRklMRT4KICAgICAgPC9DUkVESVRfUkVTUE9OU0U+CiAgICA8L1JFU1BPTlNFX0RBVEE+CiAgPC9SRVNQT05TRT4KPC9SRVNQT05TRV9HUk9VUD4K
+									</EmbeddedContentXML>
+									<MIMETypeIdentifier>text/xml</MIMETypeIdentifier>
+									<ObjectEncodingType>Base64</ObjectEncodingType>
+									<ObjectName>MergedCreditReport_1</ObjectName>
+								</FOREIGN_OBJECT>
+								<FOREIGN_OBJECT>
+									<EmbeddedContentXML><![CDATA[EQUIFAX MORTGAGE SOLUTIONS                ORDER NUMBER: VS7JS0     Page: 1
+    815 EAST GATE DR,SUITE 102           REPOSITORY SOURCE: EFX XPN TU
+    MOUNT LAUREL, NJ 08054                        DATE ORD: 12/11/2020
+    PHONE: (800)333-0037 FAX: (800)678-7079       DATE DEL: 01/08/2021
+  REPORT PREPARED FOR:                         LOAN NUMBER: LPA_DEMO
+    ELLIE MAE FMAC UAT TEST             INDIV/JOINT REPORT: INDIVIDUAL
+    4420 ROSEWOOD DR STE 500                         PRICE: 0.01
+    PLEASANTON, CA 94588                    ACCOUNT NUMBER: 999FM73113
+                                                ORDERED BY: Admin User
+
+  REPORT TYPE: MERGED CREDIT INFILE REPORT
+
+
+   BORROWER'S INFORMATION
+  NAME: ALICE FREDDIE
+  SSN: 990-80-0008        AGE: 26
+
+   CO-BORROWER'S INFORMATION
+  NAME:
+  SSN:                    AGE:
+
+                        ---- VALUE ADDED PRODUCTS ----
+
+
+  BEACON 5.0 FACTA SCORE FOR ALICE SSN:990800008 SCORE=00715           ECIS-01
+  SCORE RANGE:                 RBP PERCENTAGE: %
+
+
+  FAIR ISAAC MODEL SCORE FOR ALICE SSN:990800008 SCORE=+0703           XPN-01
+  SCORE RANGE:                 RBP PERCENTAGE: %
+
+
+  FICO RISK SCORE, CLASSIC FOR ALICE SSN:990800008 SCORE=00710         TU-01
+  SCORE RANGE:                 RBP PERCENTAGE: %
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    EQUIFAX MORTGAGE SOLUTIONS                ORDER NUMBER: VS7JS0     Page: 1
+    815 EAST GATE DR,SUITE 102           REPOSITORY SOURCE: EFX XPN TU
+    MOUNT LAUREL, NJ 08054                        DATE ORD: 12/11/2020
+    PHONE: (800)333-0037 FAX: (800)678-7079       DATE DEL: 01/08/2021
+  REPORT PREPARED FOR:                         LOAN NUMBER: LPA_DEMO
+    ELLIE MAE FMAC UAT TEST             INDIV/JOINT REPORT: INDIVIDUAL
+    4420 ROSEWOOD DR STE 500                         PRICE: 0.01
+    PLEASANTON, CA 94588                    ACCOUNT NUMBER: 999FM73113
+                                                ORDERED BY: Admin User
+
+
+
+   BORROWER'S INFORMATION
+  NAME: ALICE FREDDIE
+  SSN: 990-80-0008        AGE: 26
+
+   CO-BORROWER'S INFORMATION
+  NAME:
+  SSN:                    AGE:
+
+
+                        ADVERSE SUMMARY INFORMATION
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+    CREDIT GRANTOR     DATE    LAST DT  CREDIT LMT BALANCE CURR HISTORY
+    ACCOUNT NUMBER     OPENED  REPORTD   HI CREDIT   OWING RATE 30 60 90
+------------------------------------------------------------------------------
+
+  1  BAY COMPANY       06/2007 02/2016      1600        0  R1   2  1  1
+     4681123R1                              1600           TERMS=
+     MR=60  ECOA=I  B / TU=01 DLA=02/2016
+     PDA=0 DEL DATES= 06/2013=R3,05/2013=R2,03/2013=R2
+     PP START DT= 01/2016 PP=111111111111111111111111
+     TYPE OF LOAN: CREDIT CARD / CHARGE ACCOUNT
+     MAKING PAYMENTS (PAYMENT STOPPED, SINCE RESUMED)
+
+  2  CENTRAL BANK      06/2008 07/2013      9000        0  I1   1  0  0
+     1590345859403                          9000           TERMS=
+     MR=51  ECOA=I  B / TU=01,EFX=01 DLA=02/2016
+     PDA=0 DEL DATES= 08/2012=I2
+     PP START DT= 09/2013 PP=111111111111121111111111
+     MAKING PAYMENTS (PAYMENT STOPPED, SINCE RESUMED)
+
+  3  BAY COMPANY       06/2007 02/2016       UNK           I0   2  1  0
+     4681123R1                              1600           TERMS=
+     MR=60  ECOA=I  B / EFX=01 DLA=02/2016
+     DEL DATES= 06/2013=I3,05/2013=I2,03/2013=I2
+
+
+
+
+
+
+
+ALICE FREDDIE                  990-80-0008                (VS7JS0) Page      2
+LPA_DEMO
+==============================================================================
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------
+    CREDIT GRANTOR     DATE    LAST DT  CREDIT LMT BALANCE CURR HISTORY
+    ACCOUNT NUMBER     OPENED  REPORTD   HI CREDIT   OWING RATE 30 60 90
+------------------------------------------------------------------------------
+
+  4  BAY COMPANY       04/2007 02/2016       UNK           R1   2  1  0
+     4681123R1                              1600           TERMS=REV
+     MR=60  ECOA=I  B / XPN=01
+     DEL DATES= 06/2013=R3
+     PP START DT= 02/2016 PP=111111111111111111111111
+     TYPE OF LOAN: CREDIT CARD / CHARGE ACCOUNT
+     OPEN ACCOUNT; THIS IS AN ACCOUNT IN GOOD STANDING; ORIGINAL CREDITOR
+     CLASSIFICATION: Banking; LAST PAID:
+
+  5  CENTRAL BANK      04/2008 07/2013       UNK           I1   1  0  0
+     1590345859403                          9000           TERMS=60M
+     MR=51  ECOA=I  B / XPN=01
+     DEL DATES= 08/2012=I2
+     PP START DT= 07/2013 PP=111111111111112111111111
+     TYPE OF LOAN: INSTALLMENT LOAN
+     OPEN ACCOUNT; THIS IS AN ACCOUNT IN GOOD STANDING; ORIGINAL CREDITOR
+     CLASSIFICATION: Banking; LAST PAID:
+
+
+ NO PUBLIC RECORDS FOUND
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    EQUIFAX MORTGAGE SOLUTIONS                ORDER NUMBER: VS7JS0     Page: 1
+    815 EAST GATE DR,SUITE 102           REPOSITORY SOURCE: EFX XPN TU
+    MOUNT LAUREL, NJ 08054                        DATE ORD: 12/11/2020
+    PHONE: (800)333-0037 FAX: (800)678-7079       DATE DEL: 01/08/2021
+  REPORT PREPARED FOR:                         LOAN NUMBER: LPA_DEMO
+    ELLIE MAE FMAC UAT TEST             INDIV/JOINT REPORT: INDIVIDUAL
+    4420 ROSEWOOD DR STE 500                         PRICE: 0.01
+    PLEASANTON, CA 94588                    ACCOUNT NUMBER: 999FM73113
+                                                ORDERED BY: Admin User
+
+
+
+
+   BORROWER'S INFORMATION
+  NAME: ALICE FREDDIE
+  SSN: 990-80-0008        AGE: 26
+
+   CO-BORROWER'S INFORMATION
+  NAME:
+  SSN:                    AGE:
+  CURRENT ADDRESS: 9991 WARFORD STREET DAWSON IA 50066
+  PREVIOUS ADDRESS: 158 21ST STREET DAWSON IA 50066
+
+  OWN/RENT:                             SINCE:
+  NUMBER OF DEPENDENTS:                 MARITAL STATUS: UNMARRIED
+
+                              EMPLOYMENT INFORMATION
+  EMPLOYER: Enterprise USA              EMPLOYER:
+   ADDRESS: Dawson, IA 50066             ADDRESS:
+  POSITION:                             POSITION:
+    SALARY:            LENGTH:            SALARY:           LENGTH:
+  DATE VER:                             DATE VER:
+  VER   BY:                             VER    BY:
+
+                                  SUMMARY REPORT
+
+  TRADE        #  TOTAL     TOTAL      TOTAL     TOTAL        TOTAL       DATE
+  TYPE            W/BAL    BALANCE     PYMT       P/D     30   60   90  LAST P/D
+  ----------------------------------------------------------------------------
+  REAL EST      0     0  $        0 $        0 $       0   0    0    0
+  INSTALL       6     1  $     2600 $      123 $       0   2    0    0
+  REVOLVING     4     2  $      874 $       88 $       0   4    2    1
+  COLLECT       0     0  $        0 $        0 $       0   -    -    -
+  OTHER         0     0  $        0 $        0 $       0   0    0    0
+
+  TOTAL        10     4  $     6074 $      334 $       0   6    2    1
+  ----------------------------------------------------------------------------
+  PUBLIC RECORDS : LIENS : JUDGMENTS : FORECLOSURE : BANKRUPTCY : OTHER : TOTAL
+  TOTAL NUMBER       0          0           0             0         0       0
+  ----------------------------------------------------------------------------
+  # INQUIRIES: 0                                   # NEW TRADES: 0
+  OLDEST TRADE OPEN : 04/2007
+
+
+
+
+
+ALICE FREDDIE                  990-80-0008                (VS7JS0) Page      2
+LPA_DEMO
+==============================================================================
+
+
+------------------------------------------------------------------------------
+    CREDIT GRANTOR     DATE    LAST DT  CREDIT LMT BALANCE CURR HISTORY
+    ACCOUNT NUMBER     OPENED  REPORTD   HI CREDIT   OWING RATE 30 60 90
+------------------------------------------------------------------------------
+
+  1  MOUNTAIN BANK     05/2013 02/2016       UNK     2600  I1   0  0  0
+     3563A019732                            4400           TERMS=36M123
+     MR=31  ECOA=I  B / XPN=01
+     PP START DT= 02/2016 PP=111111111111111111111111
+     TYPE OF LOAN: LEASE / RENTAL AGREEMENT
+     OPEN ACCOUNT; THIS IS AN ACCOUNT IN GOOD STANDING; ORIGINAL CREDITOR
+     CLASSIFICATION: Rental/Leasing; LAST PAID:
+
+  2  MOUNTAIN BANK     07/2013 02/2016      4400     2600  I1   0  0  0
+     3563A019732                            4400           TERMS=36M123
+     MR=31  ECOA=I  B / TU=01,EFX=01 DLA=02/2016
+     PDA=0
+     PP START DT= 01/2016 PP=111111111111111111111111
+     TYPE OF LOAN: LEASE / RENTAL AGREEMENT
+     MAKING PAYMENTS (PAYMENT STOPPED, SINCE RESUMED)
+
+  3  HEMLOCKS          02/2008 02/2016       UNK      437  R1   0  0  0
+     98E543184                              1000           TERMS=REV44
+     MR=24  ECOA=I  B / XPN=01
+     PP START DT= 02/2016 PP=111111111111111111111111
+     TYPE OF LOAN: CREDIT CARD / CHARGE ACCOUNT
+     OPEN ACCOUNT; THIS IS AN ACCOUNT IN GOOD STANDING; ORIGINAL CREDITOR
+     CLASSIFICATION: Banking; LAST PAID:
+
+  4  HEMLOCKS          04/2008 02/2016      1000      437  R1   0  0  0
+     98E543184                              1000           TERMS=MIN44
+     MR=24  ECOA=I  B / TU=01 DLA=02/2016
+     PDA=0
+     PP START DT= 01/2016 PP=111111111111111111111111
+     TYPE OF LOAN: CREDIT CARD / CHARGE ACCOUNT
+     MAKING PAYMENTS (PAYMENT STOPPED, SINCE RESUMED)
+
+  5  BAY COMPANY       06/2007 02/2016      1600        0  R1   2  1  1
+     4681123R1                              1600           TERMS=
+     MR=60  ECOA=I  B / TU=01 DLA=02/2016
+     PDA=0 DEL DATES= 06/2013=R3,05/2013=R2,03/2013=R2
+     PP START DT= 01/2016 PP=111111111111111111111111
+     TYPE OF LOAN: CREDIT CARD / CHARGE ACCOUNT
+     MAKING PAYMENTS (PAYMENT STOPPED, SINCE RESUMED)
+
+
+
+
+
+
+CONTINUED ON NEXT PAGE
+
+ALICE FREDDIE                  990-80-0008                (VS7JS0) Page      3
+LPA_DEMO
+==============================================================================
+
+
+------------------------------------------------------------------------------
+    CREDIT GRANTOR     DATE    LAST DT  CREDIT LMT BALANCE CURR HISTORY
+    ACCOUNT NUMBER     OPENED  REPORTD   HI CREDIT   OWING RATE 30 60 90
+------------------------------------------------------------------------------
+
+  6  CENTRAL BANK      06/2008 07/2013      9000        0  I1   1  0  0
+     1590345859403                          9000           TERMS=
+     MR=51  ECOA=I  B / TU=01,EFX=01 DLA=02/2016
+     PDA=0 DEL DATES= 08/2012=I2
+     PP START DT= 09/2013 PP=111111111111121111111111
+     MAKING PAYMENTS (PAYMENT STOPPED, SINCE RESUMED)
+
+  7  BAY COMPANY       06/2007 02/2016       UNK           I0   2  1  0
+     4681123R1                              1600           TERMS=
+     MR=60  ECOA=I  B / EFX=01 DLA=02/2016
+     DEL DATES= 06/2013=I3,05/2013=I2,03/2013=I2
+
+  8  BAY COMPANY       04/2007 02/2016       UNK           R1   2  1  0
+     4681123R1                              1600           TERMS=REV
+     MR=60  ECOA=I  B / XPN=01
+     DEL DATES= 06/2013=R3
+     PP START DT= 02/2016 PP=111111111111111111111111
+     TYPE OF LOAN: CREDIT CARD / CHARGE ACCOUNT
+     OPEN ACCOUNT; THIS IS AN ACCOUNT IN GOOD STANDING; ORIGINAL CREDITOR
+     CLASSIFICATION: Banking; LAST PAID:
+
+  9  CENTRAL BANK      04/2008 07/2013       UNK           I1   1  0  0
+     1590345859403                          9000           TERMS=60M
+     MR=51  ECOA=I  B / XPN=01
+     DEL DATES= 08/2012=I2
+     PP START DT= 07/2013 PP=111111111111112111111111
+     TYPE OF LOAN: INSTALLMENT LOAN
+     OPEN ACCOUNT; THIS IS AN ACCOUNT IN GOOD STANDING; ORIGINAL CREDITOR
+     CLASSIFICATION: Banking; LAST PAID:
+
+ 10  HEMLOCKS          04/2008 02/2016       UNK           I0   0  0  0
+     98E543184                              1000           TERMS=
+     MR=24  ECOA=I  B / EFX=01 DLA=02/2016
+
+
+  PUBLIC RECORD SOURCES: EFX XPN TU
+
+  PUBLIC RECORDS HAVE BEEN CHECKED FROM OTHER SOURCES AND/OR THE REPOSITORIES
+  LISTED WITH THE FOLLOWING RESULTS: NO PUBLIC RECORDS FOUND
+
+
+  NO INQUIRIES WITHIN THE PAST 365 DAYS
+
+
+
+
+
+ALICE FREDDIE                  990-80-0008                (VS7JS0) Page      4
+LPA_DEMO
+==============================================================================
+
+   APPLICANT ADDRESS INFORMATION:
+   1   9991 WARFORD ST                                               ECIS-01 B
+       DAWSON, IA 50066                           SINCE: 06/2011 REPT: 12/2015
+
+  APPLICANT EMPLOYMENT INFORMATION:
+   1   EMPLOYER X                          B ECIS-01  FROM         TO
+   2   EMPLOYER X                          B XPN-01   FROM 09/2012 TO 09/2012
+   3   EMPLOYER X                          B TU-01    FROM         TO
+
+
+    ECIS-01 B FILE VARIATION: ALICE FREDDIE         990-80-0008 DOB:05/01/1960
+     XPN-01 B FILE VARIATION: ALICE FREDDIE         990-80-0008 DOB:05/01/1960
+      TU-01 B FILE VARIATION: ALICE FREDDIE         990-80-0008 DOB:05/01/1960
+
+
+                       ---- ADDITIONAL INFORMATION ----
+
+  ECIS-01 B ADDRESS DISCREPANCY: NO SUBSTANTIAL DIFFERENCE OCCURRED
+
+  ECIS-01 B CREDIT REPORT SSN: 990800008
+
+  ECIS-01 B CREDIT REPORT SSN CONFIRMED: Y
+
+  ECIS-01 B INQUIRY SSN: 990800008
+
+  ECIS-01 B INQUIRY SSN DATE ISSUED: 2011
+
+  ECIS-01 B INQUIRY SSN STATE ISSUED: GA
+
+  ECIS-01 B SSN MATCH INDICATOR: YYYYYYYYY
+
+   XPN-01 B DISPLAYED SSN IS THE SAME AS INQUIRY SSN
+
+   XPN-01 B SSN MATCH INDICATOR: YYYYYYYYY
+
+    TU-01 B 05 - Exact match between SSN on input and SSN on file
+
+
+  * PAYMENT AMOUNTS MARKED WITH AN ASTERISK (*) HAVE BEEN CALCULATED AT 5%
+    OF THE BALANCE OWING OR $10.00 WHICHEVER AMOUNT IS GREATER
+
+
+  REPORT PREPARED BY: GATEWAY SYSTEM
+
+
+Equifax Information Svc. LLC      Experian                  TransUnion LLC
+P.O. Box 740241                   701 Experian Parkway      P.O. Box 2000
+Atlanta, GA 30374                 P.O. Box 2002             Chester, PA 19016
+800-685-1111                      Allen, TX 75013           866-887-2673
+
+
+
+
+ALICE FREDDIE                  990-80-0008                (VS7JS0) Page      5
+LPA_DEMO
+==============================================================================
+
+www.equifax.com                   888-397-3742              www.transunion.com
+                            www.experian.com/reportaccess
+
+
+                            **END OF CREDIT REPORT**
+
+                             SUBSCRIBER LISTING
+==============================================================================
+SUB CODE      CREDIT GRANTOR        TELEPHONE       STATE ZIP          B/C
+              ADDRESS               CITY
+==============================================================================
+              BAY COMPANY                                          ECIS-01 B
+              BAY COMPANY                                           XPN-01 B
+              BAY COMPANY                                            TU-01 B
+              CENTRAL BANK                                          XPN-01 B
+              CENTRAL BANK                                           TU-01 B
+              HEMLOCKS                                             ECIS-01 B
+              HEMLOCKS                                              XPN-01 B
+              HEMLOCKS                                               TU-01 B
+              MOUNTAIN BANK                                         XPN-01 B
+              MOUNTAIN BANK                                          TU-01 B
+
+
+------------------------------------------------------------------------------
+     The reporting bureau certifies that; (a) public records have been checked
+     for tax liens, judgments, foreclosures, garnishments, bankruptcies, and
+     other legal actions involving the subject(s) with the results indicated
+     above; or (b) equivalent information has been obtained through the use
+     of a qualified public records reporting service with the results indicated
+     above. The records of real estate transfers which do not involve
+     foreclosures may be excluded.
+------------------------------------------------------------------------------
+     Equifax Credit Services certifies that the information provided in this
+     report meets the requirements of the U.S. Dept. of HUD, FHA, VA, USDA,
+     RECD & FSA, Fannie Mae and FHLMC.
+     The information is confidential and not to be divulged except as required
+     by PUBLIC LAW 91-508, 93-579, 94-239.
+------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                   Page : 1
+
+   12/11/2020
+
+
+   ELLIE MAE FMAC UAT TEST
+   4420 ROSEWOOD DR STE 500
+   PLEASANTON, CA 94588
+
+
+   ALICE FREDDIE
+   9991 WARFORD STREET
+   DAWSON IA 50066
+
+
+                          NOTICE TO HOME LOAN APPLICANT
+
+          In connection with your application for a home loan, the lender must
+   disclose to you the score that a consumer reporting agency distributed
+   to users and the lender used in connection with your home loan, and the
+   key factors affecting your credit scores.
+
+          The credit score is a computer generated summary calculated at the
+   time of the request and based on information that a consumer reporting
+   agency or lender has on file. The scores are based on data about your
+   credit history and payment patterns. Credit scores are important because
+   they are used to assist the lender in determining whether you will obtain a
+   loan. They may also be used to determine what interest rate you may be
+   offered on the mortgage. Credit scores can change over time, depending on
+   your conduct, how your credit history and payment patterns change, and
+   how credit scoring technologies change.
+
+          Because the score is based on information in your credit history, it
+   is very important that you review the credit-related information that
+   is being furnished to make sure it is accurate. Credit records may
+   vary from one company to another.
+
+          If you have questions about your credit score or the credit
+   information that is furnished to you, contact the consumer reporting agency
+   at the address and telephone number provided with this notice, or contact
+   the lender, if the lender developed or generated the credit score. The
+   consumer reporting agency plays no part in the decision to take any action
+   on the loan application and is unable to provide you with specific reasons
+   for the decision on a loan application.
+
+          If you have questions concerning the terms of the loan, contact the
+   lender.
+
+    ELLIE MAE FMAC UAT TEST                                            Page: 2
+
+    ORDER NUMBER: VS7JS0                     DATE ORDERED: 12/11/2020
+    CONSUMER REPORTING AGENCY:               REPORT PREPARED FOR:
+
+    EQUIFAX MORTGAGE SOLUTIONS                 ELLIE MAE FMAC UAT TEST
+    815 EAST GATE DR,SUITE 102                 4420 ROSEWOOD DR STE 500
+    MOUNT LAUREL, NJ 08054                     PLEASANTON, CA 94588
+    (800)333-0037                              925-277-2017
+
+
+    BORROWER'S INFORMATION
+    NAME: ALICE FREDDIE
+
+
+  Your Credit Score and the Price You Pay for Credit
+______________________________________________________________________________
+
+
+  Your Equifax Credit Score:
+  Score:   00715
+  Source:  EQUIFAX BEACON 5.0 FACTA                          Date:  12/11/2020
+______________________________________________________________________________
+
+  Your Experian Credit Score:
+  Score:   00703
+  Source:  EXPERIAN FAIR ISAAC V2                            Date:  12/11/2020
+______________________________________________________________________________
+
+  Your Trans Union Credit Score:
+  Score:   00710
+  Source:  TRANS UNION FICO RISK SCORE CLASSIC 04            Date:  12/11/2020
+______________________________________________________________________________
+
+
+  Understanding Your Credit Score:
+
+  What you should know about credit scores:
+
+  Your credit score is a number that reflects the information in your credit
+  report.
+
+  Your credit report is a record of your credit history. It includes information
+  about whether you pay your bills on time and how much you owe to creditors.
+
+  Your credit score can change, depending on how your credit history changes.
+______________________________________________________________________________
+
+  How we use your credit score:
+
+  Your credit score can affect whether you can get a loan and how much you will
+  have to pay for that loan.
+______________________________________________________________________________
+
+  The range of scores:
+
+  EQUIFAX BEACON 5.0 FACTA                          : Scores range from a low
+                                                      of 334 to a high of 818.
+  EXPERIAN FAIR ISAAC V2                            : Scores range from a low
+
+                                                                   Page: 3
+                                                      of 320 to a high of 844.
+  TRANS UNION FICO RISK SCORE CLASSIC 04            : Scores range from a low
+                                                      of 309 to a high of 839.
+
+  Generally, the higher your score, the more likely you are to be offered better
+  credit terms.
+______________________________________________________________________________
+
+  How your Equifax score compares to the scores of other consumers:
+
+  Your Equifax credit score ranks higher than 46 percent of U.S. consumers.
+______________________________________________________________________________
+
+  Key factors that adversely affected your Equifax credit score:
+
+______________________________________________________________________________
+  How your Experian score compares to the scores of other consumers:
+
+  Your Experian credit score ranks higher than 41 percent of U.S. consumers.
+______________________________________________________________________________
+
+  Key factors that adversely affected your Experian credit score:
+
+______________________________________________________________________________
+  How your Trans Union score compares to the scores of other consumers:
+
+  Your Trans Union credit score ranks higher than 44 percent of U.S. consumers.
+______________________________________________________________________________
+
+  Key factors that adversely affected your Trans Union credit score:
+
+______________________________________________________________________________
+
+  Checking Your Credit Report:
+
+  What if there are mistakes in your credit report?
+
+  You have the right to dispute any inaccurate information in your credit
+  report. If you find mistakes on your credit report, contact the consumer
+  reporting agency.
+
+  It is a good idea to check your credit report to make sure the information it
+  contains is accurate.
+______________________________________________________________________________
+
+  How can you obtain a copy of your credit report?
+
+  Under federal law, you have the right to obtain a free copy of your credit
+  report from each of the nationwide consumer reporting agencies once a year.
+
+  To order your free annual credit report-
+
+  By telephone :   Call toll-free: 1-877-322-8228
+
+
+
+                                                                   Page: 4
+  On the web   :   Visit www.annualcreditreport.com
+
+  By mail      :   Mail your completed Annual Credit Report Request Form (which
+                   you can obtain from the Federal Trade Commission's website at
+                   http://www.ftc.gov/bcp/conline/include/requestformfinal.pdf)
+                   to:
+
+                   Annual Credit Report Request Service
+                   P.O. Box 105281
+                   Atlanta, GA 30348-5281
+______________________________________________________________________________
+
+  How can you get more information?
+
+  For more information about credit reports and your rights under Federal law,
+  visit the Consumer Financial Protection Bureau's website at
+  www.consumerfinance.gov/learnmore.
+______________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    EQUIFAX MORTGAGE SOLUTIONS                ORDER NUMBER: VS7JS0     Page: 1
+    815 EAST GATE DR,SUITE 102           REPOSITORY SOURCE: EFX XPN TU
+    MOUNT LAUREL, NJ 08054                        DATE ORD: 12/11/2020
+    PHONE: (800)333-0037 FAX: (800)678-7079       DATE DEL: 01/08/2021
+  REPORT PREPARED FOR:                         LOAN NUMBER: LPA_DEMO
+    ELLIE MAE FMAC UAT TEST             INDIV/JOINT REPORT: INDIVIDUAL
+    4420 ROSEWOOD DR STE 500                         PRICE: 0.01
+    PLEASANTON, CA 94588                    ACCOUNT NUMBER: 999FM73113
+                                                ORDERED BY: Admin User
+
+
+
+   BORROWER'S INFORMATION
+  NAME: ALICE FREDDIE
+  SSN: 990-80-0008        AGE: 26
+
+   CO-BORROWER'S INFORMATION
+  NAME:
+  SSN:                    AGE:
+
+   COMPLIANCE DATA CENTER, INC - EQUIFAX
+
+   ALICE FREDDIE
+
+   NO MATCH FOUND IN CDC'S OFAC DATABASE.
+
+   End of report, COMPLIANCE DATA CENTER, INC. - EQUIFAX
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    EQUIFAX MORTGAGE SOLUTIONS                                         Page: 1
+    815 EAST GATE DR,SUITE 102
+    MOUNT LAUREL, NJ 08054                        DATE ORD: 12/11/2020
+    PHONE: (800)333-0037                          DATE DEL: 01/08/2021
+  REPORT PREPARED FOR:
+    ELLIE MAE FMAC UAT TEST
+    4420 ROSEWOOD DR STE 500
+    PLEASANTON, CA 94588
+------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+                     *************** NOTICE **************
+
+              User's access to and use of this mortgage credit report are subjec
+              either
+
+         (i) All terms and conditions in user's written service agreement
+             with the consumer reporting agency identified at the top
+             of this report
+
+             or, if user has no such agreement,
+
+        (ii) All terms and conditions posted on the website found at
+             http://www.equifax.com/consumer/mortgage/technicalaffiliatenetwork
+             and user's acceptance and use of this mortgage credit report will
+             constitute user's agreement to those terms and conditions]]></EmbeddedContentXML>
+									<MIMETypeIdentifier>text/plain</MIMETypeIdentifier>
+									<ObjectEncodingType>None</ObjectEncodingType>
+									<ObjectName>MergedCreditReport_1</ObjectName>
+								</FOREIGN_OBJECT>
+							</FOREIGN_OBJECTS>
+							<SERVICE>
+								<AUTOMATED_UNDERWRITING_SYSTEM>
+									<AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE>
+										<AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGES>
+											<AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE>
+												<EXTENSION>
+													<OTHER>
+														<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_EXTENSION>
+															<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_DETAIL>
+																<lpa:AutomatedUnderwritingSystemMessageGroupType>
+																	LoanProcessingMessages
+																</lpa:AutomatedUnderwritingSystemMessageGroupType>
+															</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_DETAIL>
+															<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEMS>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Based on Loan Product Advisor's overall
+																		assessment, the loan is eligible for income
+																		representation and warranty relief.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		EmploymentandIncome
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FEI0030
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Loan must close within 120 days of the report
+																		date.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		EmploymentandIncome
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FEI0033
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		The third-party report from (Equifax) is
+																		sufficient documentation to support the income
+																		and must be retained in the loan file. The
+																		third-party report dated 7/20/2020 expires
+																		11/17/2020.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		EmploymentandIncome
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FEI0165
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Alice Freddie's submitted DividendsInterest,
+																		SubjectPropertyNetCashFlow income is not
+																		required. Either remove this income and resubmit
+																		or document this income in accordance with
+																		Freddie Mac Single-Family Seller/Servicer Guide
+																		Topic 5300.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		EmploymentandIncome
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FEI0223
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Unable to assess direct deposit income using the
+																		third-party report(s) because income deposits
+																		could not be identified.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		EmploymentandIncome
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FEI0065
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Signed IRS Form 4506-T: Any borrower, whose
+																		income is used to qualify, is required to sign
+																		IRS Form 4506-T no later than the Note Date.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		EmploymentandIncome
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FEI0034
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>A
+																		10-day pre-closing verification (10-day PCV) for
+																		Alice Freddie is required for each source of
+																		employment income used to qualify. The 10-day
+																		PCV must be dated no more than 10 Business Days
+																		prior to the Note Date or after the Note Date
+																		but prior to the Delivery Date.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		EmploymentandIncome
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FEI0102
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Dividend or interest income for Alice Freddie
+																		must be supported by signed, complete individual
+																		federal tax returns for the most recent two-year
+																		period OR year-end asset account statements for
+																		the most recent two years evidencing all
+																		dividend and interest income for each year for
+																		the income producing asset(s). Evidence of
+																		sufficient assets to support the qualifying
+																		income is required.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		EmploymentandIncome
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FEI0093
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		If rental income is being used to qualify,
+																		document the loan file in accordance with
+																		Chapter 5306 of the Freddie Mac Single-Family
+																		Seller/Servicer Guide.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		EmploymentandIncome
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FEI0066
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Based on Loan Product Advisor's overall
+																		assessment, the loan is not eligible for asset
+																		representation and warranty relief; however, it
+																		may be eligible for relief offered through
+																		Freddie Mac's selling representation and
+																		warranty framework.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		AssetsandReserves
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FAR0050
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Seller must investigate and resolve any
+																		inconsistent or contradictory information
+																		contained in the asset verification report and
+																		in the mortgage file.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		AssetsandReserves
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FAR0060
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Total Funds to be Verified amount is $48,869.00
+																		and the Total Third Party Asset Validation
+																		amount is $45,000.00. The Third Party Asset
+																		Validation amount is insufficient by $3,869.00
+																		to meet Total Funds to be Verified.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		AssetsandReserves
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FAR0056
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Third Party Asset Validation has been calculated
+																		as $45,000.00. This includes eligible asset
+																		types of Checking, Savings and Money Market and
+																		excludes large deposits.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		AssetsandReserves
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FAR0032
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		The total funds to be verified are no less than
+																		$48,869.00. This amount includes required
+																		Borrower Funds ($48,869.00), required reserves
+																		($0.00), any debts to be paid off at or before
+																		closing ($0.00) and any debts to be paid down at
+																		or before closing ($0.00).
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		AssetsandReserves
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FAR0121
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		The following asset(s) total $53,700.00 and are
+																		eligible sources of funds: Checking: $45,000.00;
+																		Checking: $6,000.00; Checking: $2,700.00.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		AssetsandReserves
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FAR0013
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Required Borrower Funds are calculated as
+																		$48,869.00 based on information submitted:
+																		purchase price ($175,000.00) + alterations,
+																		improvements and repairs ($0.00) - loan amount
+																		($130,000.00) + transaction costs ($3,869.00) -
+																		proceeds from subordinate financing ($0.00).
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		AssetsandReserves
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FAR0124
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		No reserves are required.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		AssetsandReserves
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FAR0082
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Owner-Occupied or Second Home Property:
+																		Financing concessions cannot exceed nine percent
+																		of value.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		AssetsandReserves
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FAR0089
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		This loan was submitted with $53,700.00 in
+																		depository accounts (checking, savings and/or
+																		money market).
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		AssetsandReserves
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FAR0036
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Depository accounts: For each account (checking,
+																		savings, money market, CDs, and other depository
+																		accounts) used to qualify the borrower, obtain
+																		an account statement covering a 1-month period
+																		or a direct verification.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		AssetsandReserves
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FAR0107
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		The Credit Scores for ALICE FREDDIE are TRW
+																		(Experian) 703, Equifax 715, Trans Union 710.
+																		The Underwriting Score is Trans Union 710.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		CreditandLiabilities
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FCL0003
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		710 is the Loan Product Advisor Indicator Score
+																		from Trans Union for ALICE FREDDIE.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		CreditandLiabilities
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FCL0259
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Loan is not eligible for collateral
+																		representation and warranty relief based on the
+																		overall assessment of loan and collateral risk,
+																		including appraisal quality, collateral quality
+																		and loan characteristics.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		PropertyandAppraisal
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FPA0014
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		The Appraisal Identifier must be provided in
+																		order to be eligible for collateral
+																		representation and warranty relief.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		PropertyandAppraisal
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FPA0037
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		702,000.00 is the maximum loan limit allowed for
+																		a 2-unit property located in DALLAS County, IA.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		PropertyandAppraisal
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FPA0072
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Address information provided was insufficient to
+																		return county loan limit.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		PropertyandAppraisal
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FPA0001
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Unable to match address entered. Please confirm
+																		accuracy and resubmit if necessary.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		PropertyandAppraisal
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FPA0082
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Review for Accuracy: The street name could not
+																		be found for the Zip Code provided.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		PropertyandAppraisal
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FPA0093
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Small Residential Income Property Appraisal
+																		Report (Form 72) is required.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		PropertyandAppraisal
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FPA0051
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Loan Product Advisor feedback messages were not
+																		updated to align with the temporary COVID-19
+																		requirements currently in place. Please
+																		reference Single-Family Seller/Servicer Guide
+																		Bulletins and FAQs related to COVID-19. Sellers
+																		must comply with COVID-19 requirements
+																		regardless of any conflicting Loan Product
+																		Advisor feedback messages.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		GeneralMessages
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FGM0137
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Assessment Expiration Date for this loan is
+																		04/11/2021.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		GeneralMessages
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FGM0048
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Homeowner's Association (HOA) dues are not
+																		provided as part of the Proposed Monthly Housing
+																		Expense; however, the subject property is
+																		submitted as a unit in a Planned Unit
+																		Development (PUD) or Condominium or Cooperative
+																		Project. Review for accuracy.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		GeneralMessages
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FGM0133
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Loan Product Advisor Assessment Expiration Date
+																		for ALICE FREDDIE is 04/11/2021.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		GeneralMessages
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		FGM0020
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+															</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEMS>
+														</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_EXTENSION>
+													</OTHER>
+												</EXTENSION>
+											</AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE>
+											<AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE>
+												<EXTENSION>
+													<OTHER>
+														<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_EXTENSION>
+															<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_DETAIL>
+																<lpa:AutomatedUnderwritingSystemMessageGroupType>
+																	DocumentationMessages
+																</lpa:AutomatedUnderwritingSystemMessageGroupType>
+															</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_DETAIL>
+															<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEMS>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Depository accounts: For each account (checking,
+																		savings, money market, CDs, and other depository
+																		accounts) used to qualify the borrower, obtain
+																		an account statement covering a 1-month period
+																		or a direct verification.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		DocumentChecklist
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		DCH0108
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Dividend or interest income for Alice Freddie
+																		must be supported by signed, complete individual
+																		federal tax returns for the most recent two-year
+																		period OR year-end asset account statements for
+																		the most recent two years evidencing all
+																		dividend and interest income for each year for
+																		the income producing asset(s). Evidence of
+																		sufficient assets to support the qualifying
+																		income is required.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		DocumentChecklist
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		DCH0049
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		If rental income is being used to qualify,
+																		document the loan file in accordance with
+																		Chapter 5306 of the Freddie Mac Single-Family
+																		Seller/Servicer Guide.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		DocumentChecklist
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		DCH0022
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		No reserves are required.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		DocumentChecklist
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		DCH0059
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Signed IRS Form 4506-T: Any borrower, whose
+																		income is used to qualify, is required to sign
+																		IRS Form 4506-T no later than the Note Date.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		DocumentChecklist
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		DCH0010
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>
+																		Small Residential Income Property Appraisal
+																		Report (Form 72) is required.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		DocumentChecklist
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		DCH0153
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																<lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+																	<lpa:AutomatedUnderwritingSystemMessageDescription>A
+																		10-day pre-closing verification (10-day PCV) for
+																		Alice Freddie is required for each source of
+																		employment income used to qualify. The 10-day
+																		PCV must be dated no more than 10 Business Days
+																		prior to the Note Date or after the Note Date
+																		but prior to the Delivery Date.
+																	</lpa:AutomatedUnderwritingSystemMessageDescription>
+																	<lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																		DocumentChecklist
+																	</lpa:AutomatedUnderwritingSystemMessageSectionIdentifier>
+																	<lpa:AutomatedUnderwritingSystemMessageValue>
+																		DCH0045
+																	</lpa:AutomatedUnderwritingSystemMessageValue>
+																</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEM>
+															</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_ITEMS>
+														</lpa:AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE_EXTENSION>
+													</OTHER>
+												</EXTENSION>
+											</AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGE>
+										</AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE_MESSAGES>
+									</AUTOMATED_UNDERWRITING_SYSTEM_RESPONSE>
+								</AUTOMATED_UNDERWRITING_SYSTEM>
+								<STATUSES>
+									<STATUS>
+										<StatusCode>Completed</StatusCode>
+										<StatusName>Processing</StatusName>
+									</STATUS>
+								</STATUSES>
+								<EXTENSION>
+									<OTHER>
+										<lpa:SERVICE_EXTENSION>
+											<lpa:SERVICE_DETAIL>
+												<lpa:ServiceType>AutomatedUnderwritingSystem</lpa:ServiceType>
+											</lpa:SERVICE_DETAIL>
+										</lpa:SERVICE_EXTENSION>
+									</OTHER>
+								</EXTENSION>
+							</SERVICE>
+							<SERVICE>
+								<CREDIT>
+									<CREDIT_RESPONSE>
+										<CREDIT_REQUEST_DATA>
+											<CREDIT_REQUEST_DATA_DETAIL>
+												<CreditReportIdentifier>VS7JS0</CreditReportIdentifier>
+												<CreditReportRequestActionType>Reissue</CreditReportRequestActionType>
+											</CREDIT_REQUEST_DATA_DETAIL>
+										</CREDIT_REQUEST_DATA>
+										<CREDIT_RESPONSE_DETAIL>
+											<CreditReportIdentifier>VS7JS0</CreditReportIdentifier>
+											<CreditReportType>Merge</CreditReportType>
+										</CREDIT_RESPONSE_DETAIL>
+									</CREDIT_RESPONSE>
+								</CREDIT>
+								<EXTENSION>
+									<OTHER>
+										<lpa:SERVICE_EXTENSION>
+											<lpa:SERVICE_DETAIL>
+												<lpa:ServiceType>Credit</lpa:ServiceType>
+											</lpa:SERVICE_DETAIL>
+										</lpa:SERVICE_EXTENSION>
+									</OTHER>
+								</EXTENSION>
+							</SERVICE>
+						</SERVICES>
+					</DEAL>
+				</DEALS>
+			</DEAL_SET>
+			<PARTIES>
+				<PARTY>
+					<ROLES>
+						<ROLE>
+							<PARTY_ROLE_IDENTIFIERS>
+								<PARTY_ROLE_IDENTIFIER>
+									<PartyRoleIdentifier>000165</PartyRoleIdentifier>
+								</PARTY_ROLE_IDENTIFIER>
+							</PARTY_ROLE_IDENTIFIERS>
+							<ROLE_DETAIL>
+								<PartyRoleType>LoanSeller</PartyRoleType>
+							</ROLE_DETAIL>
+						</ROLE>
+					</ROLES>
+				</PARTY>
+				<PARTY>
+					<LEGAL_ENTITY>
+						<LEGAL_ENTITY_DETAIL>
+							<FullName>Ellie Mae</FullName>
+						</LEGAL_ENTITY_DETAIL>
+					</LEGAL_ENTITY>
+					<ROLES>
+						<ROLE>
+							<ROLE_DETAIL>
+								<PartyRoleType>SubmittingParty</PartyRoleType>
+							</ROLE_DETAIL>
+						</ROLE>
+					</ROLES>
+				</PARTY>
+			</PARTIES>
+		</DEAL_SETS>
+	</MESSAGE>
+</lparspns:LPALoanAssessmentServiceResponse>
